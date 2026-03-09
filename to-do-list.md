@@ -4,18 +4,42 @@
 
 This to-do list outlines the ongoing activities of the Hunt Town core dev team across Hunt Town, Mint Club, and connected ecosystem projects. The listed items may be updated or removed at any time. Please note that maintenance and operational tasks for each project are not included in this list.
 
-_<mark style="color:orange;">Recent Update as of  November 21, 2025</mark>_
-
-## Working on Items
-
-* [ ] <mark style="background-color:red;">Hunt Town</mark> | All New Hunt Town is launching December 2025, implementing industry's first Onchain Co-op Model
-* [ ] <mark style="background-color:green;">Mint Club</mark> | Mint Club plans major redesign by Feb 2026 to boost Token Family and DEX leadership
-* [ ] <mark style="background-color:red;">Hunt Town</mark> | HUNT Co-op Share model will drive HUNT token acceleration in 2026
-* [ ] <mark style="background-color:green;">Mint Club</mark> | Mint Club's SDK/API updating Q1 2026 for simplified token model integration
-* [ ] <mark style="background-color:red;">Hunt Town</mark> | Planning to launch Huntzy Web3 Club onboarding & Vibe Coding mini-app sessions H1 2026
+_<mark style="color:orange;">Recent Update as of  March 9, 2026</mark>_
 
 ## Completed Items
 
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Reached 3,100 backers, turning support into a built-in user and distribution network.: [March 9, 2026](https://x.com/steemhunt/status/2030816113534378473)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Agentcast passed 819 verified Farcaster agents, marking strong early adoption.: [March 7, 2026](https://x.com/MintClubPro/status/2030281047280337024)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | One of the co-op members launched Piggy Bank to swap dust tokens from Uniswap and bonding curves into cbBTC.: [March 7, 2026](https://x.com/steemhunt/status/2030271078388670584)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Released AI agent support via CLI, MCP, and agent skills for launching, backing, and claiming.: [March 4, 2026](https://x.com/steemhunt/status/2029111718421643523)
+* [x] <mark style="background-color:green;">Mint Club</mark> | PumpClaw, one of the co-op members project, became a Base Builder Quest finalist and won 0.75 ETH in ecosystem recognition.: [March 4, 2026](https://x.com/MintClubPro/status/2029008604624502871)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | DropCast, one of the co-op members project, enabled AI agents to launch and fund campaigns from the CLI across Farcaster and X.: [March 3, 2026](https://x.com/steemhunt/status/2028675334581760366)
+* [x] <mark style="background-color:green;">Mint Club</mark> | Shipped a V2 AI CLI for wallet creation, token launches, price checks, and trading.: [February 27, 2026](https://x.com/MintClubPro/status/2027296991425003766)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Listed SIGNET (one of the co-op members project) on Virtuals with agent skills, expanding paid distribution for builders.: [February 25, 2026](https://x.com/steemhunt/status/2026655346870333681)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Grew the co-op network to 2,000 daily backers while yield kept compounding.: [February 23, 2026](https://x.com/steemhunt/status/2025880426695520574)
+* [x] <mark style="background-color:green;">Mint Club</mark> | Introduced AI tools and skills for token creation, curve setup, liquidity, and zaps.: [February 19, 2026](https://x.com/MintClubPro/status/2024399625860599936)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Integrated Base Verify into DropCast (one of the co-op members project) targeting across X, Instagram, TikTok, and Coinbase.: [February 4, 2026](https://x.com/steemhunt/status/2018955886115647592)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Updated co-op flow to push backers from funding projects into actually using their miniapps.: [January 30, 2026](https://x.com/steemhunt/status/2017271132945289303)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | A co-op member's project integrated ClawdBot into OnChat and Signet to expand AI-led building and marketing.: [January 28, 2026](https://x.com/steemhunt/status/2016375876146061481)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | DropCast (one of the co-op members project) reached 3,300 players, 33 live campaigns, and Farcaster top-24 status while still in beta.: [January 26, 2026](https://x.com/steemhunt/status/2015705640535212088)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Integrated GeckoTerminal charts into co-op project pages alongside updates and miniapp details.: [January 22, 2026](https://x.com/steemhunt/status/2014205884235456830)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | A co-op member launched Pixel Coin from vibe coding to a live Base mini-app in three days.: [January 21, 2026](https://x.com/steemhunt/status/2013922987649741262)
+* [x] <mark style="background-color:green;">Mint Club</mark> | Integrated OnChat so token creators can open channels for holders directly from assets.: [January 13, 2026](https://x.com/MintClubPro/status/2010920170559324395)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Rolled out Signet V2 (a project from a co-op member) with 90% of revenue to rewards and spotlight locks up to 24 hours.: [January 7, 2026](https://x.com/steemhunt/status/2008835835995783429)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Enabled every co-op project to create an OnChat channel for direct holder communication.: [January 6, 2026](https://x.com/steemhunt/status/2008453405799575641)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Added cover images and miniapp URLs to co-op project pages.: [January 2, 2026](https://x.com/steemhunt/status/2007012576010576075)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Closed the year with 4,018 backers supporting co-op projects across the ecosystem.: [December 31, 2025](https://x.com/steemhunt/status/2006342600429908317)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Added OnChat to co-op as an on-chain chat protocol with paid group chat and Base-native messaging.: [December 30, 2025](https://x.com/steemhunt/status/2005900008013570200)
+* [x] <mark style="background-color:green;">Mint Club</mark> | New staking pools across Base, Farcaster, and web3 wallets.: [December 22, 2025](https://x.com/MintClubPro/status/2003007213196169720)
+* [x] <mark style="background-color:green;">Mint Club</mark> | Ran a 3-day trading campaign with a $1,000 MT reward pool tied to top-volume tokens.: [December 19, 2025](https://x.com/MintClubPro/status/2001900295581016438)
+* [x] <mark style="background-color:green;">Mint Club</mark> | GIF miniapp integrated Mint Club, so creators can pair social-ready GIF content with onchain token utility.: [December 9, 2025](https://x.com/MintClubPro/status/1998305740445155677)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Shipped builder metrics for daily backers, total backers, minting value, and donations.: [December 5, 2025](https://x.com/steemhunt/status/1996836376969658777)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Launched co-op with 2,144 backers, 15+ projects, and a top-4 Farcaster mini-app ranking.: [December 3, 2025](https://x.com/steemhunt/status/1996248848172482950)
+* [x] <mark style="background-color:green;">Mint Club</mark> | Powered the launch of the co-op model as the underlying protocol for the new ecosystem.: [December 3, 2025](https://x.com/MintClubPro/status/1996138196158296412)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Announced the co-op launch for December 3, turning Building NFT holders into project backers.: [November 30, 2025](https://x.com/steemhunt/status/1995033432393748994)
+* [x] <mark style="background-color:green;">Mint Club</mark> | Outlined the co-op builder-network plan backed by 4,000+ NFT holders and HUNT-backed tokens.: [November 25, 2025](https://x.com/MintClubPro/status/1993158294790406627)
+* [x] <mark style="background-color:green;">Mint Club</mark> | Launched the first PoolWithFans staking phase with swap-fee sharing for top stakers.: [November 20, 2025](https://x.com/MintClubPro/status/1991419851563495658)
+* [x] <mark style="background-color:green;">Mint Club</mark> | Updated SDK and API tooling for builders adding token, airdrop, lockup, and staking features.: [November 19, 2025](https://x.com/MintClubPro/status/1990961624589676621)
 * [x] <mark style="background-color:green;">Mint Club</mark> | Base’s first memecoin launched a staking pool: [November 17, 2025](https://x.com/MintClubPro/status/1990320864777425060)
 * [x] <mark style="background-color:green;">Mint Club</mark> | FIDPUNKS launched staking, attracting 220+ stakers: [November 13, 2025](https://x.com/MintClubPro/status/1988785381417054632)
 * [x] <mark style="background-color:green;">Mint Club</mark> | Mint Club led Base user growth, attracting 45.7K unique wallets: [November 12, 2025](https://x.com/satyaXBT/status/1988575817245548572)
