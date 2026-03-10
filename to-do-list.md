@@ -6,6 +6,11 @@ This to-do list outlines the ongoing activities of the Hunt Town core dev team a
 
 _<mark style="color:orange;">Recent Update as of  March 9, 2026</mark>_
 
+## Working on Items
+
+* [ ] <mark style="background-color:red;">Hunt Town</mark> | Rebuilding the co-op into an Agent Autonomous Organization with AI-delegated voting and data-driven funding.
+* [ ] <mark style="background-color:green;">Mint Club</mark> | Upgrading CLI and agent skills to make launches, liquidity, and co-op actions fully programmable for AI agents.
+
 ## Completed Items
 
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Reached 3,690 backers, expanding the built-in support and distribution network for new launches.: [March 10, 2026](https://x.com/steemhunt/status/2031291326482858206)
