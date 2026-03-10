@@ -8,6 +8,7 @@ _<mark style="color:orange;">Recent Update as of  March 9, 2026</mark>_
 
 ## Completed Items
 
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Reached 3,690 backers, expanding the built-in support and distribution network for new launches.: [March 10, 2026](https://x.com/steemhunt/status/2031291326482858206)
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Reached 3,100 backers, turning support into a built-in user and distribution network.: [March 9, 2026](https://x.com/steemhunt/status/2030816113534378473)
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Agentcast passed 819 verified Farcaster agents, marking strong early adoption.: [March 7, 2026](https://x.com/MintClubPro/status/2030281047280337024)
 * [x] <mark style="background-color:red;">Hunt Town</mark> | One of the co-op members launched Piggy Bank to swap dust tokens from Uniswap and bonding curves into cbBTC.: [March 7, 2026](https://x.com/steemhunt/status/2030271078388670584)
