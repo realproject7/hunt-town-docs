@@ -4,7 +4,7 @@
 
 This to-do list outlines the ongoing activities of the Hunt Town core dev team across Hunt Town, Mint Club, and connected ecosystem projects. The listed items may be updated or removed at any time. Please note that maintenance and operational tasks for each project are not included in this list.
 
-_<mark style="color:orange;">Recent Update as of  March 9, 2026</mark>_
+_<mark style="color:orange;">Recent Update as of March 10, 2026</mark>_
 
 ## Working on Items
 
@@ -208,14 +208,14 @@ _<mark style="color:orange;">Recent Update as of  March 9, 2026</mark>_
 * [x] <mark style="background-color:red;">Hunt Town</mark> | 20 Early Builders invitations: Completed by December 2022
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Early Building Stage: Initiated on December 20, 2022
 * [x] <mark style="background-color:purple;">Dixel Club</mark> <mark style="background-color:green;">Mint Club</mark> | BNB Innovation Hackathon from December 17 - 19, 2022: [Won 1st Prize](https://news.hunt.town/p/hunt-team-wins-1st-place-at-bnb-chain)
-* [x] <mark style="background-color:green;">Mint Club</mark> | Version 2 project: Initiated on December 13, 2022&#x20;
+* [x] <mark style="background-color:green;">Mint Club</mark> | Version 2 project: Initiated on December 13, 2022
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Completed the Hunt Town Discord bots and operation system: Completed on December 7, 2022
-* [x] <mark style="background-color:red;">Hunt Town</mark> | Security audit completed for the Town Hall and Building contracts: Completed on [December 6, 2022](https://news.hunt.town/p/hunt-town-security-audit-is-completed)&#x20;
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Security audit completed for the Town Hall and Building contracts: Completed on [December 6, 2022](https://news.hunt.town/p/hunt-town-security-audit-is-completed)
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Announce the renewed [HUNT Whitepaper v5.0](https://token.hunt.town/HUNT-Whitepaper.pdf): Announced on [November 30, 2022](https://xangle.io/project/HUNT/insight/disclosure/638714e93982b8172e42dfff)
-* [x] <mark style="background-color:red;">Hunt Town</mark> | Launch of the [Hunt Town Docs](https://docs.hunt.town/): Completed on November 30, 2022&#x20;
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Launch of the [Hunt Town Docs](https://docs.hunt.town/): Completed on November 30, 2022
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Hunt.town website redesign: Completed on [November 30, 2022](https://news.hunt.town/p/hunt-town-revamp-introducing-a-web3)
-* [x] <mark style="background-color:red;">Hunt Town</mark> | Publish finalised [Town Hall Contract](https://etherscan.io/address/0xb09A1410cF4C49F92482F5cd2CbF19b638907193#code): Completed on November 28, 2022&#x20;
-* [x] <mark style="background-color:red;">Hunt Town</mark> | HUNT Whitepaper v5.0 draft version: Completed on November 16, 2022&#x20;
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Publish finalised [Town Hall Contract](https://etherscan.io/address/0xb09A1410cF4C49F92482F5cd2CbF19b638907193#code): Completed on November 28, 2022
+* [x] <mark style="background-color:red;">Hunt Town</mark> | HUNT Whitepaper v5.0 draft version: Completed on November 16, 2022
 * [x] <mark style="background-color:purple;">Dixel Club</mark> | Non-dev | Dixel Club received an award in the Unlock Japan Category during the OpenNetwork Labs Web3 Global Pitch in Japan on [November 4, 2022](https://twitter.com/steemhunt/status/1588390760671772672)
 * [x] <mark style="background-color:purple;">Dixel Club</mark> | Non-dev | Dixel Club Academy - Google San Francisco invited the Dixel Club team to talk about NFT/Web3 market trends during its 3 day program - SFO Tech Days on [November 2, 2022](https://twitter.com/steemhunt/status/1587974980330934272)
 * [x] <mark style="background-color:purple;">Dixel Club</mark> | Non-dev | Booth operation at Busan Blockchain Week 2022 on [October 27, 2022](https://twitter.com/steemhunt/status/1585442738555998208)
