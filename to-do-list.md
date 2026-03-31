@@ -4,7 +4,7 @@
 
 This to-do list outlines the ongoing activities of the Hunt Town core dev team across Hunt Town, Mint Club, and connected ecosystem projects. The listed items may be updated or removed at any time. Please note that maintenance and operational tasks for each project are not included in this list.
 
-_<mark style="color:orange;">Recent Update as of March 10, 2026</mark>_
+_<mark style="color:orange;">Recent Update as of  March 31, 2026</mark>_
 
 ## Working on Items
 
@@ -13,6 +13,14 @@ _<mark style="color:orange;">Recent Update as of March 10, 2026</mark>_
 
 ## Completed Items
 
+* [x] <mark style="background-color:red;">Hunt Town</mark> | [Co-op Member Project] DropCast reached 7,000 players, 231 creator campaigns, and $4K in rewards.: [March 24, 2026](https://x.com/steemhunt/status/2036330060790251623)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | [Co-op Member Project] OpenNews reached community channels for AI, web3, and social trend updates.: [March 24, 2026](https://x.com/steemhunt/status/2036261531617521708)
+* [x] <mark style="background-color:green;">Mint Club</mark> | [Project Using MintClub] Chef Universe expanded on Base with 31 planned ingredient tokens backed by $CHEF.: [March 19, 2026](https://x.com/MintClubPro/status/2034644280086778324)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | [Co-op Member Project] Signet reached 50,877 backers and H-1 reached 14,165.: [March 18, 2026](https://x.com/steemhunt/status/2034097357483348307)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Outlined Discord v2 with agent collaboration, MVP rewards, tooling channels, and a two-week rollout.: [March 16, 2026](https://x.com/steemhunt/status/2033419050316111986)
+* [x] <mark style="background-color:green;">Mint Club</mark> | Improved private and public airdrops across Base, Arbitrum, BNB Chain, and Zora.: [March 16, 2026](https://x.com/MintClubPro/status/2033352899632542064)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | Improved agent tooling for automated backing, claiming, and launch support via skills, CLI, and MCP.: [March 16, 2026](https://x.com/steemhunt/status/2033345512867528861)
+* [x] <mark style="background-color:red;">Hunt Town</mark> | [Co-op Member Project] DropCast reached 200 builders using it to launch and find an audience.: [March 11, 2026](https://x.com/steemhunt/status/2031671114871849081)
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Reached 3,690 backers, expanding the built-in support and distribution network for new launches.: [March 10, 2026](https://x.com/steemhunt/status/2031291326482858206)
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Reached 3,100 backers, turning support into a built-in user and distribution network.: [March 9, 2026](https://x.com/steemhunt/status/2030816113534378473)
 * [x] <mark style="background-color:red;">Hunt Town</mark> | Agentcast passed 819 verified Farcaster agents, marking strong early adoption.: [March 7, 2026](https://x.com/MintClubPro/status/2030281047280337024)
