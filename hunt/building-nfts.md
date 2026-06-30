@@ -34,6 +34,11 @@ that recurs anywhere Buildings are counted.
 | Main Building NFT | Ethereum mainnet | `0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96` |
 | Mini Building NFT | Base | `0x475f8E3eE5457f7B4AAca7E989D35418657AdF2a` |
 
+The Town Hall and Building contracts were audited by BEOSIN (completed December 6, 2022) —
+[announcement](https://news.hunt.town/p/hunt-town-security-audit-is-completed) ·
+[report (PDF)](https://beosin.com/audits/Hunt-Town_202212051700.pdf). See
+[Links & Resources → Security & Audits](../reference/links.md) for the full audit list.
+
 > **TODO (operator):** add total issued counts for Main and Mini Buildings (and any cap),
 > plus the cumulative HUNT locked in Building pools.
 

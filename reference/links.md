@@ -14,6 +14,25 @@
 - **Co-op:** coop.hunt.town *(moving)*
 - **Mint Club:** [mint.club](https://mint.club) · docs: [docs.mint.club](https://docs.mint.club)
 
+## Security & Audits
+
+**Hunt Town (Town Hall & Building contracts)**
+
+- Security audit by BEOSIN — completed December 6, 2022.
+  Announcement: [news.hunt.town](https://news.hunt.town/p/hunt-town-security-audit-is-completed) ·
+  Report (PDF): [beosin.com](https://beosin.com/audits/Hunt-Town_202212051700.pdf)
+
+**Mint Club V2 (reserve / bonding-curve contracts)**
+
+- CertiK security audit — completed January 18, 2024:
+  [docs.mint.club/audit/report](https://docs.mint.club/audit/report)
+- CertiK KYC Gold Badge & Skynet profile:
+  [skynet.certik.com/projects/mint-club](https://skynet.certik.com/projects/mint-club)
+- Community contract audit — completed December 26, 2023:
+  [Steemhunt/dixel-v2-contract #28](https://github.com/Steemhunt/dixel-v2-contract/issues/28)
+
+See [Mint Club → Security & Audits](../mint-club/security-audits.md) for context.
+
 ## Explorers
 
 - **HUNT (Ethereum):**
