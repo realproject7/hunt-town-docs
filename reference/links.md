@@ -1,0 +1,30 @@
+# Links & Resources
+
+## Hunt Town
+
+- **Studio site:** [hunt.town](https://hunt.town)
+- **Whitepaper (PDF):** [hunt.town/HUNT-Whitepaper.pdf](https://hunt.town/HUNT-Whitepaper.pdf)
+- **GitHub:** [github.com/Steemhunt/hunt-town](https://github.com/Steemhunt/hunt-town)
+- **News / blog:** [news.hunt.town](https://news.hunt.town)
+
+## Products
+
+- **h402:** [h402-test.hunt.town](https://h402-test.hunt.town) ·
+  docs: [h402-test.hunt.town/docs](https://h402-test.hunt.town/docs)
+- **Co-op:** coop.hunt.town *(moving)*
+- **Mint Club:** [mint.club](https://mint.club) · docs: [docs.mint.club](https://docs.mint.club)
+
+## Explorers
+
+- **HUNT (Ethereum):**
+  [etherscan.io](https://etherscan.io/token/0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5)
+- **HUNT (Base):**
+  [basescan.org](https://basescan.org/token/0x37f0c2915CeCC7e977183B8543Fc0864d03E064C)
+- **Main Building NFT (Ethereum):**
+  [etherscan.io](https://etherscan.io/address/0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96)
+- **Mini Building NFT (Base):**
+  [basescan.org](https://basescan.org/token/0x475f8E3eE5457f7B4AAca7E989D35418657AdF2a)
+
+> **TODO (operator):** add official social links (X, Farcaster, Discord, Telegram) and confirm
+> the h402 production domain before this page is published. Update Co-op links once
+> coop.hunt.town is live.
