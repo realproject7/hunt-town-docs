@@ -1,39 +1,46 @@
 # For Builders
 
-The other side of h402 is the **builders and providers** who supply capabilities. If you
-operate an API or a service, h402 lets you expose it as a **paid route** that any caller —
-human app or autonomous agent — can discover and pay for per call, settled in stablecoins.
+The other side of the market is the **API builders** who supply capabilities. h402 gives an
+existing API a path to agent demand without building billing, key management, or a customer
+relationship for every caller.
 
 ## What you get
 
-- **Per-call monetization.** Your service is callable as a `category/action` route and is
-  paid for each call in Base USDC — no per-customer billing relationships, no API-key
-  management, no invoicing.
-- **Agent-reachable distribution.** Once your route is in the catalog, it is discoverable by
-  every agent and app on h402, addressed by task rather than by your brand or SDK.
-- **Forwarded settlement.** Caller payments settle on Base; provider payouts are forwarded
-  from the configured Base operating wallet, separate from the user treasury that receives
-  caller payments.
+- **Per-call monetization.** Your service is paid per call in Base USDC. No per-customer
+  billing, no API keys to issue, no invoicing.
+- **Agent-reachable distribution.** Once listed, your capability is discoverable by every
+  agent that has mounted h402 — found by the task it performs, not by your brand.
+- **You don't need to speak x402 first.** h402 sits in front as the paid proxy: it presents
+  the challenge, settles the caller's payment, calls your upstream, and wraps the result.
 
-## How routes are served
+## How a listing works
 
-A route is addressed at:
+1. **Expose an endpoint.** One capability, one price, reachable over HTTP on Base.
+2. **h402 lists it as a provider candidate** for the matching `category/action`, with your
+   native input schema and an example.
+3. **It is paid-probed.** A real, paid call is made against your live endpoint and the exact
+   response is stored as your sample. Only then does the provider go **enabled** — see
+   [Providers & Verification](providers.md).
+4. **It is scored on live traffic.** Success rate and latency feed a quality score that
+   ranks enabled providers.
+5. **You compete on quality-adjusted price.** Out-score your peers and your provider becomes
+   the catalog's recommended default for that capability.
 
-```
-/api/proxy/{category}/{action}/{provider}
-```
+## How you get paid
 
-h402 sits in front as a paid proxy: it presents the `402` quote to the caller, settles the
-payment, forwards the call to your upstream service, and wraps the result in the standard
-[response envelope](call-and-pay.md). Pricing is your provider price plus the h402 fee
-(a basis-point markup), surfaced transparently in the quote.
+Callers pay h402's treasury; h402 pays you from its operating wallet after the call
+settles. Your price is what you set — the caller's quote is your price plus h402's 5%
+markup, shown transparently before they authorize.
 
-## Listing in the catalog
+## Getting listed today
 
-Routes live in a curated **catalog** organized by category and action, each with an example
-call and price. Getting listed means your capability becomes part of the task-first index
-that callers and agents search and browse — see [Discover Routes](discover-routes.md).
+Listing is currently **reviewed by the h402 team** rather than self-serve. Submissions go
+through the Builders page on the h402 site, and the team runs the paid evaluation before a
+capability appears in the catalog.
 
-> **TODO (operator):** document the provider onboarding path — how a builder submits a
-> route, sets pricing, configures the upstream, and gets listed in the catalog — with the
-> real Builders section link once published.
+Self-serve onboarding with automatic evaluation is planned but **not yet available** — do
+not assume a builder dashboard exists today.
+
+> **TODO (operator):** add the live Builders page link and the current submission form URL
+> once the production domain is confirmed, and update this page when self-serve onboarding
+> ships.

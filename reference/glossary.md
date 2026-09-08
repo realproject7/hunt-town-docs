@@ -30,7 +30,8 @@ mint them daily. Moving to coop.hunt.town.
 **EIP-3009** — the `transferWithAuthorization` standard used by h402 to sign a stablecoin payment
 authorization locally, enabling non-custodial settlement.
 
-**h402** — Hunt Town's task-first onchain payments product for agents, built on the x402 standard.
+**h402** — Hunt Town's Agent Capability Market Layer: the x402 capability store where agents
+discover, compare, and pay per call for capabilities. See [h402](../h402/overview.md).
 
 **HUNT** — the ERC-20 reserve asset that backs and connects every token and NFT in the Hunt Town
 economy. Non-inflationary; value accrues through locking.
@@ -46,7 +47,15 @@ powers much of the ecosystem.
 **Reserve token** — the asset held in a bonding curve to back an issued token/NFT. In Hunt Town
 this is frequently HUNT.
 
-**Route** — a callable capability on h402, named `category/action` and served by a provider.
+**Capability** — one task on h402, named `category/action` (e.g. `web/search`). It describes
+the outcome, not the vendor. ("Route" is the internal term for the same thing.)
+
+**Provider** — one concrete implementation of a capability on h402, with its own input
+schema, price, upstream service, and a stored real-response sample. Every call is pinned to
+exactly one provider.
+
+**lpTOKEN** — an ERC-20 share of a Uniswap v4 liquidity position held by an lpTOKEN.fun
+vault; a pro-rata claim on that position, its accrued fees, and the vault's idle balances.
 
 **x402** — the standard that uses HTTP `402 Payment Required` as a real payment handshake;
 h402's foundation.

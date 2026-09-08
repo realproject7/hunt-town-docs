@@ -36,8 +36,8 @@ attention away from it.
 
 ## Active and previous products
 
-At any time the studio runs a small set of **active products** (today: h402, Co-op, and
-Mint Club) and maintains a much larger archive of **previous products** — 15 entries
+At any time the studio runs a small set of **active products** (today: h402, lpTOKEN.fun,
+Co-op, and Mint Club) and maintains a much larger archive of **previous products** — 15 entries
 spanning 2018 to 2025, documented in full in the [Build Log](../track-record/build-log.md).
 
 We keep the archive public and honest on purpose. The retired products are not failures

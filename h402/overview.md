@@ -1,55 +1,67 @@
 # h402 — Overview
 
-**h402 is task-first onchain payments for the agent economy.** It lets an application — or
-an autonomous AI agent — discover a capability, pay for it per call, and get the result,
-with settlement in stablecoins and **no custodial account, no API-key billing, and no
-human in the loop**.
+**h402 is the Agent Capability Market Layer — the x402 capability store for agents.**
+Mount it once, and an agent can discover, inspect, and pay for a whole market of
+capabilities: web research, onchain data, AI generation, maps, finance, security checks and
+more, without setting up each API separately.
 
 It is Hunt Town's product for the "Agent" half of the
-[Builder & Agent Economy](../hunt-town/builder-agent-economy.md): the payments layer that
-software needs once it starts doing real economic work on its own.
+[Builder & Agent Economy](../hunt-town/builder-agent-economy.md).
 
 ## The problem
 
-Agents can already call APIs, generate media, run research, and complete tasks. What they
-cannot easily do is **pay for those services autonomously**. Traditional payment rails
-assume a human with a credit card, an account, and a billing relationship per provider.
-That does not scale to an agent that needs to call dozens of services, once each, at
-machine speed.
+An agent that needs ten different services today needs ten integrations: ten sets of API
+keys, ten billing relationships, ten response shapes, ten SDKs. Every new capability is a
+new procurement problem, and none of it is something an agent can do on its own at machine
+speed.
 
-## The approach
+h402 collapses that into **one integration and one payment rail**.
 
-h402 builds on the **x402** standard — the HTTP `402 Payment Required` status code, used as
-a real payment handshake. A caller requests a capability; if payment is required, the
-server responds with a signed price quote; the caller authorizes a stablecoin payment
-locally and retries; the call settles and returns the result.
+## Three ideas
 
-Three things make it suited to agents:
+- **Mount once.** The agent reads one skill file and gains the whole catalog. Adding a
+  capability later means nothing new to install — see [Mount Once](mount.md).
+- **Verified providers, explicit choice.** Every listed provider has been paid-tested with
+  its real response stored as a sample. The caller compares samples and per-call prices and
+  **pins** the provider it wants — see [Providers & Verification](providers.md).
+- **Pay per call.** Paid capabilities settle in **Base USDC** over **x402**, signed locally
+  by the caller's wallet. No per-provider API keys, no subscriptions, no custody — see
+  [How Paying Works](how-paying-works.md).
 
-- **Task-first, not provider-first.** You ask for what you want done — `category/action`,
-  e.g. `ai/image-generate` — and h402 routes it to a provider. You discover capabilities by
-  task, not by integrating each vendor.
-- **Per-call, non-custodial settlement.** Payment is a signed authorization (EIP-3009) over
-  **Base USDC**. Keys never leave the caller; there is no account to top up or balance to
-  custody.
-- **Stablecoin-denominated.** Prices and settlement are in USDC, so costs are predictable
-  and agents reason about spend in dollars.
+## The vocabulary
 
-## How the pieces fit
+These three nouns are used precisely throughout this section.
 
-| Concept | What it is |
+| Term | What it is |
 | --- | --- |
-| **Route** | A callable capability, named `category/action` and served via a provider. |
-| **Catalog** | The discoverable index of routes — browse, search, or query it. |
-| **Quote** | A signed `402` response stating the price for a call. |
-| **Authorization** | An EIP-3009 signature over Base USDC that settles the call. |
-| **Envelope** | The structured response wrapping provider data plus routing metadata. |
+| **Capability** | One task, named `category/action` — e.g. `web/search`. It describes the outcome, not the vendor. |
+| **Provider** | One concrete implementation of a capability, with its own input schema, price, upstream service, and a stored real-response sample. A capability can have many providers. |
+| **Call** | One request against **one pinned provider** of a capability. Every executable call names its provider explicitly. |
+| **Catalog** | The curated index of capabilities and their providers, browsable by humans and queryable by agents. |
 
-The rest of this section walks through each: [How Paying Works](how-paying-works.md),
-[Discover Routes](discover-routes.md), [Call & Pay](call-and-pay.md),
-[For AI Agents](for-ai-agents.md), [For Builders](for-builders.md), and the
-[@h402/core SDK](h402-core-sdk.md).
+Capabilities are organised into categories such as `ai`, `web`, `crypto`, `finance`,
+`maps`, `research`, `security`, `social`, `travel`, and `weather`.
 
-> **TODO (operator):** confirm the production domain at launch (currently
-> `h402-test.hunt.town`, docs at `h402-test.hunt.town/docs`; intended
-> `h402.hunt.town`) and update links throughout this section.
+> **Provider selection is explicit.** Earlier versions of h402 offered an automatic router
+> that picked a provider at request time. That has been **retired** — the catalog publishes
+> a recommended default, but the caller decides. See
+> [Providers & Verification](providers.md).
+
+## Two sides of the market
+
+- **For agents and apps** — mount the skill, search the catalog, call what you need, pay per
+  call. Start at [Mount Once](mount.md).
+- **For API builders** — list a capability and reach agent demand without building billing.
+  See [For Builders](for-builders.md).
+
+## Where the pieces are documented
+
+[Mount Once](mount.md) · [Discover Capabilities](discover-capabilities.md) ·
+[Providers & Verification](providers.md) · [Call & Pay](call-and-pay.md) ·
+[How Paying Works](how-paying-works.md) · [For Builders](for-builders.md) ·
+[SDK & CLI Packages](packages.md).
+
+> **TODO (operator):** h402 is **pre-launch**. The configured production origin is
+> `h402.hunt.town`, which does not resolve yet; the accessible environment is
+> `h402-test.hunt.town`. Confirm the launch domain and update every link in this section
+> when it goes live.

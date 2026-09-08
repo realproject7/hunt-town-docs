@@ -1,54 +1,76 @@
 # Call & Pay
 
-Once you have found a route in the [catalog](discover-routes.md), calling it is a single
-request that may trigger the [payment handshake](how-paying-works.md). You can do this from
-the CLI or with raw HTTP.
+Once you have picked a capability and a [provider](providers.md), calling it is a single
+request that may trigger the [payment handshake](how-paying-works.md).
 
 ## With the CLI
 
-The h402 CLI wraps the full flow — request, receive the `402` quote, sign locally, retry,
-and return the result — so a caller issues one command and the payment is handled
-underneath:
+```
+h402 call web/search --json '{"query":"onchain agent payments"}'
+```
 
-1. The CLI calls the route.
-2. On `402`, it presents/sign the quote with the local wallet (EIP-3009 over Base USDC).
-3. It retries with the signature and returns the provider result.
+The CLI resolves the provider (explicit `--provider`, or the catalog's recommended default),
+issues the call, handles the `402` challenge, signs locally with your wallet, retries, and
+returns the result.
 
-This is the path most agents use; see [For AI Agents](for-ai-agents.md) for setup.
+Useful flags:
+
+| Flag | Effect |
+| --- | --- |
+| `--provider <name>` | Pin a specific provider instead of the recommended default |
+| `--max-usd <usd>` | Refuse the call if the quote exceeds this amount |
+| `--no-credit` | Pay in USDC even if credits are available |
+| `--idempotency-key <uuid>` | Supply your own key for a retry |
+
+Every successful response reports **which provider served it** and **how it was chosen**
+(explicitly, or from the catalog default), plus a copy-pasteable pinned command that
+reproduces the exact call.
 
 ## With raw HTTP
 
-Any HTTP client can drive the same flow directly against the proxy path:
+Any HTTP client can drive the same flow against the pinned path:
 
 ```
-POST /api/proxy/{category}/{action}/{provider}
+POST /routes/{provider}/{category}/{action}
 ```
 
-1. **First request** → the server returns `402 Payment Required` with the
-   `PAYMENT-REQUIRED` header (the signed quote).
-2. **Sign** the EIP-3009 authorization for the quoted amount/payee locally.
-3. **Retry** the same request with the `PAYMENT-SIGNATURE` header → the call settles and
-   returns the result with a `PAYMENT-RESPONSE` header.
+1. **Call** with an `idempotency-key` header and no payment.
+2. If the capability is free — or covered by credit — you get the result immediately.
+3. Otherwise the server returns **`402`** with the price challenge.
+4. **Sign** an EIP-3009 authorization for the quoted amount, locally.
+5. **Retry the same request, with the same idempotency key**, attaching the signature. The
+   call settles and returns.
 
-Free routes skip step 1's payment requirement and return immediately.
+## The response
 
-## The response envelope
+Results come back in a consistent envelope rather than raw upstream output:
 
-Results come back in a structured **envelope** rather than raw provider output. The
-envelope wraps:
+```
+{ "data": { ... },        // the provider's result
+  "meta": { ... },        // optional provider metadata
+  "h402": { ... } }       // pinned provider, payment mode, follow-up info
+```
 
-- the **provider data** (the actual result of the task), and
-- **routing metadata** (which route/provider served it, settlement info).
+The `h402` block is what makes a call auditable after the fact: it records the provider that
+served the request and how payment was handled. For long-running jobs it also carries a
+**follow-up instruction** telling the caller how to poll for the finished result.
 
-This gives callers a consistent shape across every provider and task, so an agent does not
-have to special-case each vendor's response format.
+## Retries and double charges
+
+The idempotency key is **double-charge protection, not result replay**. Reusing it on a
+retry ensures a flaky network cannot cause two payments for one task.
+
+One deliberate safety property: if the server responds to a retry with a *replacement*
+payment challenge, the client **refuses it automatically**. Creating a new payment requires
+a fresh, explicit call — an unattended agent cannot be walked into paying twice by a
+surprise re-quote.
 
 ## Errors
 
-h402 returns structured error envelopes too. If an upstream provider fails — including on
-free routes — the caller receives a friendly, structured error rather than a raw upstream
-failure, so error handling is uniform across routes. Combined with the **idempotency key**,
-a caller can safely retry without risking a double charge.
+Upstream failures are returned as structured errors rather than raw provider output, so
+error handling is uniform across providers. h402 never forwards a request whose payment
+state is ambiguous; unresolved settlements are reconciled rather than silently retried
+against a different provider.
 
-> **TODO (operator):** drop in copy-pasteable CLI and `curl` examples against a real route
-> (e.g. `ai/image-generate`) once the production domain and a stable demo route are fixed.
+> **TODO (operator):** replace the illustrative command above with copy-pasteable CLI and
+> `curl` examples against a real capability and provider once the production domain is live.

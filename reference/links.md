@@ -9,10 +9,34 @@
 
 ## Products
 
-- **h402:** [h402-test.hunt.town](https://h402-test.hunt.town) ·
-  docs: [h402-test.hunt.town/docs](https://h402-test.hunt.town/docs)
+- **h402** *(coming soon)* — production domain `h402.hunt.town` is not live yet; the current
+  environment is [h402-test.hunt.town](https://h402-test.hunt.town) ·
+  [catalog](https://h402-test.hunt.town/catalog) ·
+  [docs](https://h402-test.hunt.town/docs).
+  Packages: `@h402/cli` and `@h402/core` on npm ·
+  [SKILL.md](https://raw.githubusercontent.com/Steemhunt/h402-cli/main/SKILL.md)
+- **lpTOKEN.fun** — [lptoken.fun](https://lptoken.fun) ·
+  [markets](https://lptoken.fun/trade) ·
+  [how it works](https://lptoken.fun/methodology) ·
+  [contracts](https://lptoken.fun/contracts)
 - **Co-op:** coop.hunt.town *(moving)*
 - **Mint Club:** [mint.club](https://mint.club) · docs: [docs.mint.club](https://docs.mint.club)
+
+## Where HUNT trades
+
+**DEX (Base)**
+
+- [Uniswap](https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x37f0c2915CeCC7e977183B8543Fc0864d03E064C&chain=base)
+- [Aerodrome](https://aero.drome.eth.limo/swap?from=eth&to=0x37f0c2915cecc7e977183b8543fc0864d03e064c&chain0=8453&chain1=8453)
+
+**CEX (KRW)**
+
+- [Upbit](https://upbit.com/exchange?code=CRIX.UPBIT.KRW-HUNT) ·
+  [Bithumb](https://www.bithumb.com/react/trade/order/HUNT-KRW) ·
+  [Coinone](https://coinone.co.kr/exchange/trade/hunt/krw) ·
+  [Gopax](https://www.gopax.co.kr/exchange?market=hunt-krw)
+
+Live price, supply, and the buyback record: [hunt.town/hunt](https://hunt.town/hunt).
 
 ## Security & Audits
 

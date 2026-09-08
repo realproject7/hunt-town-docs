@@ -10,6 +10,8 @@
 ## HUNT
 
 * [HUNT (ERC20)](hunt/hunt-erc20.md)
+* [Supply & Distribution](hunt/supply.md)
+* [Buyback & Burn](hunt/buyback-and-burn.md)
 * [Building NFTs](hunt/building-nfts.md)
 * [HUNT as the Reserve Token](hunt/reserve-token.md)
 * [Base HUNT (Bridged)](hunt/base-hunt.md)
@@ -17,12 +19,21 @@
 ## h402
 
 * [Overview](h402/overview.md)
-* [How Paying Works](h402/how-paying-works.md)
-* [Discover Routes](h402/discover-routes.md)
+* [Mount Once](h402/mount.md)
+* [Discover Capabilities](h402/discover-capabilities.md)
+* [Providers & Verification](h402/providers.md)
 * [Call & Pay](h402/call-and-pay.md)
-* [For AI Agents](h402/for-ai-agents.md)
+* [How Paying Works](h402/how-paying-works.md)
 * [For Builders](h402/for-builders.md)
-* [@h402/core SDK](h402/h402-core-sdk.md)
+* [SDK & CLI Packages](h402/packages.md)
+
+## lpTOKEN.fun
+
+* [Overview](lptoken/overview.md)
+* [LP Vaults & Shares](lptoken/lp-vaults.md)
+* [Dual Launch](lptoken/dual-launch.md)
+* [Fees & Economics](lptoken/fees.md)
+* [Risks](lptoken/risks.md)
 
 ## Co-op
 

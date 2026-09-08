@@ -27,9 +27,9 @@ needs a way to **pay for what it uses without a human in the loop and without cu
 accounts**.
 
 That is why "Agent" is deliberately part of our identity, not a buzzword bolted on. It is
-what **h402** exists for: task-first, onchain, non-custodial payments designed so an agent
-can discover a capability, pay for it per call, and settle in stablecoins — at machine
-speed. As more of the onchain economy is transacted by agents rather than people, the
+what **h402** exists for: a capability market an agent mounts once, then uses to discover a
+capability, choose a verified provider, and pay for it per call in stablecoins — at machine
+speed, with no per-provider account and no custody. As more of the onchain economy is transacted by agents rather than people, the
 studio's products are built to serve both.
 
 ## Why onchain

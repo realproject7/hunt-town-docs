@@ -4,6 +4,10 @@ HUNT is more than the ecosystem's unit of account — it is its **reserve**. Thi
 explains what "reserve token" means mechanically and why it makes the studio's products
 reinforce each other instead of competing for the same liquidity.
 
+> This is the **structural** half of HUNT's role: HUNT sitting underneath the tokens the
+> studio launches. The **economic** half — product revenue funding buybacks and burns — is
+> covered in [Buyback & Burn](buyback-and-burn.md).
+
 ## The mechanism
 
 Every asset the ecosystem issues — project tokens in the Co-op, Building NFTs, and tokens
@@ -28,7 +32,9 @@ attention and liquidity. The reserve model does the opposite: it **links** proje
   by the same reserve. When one project grows and locks more HUNT, it strengthens the
   foundation under HUNT itself — and by extension every other token and NFT in the economy.
 - **Deflationary by construction.** Growth tightens supply. The reserve's total value
-  locked rises with ecosystem activity, and circulating HUNT falls.
+  locked rises with ecosystem activity, and circulating HUNT falls. Separately, revenue
+  from the studio's products can fund [buybacks and burns](buyback-and-burn.md) that remove
+  HUNT permanently.
 - **A real floor.** Because assets are reserve-backed rather than purely speculative,
   there is HUNT actually held behind them, redeemable through the curve.
 

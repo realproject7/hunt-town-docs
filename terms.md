@@ -10,7 +10,7 @@ By accessing or using the Site, you acknowledge that you have read, understood, 
 
 ### 1. Overview
 
-Hunt Town is a product studio for the onchain Builder & Agent Economy. It builds and operates a family of onchain products — including HUNT (the reserve token), Building NFTs, the Co-op, Mint Club, and h402 — that connect builders, backers, and AI agents.
+Hunt Town is a product studio for the onchain Builder & Agent Economy. It builds and operates a family of onchain products — including HUNT (the reserve token), Building NFTs, the Co-op, Mint Club, lpTOKEN.fun, and h402 — that connect builders, backers, and AI agents.
 
 The Site provides access to decentralized smart contracts and community tools but does not custody user assets or directly execute onchain transactions on your behalf.
 

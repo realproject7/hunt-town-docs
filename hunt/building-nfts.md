@@ -54,7 +54,7 @@ A natural way to connect Building NFTs to the studio's newest product is to let 
 **fund agent payments on [h402](../h402/overview.md)**. The idea: Building holders receive
 a **recurring h402 credit** — a stablecoin-denominated allowance, usable to pay for h402
 route calls — simply for holding Buildings. It turns a membership asset into ongoing,
-real utility on the agent-payments network.
+real utility on the agent capability market.
 
 The prototype worked as follows.
 
@@ -106,7 +106,7 @@ wallet directly:
 
 Credits integrate with h402's payment flow through the **`h402-credit` x402 extension**:
 a route's payment metadata advertises that credit can be applied, and when a holder (or a
-delegate) calls a paid route, available credit is **drawn down before any USDC is
+delegate) calls a paid capability, available credit is **drawn down before any USDC is
 charged**. Only the remainder, if any, settles as a normal Base USDC payment. See
 [How Paying Works](../h402/how-paying-works.md) for the underlying x402 flow.
 
