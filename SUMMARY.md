@@ -27,7 +27,7 @@
 * [For Builders](h402/for-builders.md)
 * [SDK & CLI Packages](h402/packages.md)
 
-## lpTOKEN.fun
+## lpTOKEN.fun <a href="#lptoken" id="lptoken"></a>
 
 * [Overview](lptoken/overview.md)
 * [LP Vaults & Shares](lptoken/lp-vaults.md)
