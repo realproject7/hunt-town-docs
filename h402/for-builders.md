@@ -40,7 +40,3 @@ capability appears in the catalog.
 
 Self-serve onboarding with automatic evaluation is planned but **not yet available** — do
 not assume a builder dashboard exists today.
-
-> **TODO (operator):** add the live Builders page link and the current submission form URL
-> once the production domain is confirmed, and update this page when self-serve onboarding
-> ships.

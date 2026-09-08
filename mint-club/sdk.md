@@ -24,6 +24,3 @@ teams against Mint Club's contracts and tooling:
 
 Each of these used the same primitives the SDK exposes, which is the strongest evidence that
 Mint Club is a reusable building block for the wider Builder & Agent Economy.
-
-> **TODO (operator):** add the SDK package name, install command, a minimal create + mint
-> example, and the developer-docs link (docs.mint.club) once confirmed for this whitepaper.

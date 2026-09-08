@@ -58,6 +58,3 @@ h402 **self-indexes only**. It does not crawl the web for endpoints or refer cal
 third-party registries; providers are curated into the catalog and verified before they
 appear. That is what makes "everything in the catalog has been paid-tested" a claim the
 market can actually keep.
-
-> **TODO (operator):** link the live catalog browser and the catalog API base URL here once
-> the production domain is confirmed.

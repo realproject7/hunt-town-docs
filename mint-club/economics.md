@@ -31,6 +31,3 @@ the mint/burn transaction:
 
 The exact split between creator royalty and platform fee is part of the asset's
 configuration and the protocol's parameters.
-
-> **TODO (operator):** state the current platform fee rate, the allowed creator-royalty range,
-> and the precise split, verified against the live Mint Club V2 contracts.

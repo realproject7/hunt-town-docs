@@ -1,21 +1,30 @@
 ---
-description: A product studio for the onchain Builder & Agent Economy.
+description: An onchain product studio, building since 2018.
 ---
 
 # Introduction
 
-**Hunt Town is a product studio for the onchain Builder & Agent Economy.**
+**Hunt Town is an onchain product studio.**
 
-We build products for the people — and increasingly the agents — building onchain.
-Since 2018 we have shipped curation platforms, reward systems, NFT tooling, a
-bonding-curve protocol, an onchain cooperative, a liquidity market, and a capability
-market for agents. Some are still live, some have been retired, and every one of them
-fed the next.
+We build what's next, onchain — from an idea to a protocol, from a token to a whole town.
+Since 2018 we have shipped curation platforms, reward systems, NFT tooling, a bonding-curve
+protocol, an onchain cooperative, a liquidity market, and a capability market for agents.
+Some are still live, some have been retired, and every one of them fed the next.
 
-What ties them together is not a single app but a shared economy. Every product
-Hunt Town builds relates back to **HUNT** — the token underneath the economies we
-launch, and the token our product revenue buys back and burns — and to the people who
-hold it, build on it, and back the projects launched within it.
+Being a **studio** rather than a single app is the deliberate part. We are not maintaining
+one product forever; we run a small set of live products, keep an honest public archive of
+the ones we have retired, and carry what each one taught us into the next. Fifteen previous
+projects sit in the [Build Log](track-record/build-log.md), and four are live today.
+
+The products we build serve the onchain **Builder & Agent Economy** — the growing population
+of people, and increasingly software agents, that create, transact, and coordinate onchain.
+That is who our products are for, and it is why the studio keeps shipping into this
+particular market. See [The Builder & Agent Economy](hunt-town/builder-agent-economy.md).
+
+What ties everything together is not a single app but a shared economy. Every product
+relates back to **HUNT** — the token underneath the economies we launch, and the token our
+product revenue buys back and burns — and to the people who hold it, build on it, and back
+the projects launched within it.
 
 ## What we are building now
 
@@ -35,7 +44,7 @@ protocol — and each one extends the economy in a different direction.
 This documentation is also the Hunt Town whitepaper. It is meant to be read top to
 bottom:
 
-1. **Hunt Town** — the thesis (the Builder & Agent Economy) and how the studio operates.
+1. **Hunt Town** — how the studio operates, and the Builder & Agent Economy it builds for.
 2. **HUNT** — the shared economic layer: the token, its supply and buyback-and-burn
    mechanics, Building NFTs, and HUNT's role as the reserve asset across every product.
 3. **h402 · lpTOKEN.fun · Co-op · Mint Club** — each active product in full, from concept
@@ -43,6 +52,3 @@ bottom:
 4. **Track Record** — the Build Log: every product we have shipped since 2018, and what
    each one seeded.
 5. **Reference** — contracts, glossary, links, and terms.
-
-> Hunt Town is a web3 co-building community where builders come together to contribute
-> to the expansion of onchain culture and products.

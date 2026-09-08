@@ -35,6 +35,3 @@ Linking backing power to Building ownership ties the Co-op's daily activity to H
 - More Buildings across the Co-op means more daily BP in circulation, more daily minting,
   and more HUNT locked — the dynamic cycle that grows the Co-op's total value locked and
   strengthens the collective economy.
-
-> **TODO (operator):** state the precise BP-per-Mini-Building issued per day, any caps or
-> decay, and exactly how BP converts into a mint amount, verified against the live contract.

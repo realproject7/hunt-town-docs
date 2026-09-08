@@ -32,7 +32,3 @@ hold Buildings ─▶ receive Daily BP ─▶ mint/back projects ─▶ HUNT loc
   rewards consistent supporters of good projects.
 - **Compounding locked value.** Because each day's minting locks more HUNT, the Co-op's TVL
   and HUNT's scarcity grow with sustained activity rather than a single event.
-
-> **TODO (operator):** confirm the exact daily BP issuance per Mini Building and the
-> conversion of BP into mint amounts against the live Co-op contracts, and add a worked
-> numeric example here.

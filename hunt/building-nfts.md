@@ -39,9 +39,6 @@ The Town Hall and Building contracts were audited by BEOSIN (completed December 
 [report (PDF)](https://beosin.com/audits/Hunt-Town_202212051700.pdf). See
 [Links & Resources → Security & Audits](../reference/links.md) for the full audit list.
 
-> **TODO (operator):** add total issued counts for Main and Mini Buildings (and any cap),
-> plus the cumulative HUNT locked in Building pools.
-
 ---
 
 ## Under consideration: Building NFT credits for h402

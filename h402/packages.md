@@ -52,6 +52,3 @@ with the CLI — the private key never leaves your environment.
 | You want the flow handled for you | You want control over signing and transport |
 
 > Both packages are pre-1.0; the API surface may still change before launch.
-
-> **TODO (operator):** add the package README links and a minimal `@h402/core` usage snippet
-> once the API surface is frozen for launch.

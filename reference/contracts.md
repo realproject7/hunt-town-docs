@@ -39,13 +39,3 @@ Deployed on **Base** (chain id `8453`) and **Robinhood Chain** (chain id `4663`)
 Individual LP vaults are deterministic clones of the vault implementation, one per pool;
 their addresses are listed per market in the app. The live contract table is published at
 [lptoken.fun/contracts](https://lptoken.fun/contracts).
-
-> **TODO (operator):** the **ZapRouter** address is deliberately omitted here. The
-> contracts repo's deployment records list a newer ZapRouter than the web app's config and
-> bundled ABI, which still point at the superseded one. Confirm onchain which router is live
-> before publishing an address.
-
-> **TODO (operator):** add Mint Club V2 core/bond contract addresses per chain, the MINT (MT)
-> token address(es), and the h402 treasury / operating wallet addresses if they are to be
-> published. Confirm the role of the "Building NFT (Mainnet) contract" entry above (bonding /
-> zap contract vs. collection) and label it precisely.

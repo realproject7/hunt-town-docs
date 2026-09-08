@@ -34,7 +34,3 @@ Every project launched strengthens the whole: when a project token grows in mark
 **more HUNT becomes locked** inside its bonding-curve pool. So even though each builder runs
 an independent project, all of them share upside across the Co-op, and the success of one
 reinforces the foundation under every other token and NFT in the economy.
-
-> **TODO (operator):** add the concrete launch steps (parameters a builder sets — name,
-> supply, curve, reserve), any launch requirements or fees, and a link to the live launch
-> interface on coop.hunt.town.

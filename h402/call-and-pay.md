@@ -71,6 +71,3 @@ Upstream failures are returned as structured errors rather than raw provider out
 error handling is uniform across providers. h402 never forwards a request whose payment
 state is ambiguous; unresolved settlements are reconciled rather than silently retried
 against a different provider.
-
-> **TODO (operator):** replace the illustrative command above with copy-pasteable CLI and
-> `curl` examples against a real capability and provider once the production domain is live.

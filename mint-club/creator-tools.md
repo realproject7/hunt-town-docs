@@ -34,6 +34,3 @@ Creators **claim the royalties** their asset has accrued from trading activity. 
 
 Creators set the asset's **logo and website**, so the token/NFT presents properly across the
 Mint Club interface and anywhere it is displayed.
-
-> **TODO (operator):** confirm the current parameter ranges (lock-up durations, airdrop size
-> limits, free-mint conditions) against the live app before publishing specifics.

@@ -36,7 +36,17 @@
   [Coinone](https://coinone.co.kr/exchange/trade/hunt/krw) ·
   [Gopax](https://www.gopax.co.kr/exchange?market=hunt-krw)
 
-Live price, supply, and the buyback record: [hunt.town/hunt](https://hunt.town/hunt).
+**Bridge (Ethereum ↔ Base)**
+
+- [Superbridge — HUNT, pre-filled](https://superbridge.app/?fromChainKey=eth&fromTokenAddress=0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5&toChainKey=base&toTokenAddress=0x37f0c2915CeCC7e977183B8543Fc0864d03E064C)
+  · [background](https://news.hunt.town/p/expand-hunt-to-base-chain-bridge)
+
+**Market data**
+
+- [CoinGecko](https://www.coingecko.com/en/coins/hunt) ·
+  [CoinMarketCap](https://coinmarketcap.com/currencies/hunt)
+
+Live price, supply, and the burn record: [hunt.town/hunt](https://hunt.town/hunt).
 
 ## Security & Audits
 
@@ -67,7 +77,3 @@ See [Mint Club → Security & Audits](../mint-club/security-audits.md) for conte
   [etherscan.io](https://etherscan.io/address/0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96)
 - **Mini Building NFT (Base):**
   [basescan.org](https://basescan.org/token/0x475f8E3eE5457f7B4AAca7E989D35418657AdF2a)
-
-> **TODO (operator):** add official social links (X, Farcaster, Discord, Telegram) and confirm
-> the h402 production domain before this page is published. Update Co-op links once
-> coop.hunt.town is live.

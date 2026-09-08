@@ -36,6 +36,3 @@ ERC-1155 tokens on open contracts. That is why external teams have repeatedly bu
 products on top of Mint Club assets (Farcards, Memberify, Hamcaster, and others in the
 [Build Log](../track-record/build-log.md)), and why the [SDK](sdk.md) can drive the same
 creation and trading flows programmatically.
-
-> **TODO (operator):** list the exact networks/chains Mint Club create supports today, and
-> any creation requirements or fees, verified against the live app.

@@ -28,7 +28,3 @@ that issues other people's tokens is, at its base, backed by HUNT.
 
 Together these make MT a working utility token with consistent buy pressure (buybacks) and a
 real reserve (HUNT) behind it.
-
-> **TODO (operator):** add MT's contract address(es) and network(s), supply, and the buyback
-> mechanics' parameters; confirm the current reward programs that use MT before publishing
-> figures.

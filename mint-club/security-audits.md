@@ -30,7 +30,3 @@ on-chain and rule-bound by the curve contract.
 
 The V2 contracts are the deployed, audited implementation of the create / mint / burn / curve
 logic described throughout this section, and the same contracts the [SDK](sdk.md) drives.
-
-> **TODO (operator):** list the audited V2 contract addresses per chain in
-> [Contracts & Addresses](../reference/contracts.md), and confirm the CertiK report link
-> above resolves to the current published report.

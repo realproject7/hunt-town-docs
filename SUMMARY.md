@@ -4,8 +4,8 @@
 
 ## Hunt Town
 
-* [The Builder & Agent Economy](hunt-town/builder-agent-economy.md)
 * [The Studio Model](hunt-town/studio-model.md)
+* [The Builder & Agent Economy](hunt-town/builder-agent-economy.md)
 
 ## HUNT
 

@@ -54,14 +54,16 @@ Capabilities are organised into categories such as `ai`, `web`, `crypto`, `finan
 - **For API builders** — list a capability and reach agent demand without building billing.
   See [For Builders](for-builders.md).
 
+## Status
+
+h402 is **pre-launch**. The catalog, the CLI, and the payment flow described in this section
+are live and usable today in the current environment at
+[h402-test.hunt.town](https://h402-test.hunt.town); links throughout point there until the
+production launch. The `@h402/cli` and `@h402/core` packages are published and pre-1.0.
+
 ## Where the pieces are documented
 
 [Mount Once](mount.md) · [Discover Capabilities](discover-capabilities.md) ·
 [Providers & Verification](providers.md) · [Call & Pay](call-and-pay.md) ·
 [How Paying Works](how-paying-works.md) · [For Builders](for-builders.md) ·
 [SDK & CLI Packages](packages.md).
-
-> **TODO (operator):** h402 is **pre-launch**. The configured production origin is
-> `h402.hunt.town`, which does not resolve yet; the accessible environment is
-> `h402-test.hunt.town`. Confirm the launch domain and update every link in this section
-> when it goes live.
