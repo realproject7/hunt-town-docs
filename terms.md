@@ -1,8 +1,8 @@
-# 🗞️ Terms
+# Terms
 
-_Last Updated: November 21, 2025_
+_Last Updated: June 30, 2026_
 
-These Terms constitute an agreement between you (“you,” “user”) and Hunt Town, operated by BourbonShake Inc. (“Core Team,” “we,” “us,” or “our”), governing your access to and use of the Hunt Town website and decentralized application that provides access to onchain services on the Base Network and other supported chains (collectively, the “Site”).
+These Terms constitute an agreement between you (“you,” “user”) and Hunt Town, operated by BourbonShake Inc. (“Core Team,” “we,” “us,” or “our”), governing your access to and use of the Hunt Town website, documentation, and decentralized applications that provide access to onchain services on Ethereum, the Base Network, and other supported chains (collectively, the “Site”).
 
 By accessing or using the Site, you acknowledge that you have read, understood, and agreed to these Terms in full. If you do not agree, you must stop using the Site immediately.
 
@@ -10,9 +10,9 @@ By accessing or using the Site, you acknowledge that you have read, understood, 
 
 ### 1. Overview
 
-Hunt Town is an onchain cooperative (Co-op) that connects builders and backers through project tokens and Building NFTs backed by HUNT.&#x20;
+Hunt Town is a product studio for the onchain Builder & Agent Economy. It builds and operates a family of onchain products — including HUNT (the reserve token), Building NFTs, the Co-op, Mint Club, lpTOKEN.fun, and h402 — that connect builders, backers, and AI agents.
 
-The Site provides access to decentralized smart contracts and community tools but does not custody user assets or directly execute onchain transactions.
+The Site provides access to decentralized smart contracts and community tools but does not custody user assets or directly execute onchain transactions on your behalf.
 
 ***
 
@@ -82,7 +82,17 @@ The Core Team has no administrative control over Mint Club’s deployed contract
 
 ***
 
-### 9. Bridged HUNT on Base
+### 9. h402 Payments
+
+h402 is Hunt Town’s onchain payment protocol for paid API routes and AI-agent calls, settled in stablecoins (e.g., USDC) on the Base Network.
+
+* h402 payments are non-custodial: payments are made directly from your wallet to a provider’s settlement address through smart contracts. The Core Team does not hold, route, or reverse user funds.
+* Paid routes are operated by independent providers. The Core Team does not control, endorse, or guarantee any third-party route, including its pricing, availability, output, or fitness for any purpose.
+* You are solely responsible for the calls you authorize and the funds you spend, including payments made on your behalf by automated agents you configure.
+
+***
+
+### 10. Bridged HUNT on Base
 
 HUNT tokens bridged to the Base Network via the [L2StandardBridge](https://news.hunt.town/p/expand-hunt-to-base-chain-bridge) contracts function as a representation of the original HUNT on Ethereum Mainnet. This bridge allows two-way transfers between Ethereum and Base using standardized Layer 2 bridging mechanisms.
 
@@ -98,7 +108,7 @@ Users are solely responsible for ensuring safe and correct use of the bridge whe
 
 ***
 
-### 10. Risks
+### 11. Risks
 
 Using blockchain-based services involves risks including but not limited to:
 
@@ -111,7 +121,7 @@ You acknowledge that the Hunt Town Core Team is not liable for losses resulting 
 
 ***
 
-### 11. Intellectual Property
+### 12. Intellectual Property
 
 The Hunt Town name, logo, design elements, and related branding are property of BourbonShake Inc.
 
@@ -119,7 +129,7 @@ All user-generated projects retain ownership of their respective intellectual pr
 
 ***
 
-### 12. Limitation of Liability
+### 13. Limitation of Liability
 
 To the fullest extent permitted by law, the Core Team shall not be liable for any indirect, incidental, consequential, or special damages arising from:
 
@@ -131,7 +141,7 @@ Your sole remedy is to stop using the Site.
 
 ***
 
-### 13. Amendments
+### 14. Amendments
 
 These Terms may be updated or replaced at any time to reflect new features, regulatory requirements, or ecosystem changes.
 
@@ -139,6 +149,6 @@ Continued use of Hunt Town after revisions constitutes your acceptance of the up
 
 ***
 
-### 14. Contact
+### 15. Contact
 
 For inquiries or reports, contact: admin@hunt.town

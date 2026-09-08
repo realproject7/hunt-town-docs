@@ -1,64 +1,54 @@
+---
+description: An onchain product studio, building since 2018.
+---
+
 # Introduction
 
-<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+**Hunt Town is an onchain product studio.**
 
-## What is [Hunt Town](https://hunt.town/)?
+We build what's next, onchain — from an idea to a protocol, from a token to a whole town.
+Since 2018 we have shipped curation platforms, reward systems, NFT tooling, a bonding-curve
+protocol, an onchain cooperative, a liquidity market, and a capability market for agents.
+Some are still live, some have been retired, and every one of them fed the next.
 
-Hunt Town is the first onchain cooperative (Co-op) model for Web3 builders and backers. It’s a shared economy where builders launch tokens and backers mint them daily, creating a sustainable onchain ecosystem that grows together. Every project in the Co-op is backed by HUNT, the reserve token that connects all tokens and NFTs within the Hunt Town economy.
+Being a **studio** rather than a single app is the deliberate part. We are not maintaining
+one product forever; we run a small set of live products, keep an honest public archive of
+the ones we have retired, and carry what each one taught us into the next. Fifteen previous
+projects sit in the [Build Log](track-record/build-log.md), and four are live today.
 
-## The Co-op Model
+The products we build serve the onchain **Builder & Agent Economy** — the growing population
+of people, and increasingly software agents, that create, transact, and coordinate onchain.
+That is who our products are for, and it is why the studio keeps shipping into this
+particular market. See [The Builder & Agent Economy](hunt-town/builder-agent-economy.md).
 
-<figure><img src=".gitbook/assets/hunt-co-op-model.png" alt=""><figcaption></figcaption></figure>
+What ties everything together is not a single app but a shared economy. Every product
+relates back to **HUNT** — the token underneath the economies we launch, and the token our
+product revenue buys back and burns — and to the people who hold it, build on it, and back
+the projects launched within it.
 
-Unlike traditional launchpads or isolated projects, Hunt Town connects all participants through a common reserve asset. As builders launch new tokens, a portion of HUNT becomes locked in bonding curve pools, while backers continuously mint and support projects with their daily Backing Points (BP). This structure naturally expands the Co-op’s Total Value Locked (TVL) and strengthens HUNT’s scarcity over time.
+## What we are building now
 
-#### Builders and Backers
+The studio currently runs four active products. They sit on top of a common
+foundation — **HUNT**, **Building NFTs**, and the **Mint Club** bonding-curve
+protocol — and each one extends the economy in a different direction.
 
-{% hint style="info" %}
-<mark style="background-color:orange;">**Builders**</mark>: Launch project tokens backed by HUNT and raise liquidity through the Co-op economy.
-{% endhint %}
+| Product | What it is | Status |
+| --- | --- | --- |
+| **h402** | The Agent Capability Market Layer — mount once, unlock a whole market of capabilities. | Coming soon |
+| **lpTOKEN.fun** | One market, two ways to take part — the token and its fee-earning liquidity. | Live |
+| **Co-op** | The onchain cooperative — builders launch HUNT-backed tokens, backers mint them daily. | Live |
+| **Mint Club** | The no-code bonding-curve protocol for tokens and NFTs that powers much of the ecosystem. | Live |
 
-{% hint style="info" %}
-<mark style="background-color:green;">**Backers**</mark>: Support these projects by minting tokens daily with their BP or donating HUNT directly.\
-The relationship is mutually beneficial — builders gain early traction, and backers earn rewards, royalties, and recognition for their support.
-{% endhint %}
+## How this document is organized
 
-{% content-ref url="how/builders-and-backers.md" %}
-[builders-and-backers.md](how/builders-and-backers.md)
-{% endcontent-ref %}
+This documentation is also the Hunt Town whitepaper. It is meant to be read top to
+bottom:
 
-#### Project Tokens on Hunt Town
-
-Every project launched in Hunt Town issues its token as a HUNT-backed child token using bonding curve mechanics. When these project tokens grow in market activity, more HUNT becomes locked inside their bonding curve pools. This means that even though each builder runs a completely independent project, all of them share upside value across the Co-op. The success of one project strengthens the foundation of HUNT — and by extension, every other token and NFT built within the Hunt Town economy.
-
-{% content-ref url="how/launch-a-project-token.md" %}
-[launch-a-project-token.md](how/launch-a-project-token.md)
-{% endcontent-ref %}
-
-#### Building NFTs
-
-Backers in Hunt Town mint Building NFTs to increase their Backing Power, which determines how much support they can give to builders daily. Each Building NFT is backed by HUNT through its own bonding curve pool, locking more HUNT as demand for Buildings grows. Backers receive Daily BP (Backing Points) based on the number of Mini Buildings they hold, allowing them to mint their favorite project tokens each day. This creates a dynamic cycle — the more Buildings minted, the higher the Co-op’s locked value and the stronger the collective economy becomes.
-
-{% content-ref url="token/building-nfts.md" %}
-[building-nfts.md](token/building-nfts.md)
-{% endcontent-ref %}
-
-#### The Role of HUNT
-
-HUNT powers the Co-op economy as its reserve and deflationary asset. There is no inflation or minting — every project launch and NFT mint locks more HUNT into bonding curve pools, reducing circulating supply and amplifying long-term value for participants.
-
-{% content-ref url="token/hunt.md" %}
-[hunt.md](token/hunt.md)
-{% endcontent-ref %}
-
-{% content-ref url="how/hunt-as-the-reserve-token.md" %}
-[hunt-as-the-reserve-token.md](how/hunt-as-the-reserve-token.md)
-{% endcontent-ref %}
-
-## Why the Co-op Matters
-
-Most Web3 projects start alone, struggling to build liquidity, attract users, or sustain activity. Hunt Town redefines that by linking every project within a shared economy — where success in one project contributes to the strength of all. Builders, backers, and the entire ecosystem grow together, creating a more resilient and connected onchain network.
-
-{% content-ref url="token/hunt-backed-project-tokens.md" %}
-[hunt-backed-project-tokens.md](token/hunt-backed-project-tokens.md)
-{% endcontent-ref %}
+1. **Hunt Town** — how the studio operates, and the Builder & Agent Economy it builds for.
+2. **HUNT** — the shared economic layer: the token, its supply and buyback-and-burn
+   mechanics, Building NFTs, and HUNT's role as the reserve asset across every product.
+3. **h402 · lpTOKEN.fun · Co-op · Mint Club** — each active product in full, from concept
+   to mechanics.
+4. **Track Record** — the Build Log: every product we have shipped since 2018, and what
+   each one seeded.
+5. **Reference** — contracts, glossary, links, and terms.
