@@ -4,12 +4,6 @@
 paying for capabilities) without a human in the loop. The "Agent" half of the Builder & Agent
 Economy; the primary user of [h402](../h402/overview.md).
 
-**Backer** — a Co-op participant who supports builders by minting their project tokens daily
-(with BP) or donating HUNT directly.
-
-**Backing Point (BP)** — the Co-op's daily unit of backing power, issued to Building NFT holders
-based on their Mini Building units and spent to mint project tokens.
-
 **Bonding curve** — a contract that sets an asset's price as a deterministic function of its
 supply, backed by a reserve. Minting raises price and adds reserve; burning lowers price and
 returns reserve. The core primitive of [Mint Club](../mint-club/bonding-curves.md).
@@ -17,15 +11,15 @@ returns reserve. The core primitive of [Mint Club](../mint-club/bonding-curves.m
 **Builder** — a creator who launches tokens and projects on Hunt Town's primitives. The
 "Builder" half of the Builder & Agent Economy.
 
-**Building NFT** — Hunt Town's membership/backing-power asset, backed by HUNT. **Main Building**
-(Ethereum, ERC-721, 1,000 HUNT) and **Mini Building** (Base, ERC-1155, 100 HUNT); 1 Main = 10
-Mini.
+**Building NFT** — an NFT that locks HUNT. **Main Building** (Ethereum, ERC-721) locks 1,000 HUNT
+in the Town Hall contract; **Mini Building** (Base, ERC-1155) is minted with 100 HUNT through
+Mint Club.
 
 **Child token** — a token issued on a bonding curve with another token (often HUNT) as its
 reserve. Co-op project tokens and MINT (MT) are HUNT-backed child tokens.
 
-**Co-op** — Hunt Town's onchain cooperative, where builders launch HUNT-backed tokens and backers
-mint them daily. Moving to coop.hunt.town.
+**Co-op** — Hunt Town's HUNT-backed launchpad and DEX, where builders launch HUNT-backed tokens
+and anyone can trade them against HUNT. Moving to coop.hunt.town.
 
 **EIP-3009** — the `transferWithAuthorization` standard used by h402 to sign a stablecoin payment
 authorization locally, enabling non-custodial settlement.

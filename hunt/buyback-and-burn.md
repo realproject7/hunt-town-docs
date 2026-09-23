@@ -22,11 +22,11 @@ an Ethereum transaction.
 | Historical supply reconciliation | 88 | Residual closing the historical entries to canonical supply |
 | **Total** | **301,087,312** | 16 recorded changes |
 
-The full ledger — every event, date, reported value at execution, and its transaction or
-announcement link — is published at **[hunt.town/hunt](https://hunt.town/hunt)**.
+The full ledger, with every event, its date, and its transaction or announcement link, is
+published at **[hunt.town/hunt](https://hunt.town/hunt)**.
 
-> Reported USD amounts in that ledger are **contemporaneous values at the time of
-> execution**, not a current market valuation.
+> The ledger's USD figure is the **current value of the total at the live HUNT price**, not
+> the value at the time each burn was executed.
 
 The two large 2020 entries are structural: they retired allocations rather than buying
 tokens back from the market. The quarterly 2020–2022 entries are the precedent for what

@@ -2,15 +2,12 @@
 
 Builders join the Co-op by **launching a project token**. Every project in the Co-op issues
 its token as a **HUNT-backed child token** using bonding-curve mechanics, so the token has a
-real reserve behind it from day one and a market that backers can mint into immediately.
+real reserve behind it from day one and a market anyone can trade immediately.
 
 ## What launching gives a builder
 
 - **A market from day one.** The token is tradable on its bonding curve as soon as it
-  launches — no need to seed a liquidity pool or list on a DEX first.
-- **Daily demand.** Backers direct their [Daily BP](daily-backing-point.md) at projects they
-  support, so a launched token receives recurring daily minting rather than a one-time launch
-  spike.
+  launches, with no liquidity pool to seed and no listing to wait for.
 - **HUNT backing.** The token is backed by HUNT in its bonding-curve reserve; as the token's
   activity grows, more HUNT locks into that reserve.
 
@@ -20,7 +17,7 @@ A project token is a **HUNT-backed child token** on a bonding curve (powered by 
 [Mint Club](../mint-club/overview.md) protocol that underpins much of the ecosystem):
 
 1. The builder configures and launches the token.
-2. Backers mint it — with BP or HUNT — moving HUNT into the token's reserve.
+2. Anyone can buy it with HUNT, which moves HUNT into the token's reserve.
 3. The price moves along the bonding curve as supply changes; selling/burning returns HUNT
    from the reserve.
 

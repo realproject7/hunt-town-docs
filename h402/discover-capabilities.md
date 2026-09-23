@@ -39,6 +39,9 @@ Agents and tooling can query the catalog directly:
 | `GET /llms.txt` | Single-file onboarding doc with the catalog inlined as plain text |
 | `GET /openapi.json` | OpenAPI specification |
 | `GET /.well-known/ai-catalog.json` | Agentic Resource Discovery (ARD) manifest |
+| `GET /api/ard` | ARD registry index |
+| `POST /api/ard/search` | ARD search by query text |
+| `GET /api/ard/agents` | ARD entries as a list, filterable by `?category=` and `?tag=` |
 
 ## What a capability tells you before you pay
 
@@ -56,5 +59,6 @@ committing. See [Providers & Verification](providers.md).
 
 h402 **self-indexes only**. It does not crawl the web for endpoints or refer callers out to
 third-party registries; providers are curated into the catalog and verified before they
-appear. That is what makes "everything in the catalog has been paid-tested" a claim the
-market can actually keep.
+appear. Its ARD registry follows the same rule: every entry is an h402 capability that
+points back to an h402 endpoint. That is what makes "everything in the catalog has been
+paid-tested" a claim the market can actually keep.

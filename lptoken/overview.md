@@ -35,14 +35,18 @@ can mint, hold, transfer, and redeem like any other.
 
 ## Where it runs
 
-lpTOKEN.fun is **live** on **Base** and **Robinhood Chain**. Contract addresses are listed
-in [Contracts & Addresses](../reference/contracts.md).
+lpTOKEN.fun is **live** on **Robinhood Chain**, **Base**, **Arc**, and **Ethereum**. New
+tokens launch against each chain's native currency: ETH on Robinhood Chain, Base, and
+Ethereum, and USDC on Arc. Contract addresses are listed in
+[Contracts & Addresses](../reference/contracts.md).
 
 ## Why the studio built it
 
 A token economy needs more than a price chart. Giving a market a liquidity token means the
 depth behind it is something anyone can hold, price, and use — and it gives builders a real
 market on day one rather than a launch followed by a liquidity problem.
+
+lpTOKEN.fun won **Best Uniswap Stack Contribution** at **ETHOnline 2026**.
 
 Read on: [LP Vaults & Shares](lp-vaults.md) · [Dual Launch](dual-launch.md) ·
 [Fees & Economics](fees.md) · [Risks](risks.md).

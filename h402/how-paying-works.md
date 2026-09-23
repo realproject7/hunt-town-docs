@@ -19,17 +19,18 @@ caller ◀── result                 (settlement confirmed)
    the payee, and a short validity window.
 3. **Sign.** The caller signs an **EIP-3009 `TransferWithAuthorization`** over **Base USDC**
    for exactly the quoted amount. No funds move yet and no key is shared.
-4. **Settle.** The caller retries with the signature attached. The authorization is settled
-   through an x402 facilitator, the provider call executes, and the result returns.
+4. **Settle.** The caller retries with the signature attached. The authorization settles
+   into h402's treasury through the Coinbase CDP facilitator, the provider call executes,
+   and the result returns.
 
 ## Where the money goes
 
 Two hops, deliberately separated:
 
 - The **caller's** payment settles into h402's treasury.
-- h402 then pays the **upstream provider** from its own operating wallet — over x402 on
-  Base where the provider supports it, or via a one-shot charge for providers on other
-  supported rails.
+- h402 then pays the **upstream provider** from its own operating wallet. That payment goes
+  over x402 in Base USDC wherever the provider supports it. Providers that only accept
+  Tempo MPP are paid with a one-shot Tempo charge (`tempo/charge`) instead.
 
 The caller therefore signs one authorization, in one asset, on one chain, regardless of how
 the provider behind the capability prefers to be paid.
@@ -45,7 +46,7 @@ and cap it with `--max-usd`.
 
 ## Credits
 
-Callers can hold **credits** that are drawn down before any USDC is charged.
+Callers can hold **bonus credits** that are drawn down before any USDC is charged.
 
 - `h402 auth` establishes a session by signing a challenge with your wallet — no password,
   no account.
@@ -67,5 +68,6 @@ program — such as the proposed
   it is reconciled rather than retried against another provider.
 - **Idempotent retries.** See [Call & Pay](call-and-pay.md).
 
-> h402 is pre-1.0 and the payments layer is still evolving. Treat rail-level specifics here
-> as current-as-documented rather than frozen.
+> h402 is pre-1.0 and the payments layer is still evolving. Today every payment is a
+> one-shot, exact charge. Treat rail-level specifics here as current-as-documented rather
+> than frozen.

@@ -10,10 +10,12 @@ reinforce each other instead of competing for the same liquidity.
 
 ## The mechanism
 
-Every asset the ecosystem issues — project tokens in the Co-op, Building NFTs, and tokens
-created on Mint Club's HUNT-backed curves — is minted against a **bonding-curve reserve**.
-When someone mints one of these assets, HUNT flows **into** that asset's reserve and is
-**locked** there for as long as the asset exists. When they burn/sell, HUNT flows back out.
+Project tokens in the Co-op and tokens created on Mint Club's HUNT-backed curves are minted
+against a **bonding-curve reserve**. When someone buys one of these tokens, HUNT flows
+**into** that token's reserve and is **locked** there for as long as the token exists. When
+they sell, HUNT flows back out. [Building NFTs](building-nfts.md) lock HUNT too: 1,000 HUNT
+per Main Building in the Town Hall, and the HUNT behind Mini Buildings in the Mint Club
+reserve on Base.
 
 Because HUNT has **no inflationary emission**, the only way new assets enter the economy is
 by locking existing HUNT. So:
@@ -46,7 +48,6 @@ across disconnected tokens.
 
 - **Co-op project tokens** are HUNT-backed child tokens — see
   [HUNT-backed Project Tokens](../co-op/hunt-backed-project-tokens.md).
-- **Building NFTs** are HUNT-backed membership assets — see
-  [Building NFTs](building-nfts.md).
+- **Building NFTs** lock HUNT behind each NFT. See [Building NFTs](building-nfts.md).
 - **Mint Club** provides the bonding-curve engine that makes reserve-backing possible —
   see [Mint Club Overview](../mint-club/overview.md).

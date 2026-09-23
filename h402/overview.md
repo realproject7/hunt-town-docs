@@ -56,10 +56,10 @@ Capabilities are organised into categories such as `ai`, `web`, `crypto`, `finan
 
 ## Status
 
-h402 is **pre-launch**. The catalog, the CLI, and the payment flow described in this section
-are live and usable today in the current environment at
-[h402-test.hunt.town](https://h402-test.hunt.town); links throughout point there until the
-production launch. The `@h402/cli` and `@h402/core` packages are published and pre-1.0.
+h402 is **live in beta** at [h402.hunt.town](https://h402.hunt.town). The catalog, the CLI,
+and the payment flow described in this section all run there today, and the CLI targets it
+by default. The `@h402/cli` and `@h402/core` packages are published on npm and are still
+pre-1.0, so details can change between releases.
 
 ## Where the pieces are documented
 

@@ -29,11 +29,11 @@ forward.
 
 Active products are not built from scratch each time. They sit on a common foundation:
 
-- **[HUNT](../hunt/hunt-erc20.md)** — the token underneath the economies we launch, and the
+- **[HUNT](../hunt/hunt-erc20.md)**: the token underneath the economies we launch, and the
   token product revenue buys back and burns.
-- **[Building NFTs](../hunt/building-nfts.md)** — membership and backing power, each one
-  backed by HUNT.
-- **[Mint Club](../mint-club/overview.md)** — the bonding-curve protocol that issues much of
+- **[Building NFTs](../hunt/building-nfts.md)**: NFTs that lock HUNT, 1,000 per Main Building
+  and 100 to mint a Mini Building.
+- **[Mint Club](../mint-club/overview.md)**: the bonding-curve protocol that issues much of
   the ecosystem's token and NFT supply.
 
 A new product plugs into this foundation instead of reinventing it, which is why the studio
@@ -45,7 +45,7 @@ away from it.
 At any time the studio runs a small set of **active products** — today
 [h402](../h402/overview.md), [lpTOKEN.fun](../lptoken/overview.md),
 [Co-op](../co-op/overview.md), and [Mint Club](../mint-club/overview.md) — and maintains a
-much larger archive of **previous products**: 15 entries spanning 2018 to 2025, documented
+much larger archive of **previous products**: 25 entries spanning 2018 to 2025, documented
 in full in the [Build Log](../track-record/build-log.md).
 
 We keep the archive public and honest on purpose. The retired products are not failures to
@@ -53,14 +53,14 @@ hide; they are the track record that earned the studio its current thesis. Each 
 records the bet we made, what worked, what broke, and what it seeded in the products we run
 today.
 
-## Builders and backers
+## Builders and holders
 
 Across products, Hunt Town's participants fall into two roles that recur in different forms:
 
-- **Builders** create — they launch tokens and projects, mint and curate, and ship things on
-  top of the studio's primitives.
-- **Backers** support — they mint, back, and reward the builders and projects they believe
-  in, and share in the upside when those projects grow.
+- **Builders** create. They launch tokens and projects and ship things on top of the
+  studio's primitives.
+- **Holders** take part. They buy, trade, and hold what builders launch, and share in the
+  upside when those projects grow.
 
 The studio's job is to keep designing products where those two roles reinforce each other,
 all denominated in the same shared economy. Increasingly, a third participant joins them:

@@ -13,8 +13,8 @@ From the beginning, Hunt Town's bet has been that **token-incentivized communiti
 out-create centralized platforms** when the people doing the work are rewarded directly.
 
 That bet started with Steemhunt in 2018 — a community that curated products and earned
-crypto for it — and it has run through everything since: reward systems, NFT tooling, an
-onchain cooperative. Builders are the constant. They launch the tokens, mint the NFTs, ship
+crypto for it — and it has run through everything since: reward systems, NFT tooling, a
+HUNT-backed launchpad. Builders are the constant. They launch the tokens, mint the NFTs, ship
 the projects, and form the community that gives HUNT its meaning.
 
 The hard problem for onchain builders has always been the same: **most projects start
@@ -41,7 +41,7 @@ The four active products map onto the two halves — and the foundation is share
 | --- | --- | --- |
 | [h402](../h402/overview.md) | **Agents** | A capability market an agent mounts once, then uses to discover a capability, choose a verified provider, and pay per call in stablecoins. |
 | [lpTOKEN.fun](../lptoken/overview.md) | **Builders** | A market from day one — a token and its fee-earning liquidity, both holdable. |
-| [Co-op](../co-op/overview.md) | **Builders & backers** | A shared economy where builders launch HUNT-backed tokens and backers mint them daily. |
+| [Co-op](../co-op/overview.md) | **Builders** | A launchpad and DEX where builders launch HUNT-backed tokens and anyone can trade them against HUNT. |
 | [Mint Club](../mint-club/overview.md) | **Builders** | The no-code bonding-curve primitive the rest of the ecosystem is issued on. |
 
 ## Why onchain
@@ -49,7 +49,7 @@ The four active products map onto the two halves — and the foundation is share
 Both halves share the same requirements, and they are the properties onchain systems
 provide natively:
 
-- **Direct, programmable value transfer** — rewards, backing, and payments move without a
+- **Direct, programmable value transfer** — rewards and payments move without a
   platform sitting in the middle taking rent or gatekeeping access.
 - **Shared, composable primitives** — bonding curves, reserve-backed tokens, liquidity
   positions, and NFT ownership are open building blocks that products can reuse and that

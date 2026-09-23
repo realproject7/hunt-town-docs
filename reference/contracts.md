@@ -26,15 +26,29 @@ links in [Links & Resources](links.md) before transacting.
 
 ## lpTOKEN.fun
 
-Deployed on **Base** (chain id `8453`) and **Robinhood Chain** (chain id `4663`).
+Deployed on **Robinhood Chain** (chain id `4663`), **Base** (`8453`), **Arc** (`5042`), and
+**Ethereum** (`1`). Addresses are taken from the protocol's own deployment records.
 
-| Contract | Base | Robinhood Chain |
+| Contract | Robinhood Chain | Base |
 | --- | --- | --- |
-| LpTokenFactory | `0x3384eD0d272dE35bF6DC516E1eA7d188CEb51793` | `0xDd9b4a30FFf71A391A39FbaCed43e3DAa84dbC84` |
-| LpTokenVault (implementation) | `0x78aae2fD8f8b09994d0e936Ce4478a7EB8FE92D9` | `0xBaf91d6c83fe4B325ddD818aDaa9A39D490E6C6d` |
-| TokenLaunchpad | `0xED14eE7501fB212f876714a68308564cD6772000` | `0xC3612550Fd0f3095B6636110e5b06dD4eb05e000` |
-| LaunchLiquidityVault | `0x39f3C534E6962Fd5fb0DD3653B6c16400c49C498` | `0x7FcA8E7a8376B38f3eb23F21e8C7b7c6E5f3f077` |
-| LpTokenLens | `0x6DC57E44B995c56F91a6AD5f221F372C1c2FFBF5` | `0x8bA19810F56E455276a0Db1eaace071D75B08Fd2` |
+| LpTokenFactory | `0xDd9b4a30FFf71A391A39FbaCed43e3DAa84dbC84` | `0x3384eD0d272dE35bF6DC516E1eA7d188CEb51793` |
+| LpTokenVault (implementation) | `0xBaf91d6c83fe4B325ddD818aDaa9A39D490E6C6d` | `0x78aae2fD8f8b09994d0e936Ce4478a7EB8FE92D9` |
+| TokenLaunchpad | `0xC3612550Fd0f3095B6636110e5b06dD4eb05e000` | `0xED14eE7501fB212f876714a68308564cD6772000` |
+| LaunchLiquidityVault | `0x7FcA8E7a8376B38f3eb23F21e8C7b7c6E5f3f077` | `0x39f3C534E6962Fd5fb0DD3653B6c16400c49C498` |
+| LpTokenZapRouter | `0x19e1AbAcB318C25D9888bBAa62cBaa69dA2F66c7` | `0xc4C8071D651F093C4A5c2C06e7BFfc163A057DdA` |
+| LpTokenLens | `0x8bA19810F56E455276a0Db1eaace071D75B08Fd2` | `0x6DC57E44B995c56F91a6AD5f221F372C1c2FFBF5` |
+
+| Contract | Arc | Ethereum |
+| --- | --- | --- |
+| LpTokenFactory | `0x37F540de37afE8bDf6C722d87CB019F30e5E406a` | `0x37F540de37afE8bDf6C722d87CB019F30e5E406a` |
+| LpTokenVault (implementation) | `0x2c692DB9203EF651745AF2c07ebd587222D55a06` | `0x2c692DB9203EF651745AF2c07ebd587222D55a06` |
+| TokenLaunchpad | `0xa790B0e77FD23504342404fc8DD0c5AE4DE4e000` | `0xC011111853f63e9A3c5b112CEF26Ff78351c2000` |
+| LaunchLiquidityVault | `0x124ed8F31A4052cA910E98e5eC9bb182C88AB365` | `0xCC61892B6F3eD6F2Bf258b53DD41683E0c2998Ab` |
+| LpTokenZapRouter | `0x905F3AE86108c6A3b1a345dACEaef6c4749Ec66a` | `0x905F3AE86108c6A3b1a345dACEaef6c4749Ec66a` |
+| LpTokenLens | `0x5dfA75b0185efBaEF286E80B847ce84ff8a62C2d` | `0x5dfA75b0185efBaEF286E80B847ce84ff8a62C2d` |
+
+The factory, vault implementation, zap router, and lens share one address on Arc and
+Ethereum because they were deployed deterministically.
 
 Individual LP vaults are deterministic clones of the vault implementation, one per pool;
 their addresses are listed per market in the app. The live contract table is published at

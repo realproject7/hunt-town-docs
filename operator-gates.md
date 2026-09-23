@@ -21,12 +21,16 @@ These are not missing facts — they are editorial or business calls.
   *"Status: proposed / under review"*, and `h402/mount.md` and `h402/how-paying-works.md`
   reference it. **This is the only substantial block of non-shipped functionality in the
   whitepaper.** Decide: keep it as a documented future direction, or cut it until it ships.
-- [ ] **Ship the whitepaper describing a pre-launch product?**
-  h402 is marked *Coming soon* in the Introduction, and `h402/overview.md` has a Status
-  section saying the production domain is not live and links point to
-  `h402-test.hunt.town`. Confirm this is how you want the whitepaper to read at publication,
-  or hold the h402 section until launch.
+  Everywhere else, Building NFTs are described only as HUNT-lockup NFTs (decided 2026-09-23).
+- [ ] **Co-op publish timing.** The Co-op pages, the glossary, Terms and the HUNT pages now
+  describe Co-op after the daily BP, voting, airdrop-claim and donation removal (2026-09-23).
+  The live app still runs those mechanics. Decide whether to publish with the new Co-op
+  release or before it. Merging the docs PR publishes everything at once.
 - [ ] **Terms — legal sign-off.** Especially §1 (studio framing) and §9 (h402 Payments).
+  The 2026-09-23 edits also need a look: §1 now says the products connect "builders, holders,
+  and AI agents" (was "backers"), "backing or minting" became "buying or minting", and §6
+  dropped the Backing Points / rewards bullet and now defines Building NFTs as NFTs minted by
+  locking HUNT.
   Also decide whether **lpTOKEN.fun deserves its own clause**: it is a live product with LP,
   fee, and permanent-lock mechanics, and Terms currently has no section specific to it.
 - [ ] **Co-op domain.** `reference/links.md` lists Co-op as `coop.hunt.town` *(moving)*.
@@ -34,12 +38,9 @@ These are not missing facts — they are editorial or business calls.
 
 ## B. Deliberately omitted — do not publish until verified
 
-- [ ] **lpTOKEN ZapRouter address** — omitted from `reference/contracts.md` on purpose.
-  The contracts repo's deployment records list a **newer** ZapRouter than the web app's
-  `deployment.ts` and bundled ABI, which still point at the superseded one. The two disagree;
-  confirm onchain which is live before publishing any address.
 - [ ] **h402 treasury / operating wallet addresses** — decide whether these should be public
-  at all. Currently not listed.
+  at all. Currently not listed. The treasury is already visible as the payee in every `402`
+  challenge and in the public ARD entries, so listing it would not reveal anything new.
 
 ## C. Detail to add when available
 
@@ -48,18 +49,46 @@ Each of these has a page that reads fine today; the gate is extra specificity.
 | What | Page |
 | --- | --- |
 | Building NFT issued counts, any cap, cumulative HUNT locked | `hunt/building-nfts.md` |
-| Daily BP per Mini Building, caps/decay, BP→mint conversion (verify against live contracts) | `co-op/daily-backing-point.md`, `co-op/daily-backing-and-minting-flow.md` |
 | Concrete launch steps, requirements/fees, live launch link | `co-op/launch-a-project-token.md` |
 | Mint Club: supported chains, creator-tool parameter ranges, platform fee + royalty split, SDK package name | `mint-club/create.md`, `creator-tools.md`, `economics.md`, `sdk.md` |
 | MINT (MT) address, networks, supply, buyback parameters | `mint-club/mint-token.md` |
 | Mint Club V2 audited contract addresses per chain | `mint-club/security-audits.md`, `reference/contracts.md` |
-| h402: live catalog browser + API base URL, real CLI/`curl` examples, Builders page + form URL, package READMEs | `h402/discover-capabilities.md`, `call-and-pay.md`, `for-builders.md`, `packages.md` |
+| h402: Builders submission form URL, package README links | `h402/for-builders.md`, `packages.md` |
 | Official social links (X, Farcaster, Discord, Telegram) | `reference/links.md` |
 | Canonical "Building NFT (Mainnet) contract" role — label it precisely | `reference/contracts.md` |
 
 ---
 
 ## Sync notes
+
+### 2026-09-23: Co-op pivot, HUNT re-sync, lpTOKEN chains, h402 beta
+
+- **Co-op is now a HUNT-backed launchpad and DEX.** Per the operator, the daily Backing
+  Points → voting → airdrop-claim loop and HUNT donations (with the Donors leaderboard) are
+  gone from the docs. Deleted: `co-op/daily-backing-point.md`,
+  `co-op/daily-backing-and-minting-flow.md`, `co-op/builders-and-backers.md`. Added:
+  `co-op/launchpad-and-dex.md`. Backer and BP were removed from the glossary, and the BP
+  bullet was removed from Terms §6 (see gate A).
+- **Building NFTs are described only as HUNT-lockup NFTs.** Main Buildings lock 1,000 HUNT
+  in the Town Hall. Mini Buildings put 100 HUNT into the Mint Club V2 Bond reserve on Base;
+  onchain the bond shows a 0% mint royalty and a 5% burn royalty (checked 2026-09-23).
+- **HUNT supply re-synced to town-web-2's per-chain model**, which supersedes the 2026-09-08
+  model below. Burned now includes the Ethereum and Base dead-address balances. Locked
+  Ethereum is Main Buildings × 1,000 plus the Neverlose.money vault. Locked Base is the
+  Mint Club V2 Bond HUNT balance, which includes Mini Building HUNT. Circulation is computed
+  per chain. The buyback ledger's USD figure is the current value of the total, not the
+  value at execution.
+- **lpTOKEN.fun runs on four chains:** Robinhood Chain, Base, Arc (native USDC) and Ethereum.
+  The web app's ZapRouter addresses now match the deployment records, so the old gate B hold
+  is resolved: all 24 addresses in `reference/contracts.md` were checked against
+  `contracts/deployments/*.json`. Also added: the ETHOnline 2026 award and the Uniswap
+  governance protocol-fee note.
+- **h402 is live in beta at h402.hunt.town**, the CLI's default backend. Every
+  `h402-test.hunt.town` link is gone. Updated: wallet setup (OWS signing, funding link,
+  `defaultWallet`, platform limits), free calls without a wallet, settlement through the
+  Coinbase CDP facilitator, the Tempo MPP upstream rail, the ARD registry endpoints, and the
+  error and response envelopes.
+- **Build Log** regenerated from town-web-2 `src/content/build-log.ts`: 25 entries.
 
 ### 2026-09-08 — studio reframing + HUNT re-sync
 
@@ -72,7 +101,8 @@ Each of these has a page that reads fine today; the gate is extra specificity.
   `The Studio Model` (how we work) now comes first, then
   `The Builder & Agent Economy` (who we build for). Each page opens by naming the other, and
   the economy page adds a table mapping each active product to the half it serves.
-- **HUNT supply model changed upstream and the docs were corrected.** town-web-2 replaced
+- **HUNT supply model changed upstream and the docs were corrected** *(superseded by the
+  2026-09-23 per-chain model above)*. town-web-2 replaced
   the old "Mint Club project reserves" input with the **Neverlose.money vault**. Current
   model, now documented in `hunt/supply.md`:
   - **Burned** = 500,000,000 − canonical Ethereum total supply
@@ -91,7 +121,8 @@ Each of these has a page that reads fine today; the gate is extra specificity.
 ### 2026-09-08 — earlier: town-web-2 product sync
 
 - Four active products, ordered **h402 → lpTOKEN.fun → Co-op → Mint Club**.
-- **lpTOKEN.fun** added (5 pages), live on **Base and Robinhood Chain**.
+- **lpTOKEN.fun** added (5 pages), live on **Base and Robinhood Chain** *(now four chains, see
+  2026-09-23)*.
   ⚠️ `lptoken-fun/README.md` and `docs/architecture.md` are **stale** (still say
   Robinhood-only, predating Base support) and were not used as sources.
 - **h402 rewritten**: vocabulary is capability / provider / call; the **automatic router is
@@ -99,7 +130,8 @@ Each of these has a page that reads fine today; the gate is extra specificity.
   verification is binary (`enabled` only after a real paid probe), and *quality score* is a
   separate ranking signal.
   ⚠️ The payments layer is pre-1.0 and churned recently (an Arc Testnet migration was merged
-  and reverted the same day). Re-verify the rail before publishing.
+  and reverted the same day). Re-verify the rail before publishing. *(Re-verified
+  2026-09-23: Base USDC over x402 for callers, x402 or Tempo MPP upstream.)*
 
 ## Structural decisions already applied
 

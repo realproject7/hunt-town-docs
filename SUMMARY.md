@@ -38,9 +38,7 @@
 ## Co-op
 
 * [Overview](co-op/overview.md)
-* [Builders & Backers](co-op/builders-and-backers.md)
-* [Daily Backing & Minting Flow](co-op/daily-backing-and-minting-flow.md)
-* [Daily Backing Point (BP)](co-op/daily-backing-point.md)
+* [Launchpad & DEX](co-op/launchpad-and-dex.md)
 * [Launch a Project Token](co-op/launch-a-project-token.md)
 * [HUNT-backed Project Tokens](co-op/hunt-backed-project-tokens.md)
 

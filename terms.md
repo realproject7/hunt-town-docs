@@ -10,7 +10,7 @@ By accessing or using the Site, you acknowledge that you have read, understood, 
 
 ### 1. Overview
 
-Hunt Town is a product studio for the onchain Builder & Agent Economy. It builds and operates a family of onchain products — including HUNT (the reserve token), Building NFTs, the Co-op, Mint Club, lpTOKEN.fun, and h402 — that connect builders, backers, and AI agents.
+Hunt Town is a product studio for the onchain Builder & Agent Economy. It builds and operates a family of onchain products — including HUNT (the reserve token), Building NFTs, the Co-op, Mint Club, lpTOKEN.fun, and h402 — that connect builders, holders, and AI agents.
 
 The Site provides access to decentralized smart contracts and community tools but does not custody user assets or directly execute onchain transactions on your behalf.
 
@@ -22,7 +22,7 @@ The Site provides access to decentralized smart contracts and community tools bu
 * These tokens are not operated, controlled, or endorsed by the Hunt Town Core Team.
 * The Core Team holds no legal, financial, or managerial responsibility for any project, token, or outcome that occurs within the Hunt Town ecosystem.
 * Users are solely responsible for any actions, decisions, or losses incurred through interaction with project tokens.
-* Always do your own research (DYOR) before backing or minting any token.
+* Always do your own research (DYOR) before buying or minting any token.
 
 ***
 
@@ -57,10 +57,9 @@ Users must use third-party wallets and maintain sufficient network tokens (e.g.,
 
 ### 6. Building NFTs
 
-* Building NFTs represent user participation and Backing Power in the Co-op.
+* Building NFTs are NFTs minted by locking HUNT.
 * Minting a Building NFT locks HUNT in its bonding curve pool (or Townhall contract for Main Buildings).
 * Once minted, NFTs and their associated HUNT reserves are governed solely by smart contract logic.
-* Burning or transferring NFTs may affect access to accumulated Backing Points (BP) or rewards.
 
 ***
 

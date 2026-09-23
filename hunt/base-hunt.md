@@ -1,9 +1,9 @@
 # Base HUNT (Bridged)
 
 HUNT is native to **Ethereum mainnet** and bridged to **Base**, so the same asset backs
-activity on both networks. This matters because the studio's most active surfaces — Mini
-Buildings, Co-op backing, Mint Club, lpTOKEN.fun, and h402 payments — live on Base, where
-fees are low enough for the daily, high-frequency interactions these products depend on.
+activity on both networks. This matters because the studio's most active surfaces, Mini
+Buildings, Co-op project tokens, Mint Club, lpTOKEN.fun, and h402 payments, all run on Base,
+where fees are low enough for the high-frequency interactions these products depend on.
 
 ## Why two networks
 
@@ -18,9 +18,11 @@ Bridged HUNT on Base is a representation of the canonical Ethereum token, **back
 It is the same asset, usable in reserves and payments on Base without round-tripping to
 mainnet for every interaction.
 
-Because of that 1:1 backing, Base HUNT is **not added to total supply** — counting it
-alongside the Ethereum token would double-count the same tokens. All supply figures are read
-from the canonical Ethereum contract. See [Supply & Distribution](supply.md).
+Because of that 1:1 backing, Base HUNT is **not added to total supply**. Counting it
+alongside the Ethereum token would double-count the same tokens. Total supply is read from
+the canonical Ethereum contract, and the HUNT held by the Ethereum → Base bridge stands for
+all of the HUNT on Base. The Base side of the ledger (locked, circulating, and burned) is
+then read from Base contracts within that balance. See [Supply & Distribution](supply.md).
 
 ## Bridging
 

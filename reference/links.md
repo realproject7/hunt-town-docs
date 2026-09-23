@@ -9,10 +9,9 @@
 
 ## Products
 
-- **h402** *(coming soon)* — production domain `h402.hunt.town` is not live yet; the current
-  environment is [h402-test.hunt.town](https://h402-test.hunt.town) ·
-  [catalog](https://h402-test.hunt.town/catalog) ·
-  [docs](https://h402-test.hunt.town/docs).
+- **h402** *(beta)*: [h402.hunt.town](https://h402.hunt.town) ·
+  [catalog](https://h402.hunt.town/catalog) ·
+  [docs](https://h402.hunt.town/docs).
   Packages: `@h402/cli` and `@h402/core` on npm ·
   [SKILL.md](https://raw.githubusercontent.com/Steemhunt/h402-cli/main/SKILL.md)
 - **lpTOKEN.fun** — [lptoken.fun](https://lptoken.fun) ·

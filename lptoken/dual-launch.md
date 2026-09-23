@@ -8,7 +8,8 @@ opens with liquidity already in place and its LP side already tokenized.
 1. A fixed-supply token is deployed — **1,000,000,000** tokens, minted once, with no mint,
    burn, or pause function anywhere afterwards. The creator can edit presentation metadata
    (name, image, links) and nothing else.
-2. The pool is initialized: **native currency against the new token**, at a **1%** LP fee.
+2. The pool is initialized: **native currency against the new token** (ETH, or USDC on
+   Arc), at a **1%** LP fee.
 3. Part of the supply opens a **permanent one-sided launch position**.
 4. The **LP vault** is bootstrapped over the same pool, making the LP side an lpTOKEN from
    the first block.

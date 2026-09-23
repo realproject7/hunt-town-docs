@@ -1,31 +1,26 @@
 # Building NFTs
 
-**Building NFTs** are Hunt Town's membership and backing-power asset. Each one is backed
-by HUNT through its own bonding-curve pool, so minting a Building both grants the holder
-standing in the ecosystem and locks more HUNT out of circulation.
+**Building NFTs lock HUNT.** Each one is minted with HUNT, and that HUNT stays locked behind
+the NFT, out of market circulation. They are counted in the locked category on the
+[supply](supply.md) page.
 
 There are two tiers:
 
-| Tier | Network | Standard | HUNT backing |
-| --- | --- | --- | --- |
-| **Main Building** | Ethereum mainnet | ERC-721 | 1,000 HUNT |
-| **Mini Building** | Base | ERC-1155 (token id `0`) | 100 HUNT |
+| Tier | Network | Standard | HUNT to mint | Where the HUNT sits |
+| --- | --- | --- | --- | --- |
+| **Main Building** | Ethereum mainnet | ERC-721 | 1,000 HUNT | The Town Hall contract, which records when it unlocks |
+| **Mini Building** | Base | ERC-1155 (token id `0`) | 100 HUNT | The reserve of the Mint Club V2 Bond contract on Base |
 
-A Main Building is worth **10 Mini Buildings** in backing terms (1,000 ÷ 100), a ratio
-that recurs anywhere Buildings are counted.
+## How the locking works
 
-## What Buildings do
-
-- **Backing power** — Buildings determine how much support a backer can give builders.
-  In the [Co-op](../co-op/overview.md), holders receive **Daily Backing Points (BP)**
-  based on the Mini Buildings they hold, which they spend to mint the project tokens they
-  want to support.
-- **HUNT locking** — each Building is backed by HUNT in a bonding-curve pool. As more
-  Buildings are minted, more HUNT is locked, tightening supply and deepening the
-  ecosystem's total value locked.
-- **Recurring allowances** — historically, Buildings have powered recurring daily
-  allowances (e.g. Hunt Tip's tipping allowance: Main = 1,000 / Mini = 100 per day), a
-  pattern the studio reuses across products.
+- **Main Buildings** are minted from HUNT through the Town Hall. The Town Hall holds the
+  1,000 HUNT behind each Main Building and records its unlock time. Once a Building has
+  unlocked, burning it releases the HUNT.
+- **Mini Buildings** are minted through the Mint Club V2 Bond on Base, which holds the HUNT
+  behind them in its reserve alongside every other Base HUNT reserve.
+- Minting more Buildings locks more HUNT, which is why Building supply appears directly in
+  the supply accounting: 1,000 HUNT per Main Building on Ethereum, and the Mint Club Base
+  balance on Base.
 
 ## Contracts
 
@@ -50,8 +45,8 @@ The Town Hall and Building contracts were audited by BEOSIN (completed December 
 A natural way to connect Building NFTs to the studio's newest product is to let Buildings
 **fund agent payments on [h402](../h402/overview.md)**. The idea: Building holders receive
 a **recurring h402 credit** — a stablecoin-denominated allowance, usable to pay for h402
-route calls — simply for holding Buildings. It turns a membership asset into ongoing,
-real utility on the agent capability market.
+calls — simply for holding Buildings. It would give Building NFTs a recurring use on the
+agent capability market.
 
 The prototype worked as follows.
 
@@ -59,7 +54,7 @@ The prototype worked as follows.
 
 Credits are denominated in micro-USD and scale with Building holdings:
 
-| Holding | Backing units | Weekly credit |
+| Holding | Mini units | Weekly credit |
 | --- | --- | --- |
 | 1 Mini Building | 1 unit | **$0.50 / week** |
 | 1 Main Building | 10 units | **$5.00 / week** |

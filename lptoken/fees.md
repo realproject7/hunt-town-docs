@@ -18,6 +18,10 @@ with holders in full.
 A minimum assessment size prevents splitting a deposit into dust to dodge the 30 bps share
 fee.
 
+Separately, Uniswap can deduct its own **governance-controlled protocol fee** before LP fee
+growth. That fee is set by Uniswap governance, not by lpTOKEN.fun, and it would reduce the
+swap fees the vault position earns.
+
 ## How launch fees are distributed
 
 Fee distribution on the launch position is **permissionless** — anyone can trigger it. When

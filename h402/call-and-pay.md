@@ -11,7 +11,12 @@ h402 call web/search --json '{"query":"onchain agent payments"}'
 
 The CLI resolves the provider (explicit `--provider`, or the catalog's recommended default),
 issues the call, handles the `402` challenge, signs locally with your wallet, retries, and
-returns the result.
+returns the result. Without `--provider`, it uses the task's current default for that one
+call and prints the pinned command it used. It does not store that choice.
+
+The CLI sends the request before it looks for a wallet. A free call, or one covered by bonus
+credits, returns straight away and needs no wallet at all. A funded wallet is needed only
+when the first response is a payable `402`.
 
 Useful flags:
 
@@ -41,12 +46,15 @@ POST /routes/{provider}/{category}/{action}
 5. **Retry the same request, with the same idempotency key**, attaching the signature. The
    call settles and returns.
 
+The retired automatic path, `/routes/auto/*`, now returns `410 Gone` and lists the pinned
+providers to use instead. It never quotes or charges.
+
 ## The response
 
-Results come back in a consistent envelope rather than raw upstream output:
+Results come back in a consistent envelope, with the provider's native result inside it:
 
 ```
-{ "data": { ... },        // the provider's result
+{ "data": { ... },        // the provider-native body
   "meta": { ... },        // optional provider metadata
   "h402": { ... } }       // pinned provider, payment mode, follow-up info
 ```
@@ -67,7 +75,8 @@ surprise re-quote.
 
 ## Errors
 
-Upstream failures are returned as structured errors rather than raw provider output, so
-error handling is uniform across providers. h402 never forwards a request whose payment
+Failures come back as a structured `{ error }` envelope with a non-2xx status, so error
+handling is uniform across providers. When a provider rejects a call, the envelope also
+carries that provider's raw response body. h402 never forwards a request whose payment
 state is ambiguous; unresolved settlements are reconciled rather than silently retried
 against a different provider.
