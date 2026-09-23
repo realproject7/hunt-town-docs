@@ -63,7 +63,7 @@ Each of these has a page that reads fine today; the gate is extra specificity.
 
 ### 2026-09-23: Co-op pivot, HUNT re-sync, lpTOKEN chains, h402 beta
 
-- **Co-op is now a HUNT-backed launchpad and DEX.** Per the operator, the daily Backing
+- **Co-op is now a HUNT-based launchpad and DEX.** Per the operator, the daily Backing
   Points → voting → airdrop-claim loop and HUNT donations (with the Donors leaderboard) are
   gone from the docs. Deleted: `co-op/daily-backing-point.md`,
   `co-op/daily-backing-and-minting-flow.md`, `co-op/builders-and-backers.md`. Added:

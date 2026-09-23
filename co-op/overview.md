@@ -1,6 +1,6 @@
 # Co-op — Overview
 
-**Co-op is a HUNT-backed launchpad and DEX.** Builders launch project tokens backed by HUNT,
+**Co-op is a HUNT-based launchpad and DEX.** Builders launch project tokens backed by HUNT,
 and anyone can buy or sell those tokens against HUNT on their bonding curves. It is the
 product the renewed hunt.town grew out of: for years "Hunt Town" and the Co-op were the same
 thing. Today the Co-op is one product in the studio, and the most direct expression of the

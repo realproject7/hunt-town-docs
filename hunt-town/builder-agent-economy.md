@@ -14,7 +14,7 @@ out-create centralized platforms** when the people doing the work are rewarded d
 
 That bet started with Steemhunt in 2018 — a community that curated products and earned
 crypto for it — and it has run through everything since: reward systems, NFT tooling, a
-HUNT-backed launchpad. Builders are the constant. They launch the tokens, mint the NFTs, ship
+HUNT-based launchpad. Builders are the constant. They launch the tokens, mint the NFTs, ship
 the projects, and form the community that gives HUNT its meaning.
 
 The hard problem for onchain builders has always been the same: **most projects start

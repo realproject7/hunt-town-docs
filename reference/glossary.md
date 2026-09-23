@@ -18,7 +18,7 @@ Mint Club.
 **Child token** — a token issued on a bonding curve with another token (often HUNT) as its
 reserve. Co-op project tokens and MINT (MT) are HUNT-backed child tokens.
 
-**Co-op** — Hunt Town's HUNT-backed launchpad and DEX, where builders launch HUNT-backed tokens
+**Co-op** — Hunt Town's HUNT-based launchpad and DEX, where builders launch HUNT-backed tokens
 and anyone can trade them against HUNT. Moving to coop.hunt.town.
 
 **EIP-3009** — the `transferWithAuthorization` standard used by h402 to sign a stablecoin payment

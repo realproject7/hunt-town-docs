@@ -23,8 +23,8 @@ token each time.
 
 - In the [Co-op](../co-op/overview.md), HUNT **backs project tokens** in bonding-curve
   reserves — see [HUNT as the Reserve Token](reserve-token.md).
-- [Building NFTs](building-nfts.md) also hold HUNT (Mini = 100 HUNT, Main = 1,000 HUNT),
-  connecting participation in the builder community to the same token.
+- [Building NFTs](building-nfts.md) also lock HUNT: 100 per Mini Building and 1,000 per Main
+  Building.
 
 Because HUNT has no emission schedule, the only way these assets come into existence is by
 **locking existing HUNT** — so ecosystem activity tightens supply rather than diluting it.
