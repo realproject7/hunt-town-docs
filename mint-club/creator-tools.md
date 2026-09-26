@@ -1,7 +1,7 @@
 # Creator Tools
 
 Beyond creating and trading, Mint Club gives creators a set of tools to manage and grow their
-token or NFT communities — all no-code.
+token or NFT communities, all no-code.
 
 ## Airdrops
 
@@ -11,24 +11,24 @@ distribution**, including by **Farcaster IDs**, so creators can reward a specifi
 
 ## Lock-ups
 
-Lock a supply of tokens for a scheduled period — useful for vesting, team allocations, or
+Lock a supply of tokens for a scheduled period, which is useful for vesting, team allocations, or
 signaling long-term commitment to a community. Lock-ups put a time constraint on when locked
 supply can move, transparently and on-chain.
 
 ## Free minting
 
-**Creator free minting** lets a creator mint from their own asset under defined conditions —
-for distribution, seeding, or rewards — without the standard mint cost path.
+**Creator free minting** lets a creator mint from their own asset under defined conditions
+(for distribution, seeding, or rewards) without the standard mint cost path.
 
 ## Ownership transfer
 
-A creator can **transfer ownership** of an asset to another address — handing a project to a
+A creator can **transfer ownership** of an asset to another address, handing a project to a
 new operator, a multisig, or a DAO.
 
 ## Royalty claims
 
 Creators **claim the royalties** their asset has accrued from trading activity. See
-[Economics](economics.md) for how creator royalties and platform fees are set and split.
+[Economics](economics.md) for how creator royalties and the protocol fee are set and split.
 
 ## Logo & website
 

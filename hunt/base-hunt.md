@@ -1,16 +1,17 @@
 # Base HUNT (Bridged)
 
 HUNT is native to **Ethereum mainnet** and bridged to **Base**, so the same asset backs
-activity on both networks. This matters because the studio's most active surfaces, Mini
-Buildings, Co-op project tokens, Mint Club, lpTOKEN.fun, and h402 payments, all run on Base,
-where fees are low enough for the high-frequency interactions these products depend on.
+activity on both networks. This matters because the Co-op and Mint Club's HUNT-backed
+tokens run on Base, where fees are low enough for the frequent trades these products depend
+on.
 
 ## Why two networks
 
-- **Ethereum mainnet** holds the canonical HUNT token and the Main Building NFT — the
-  high-value, long-term anchor of the economy.
-- **Base** carries the day-to-day activity: Mini Buildings, project-token minting, liquidity
-  markets, and agent payments, where transactions need to be cheap and fast.
+- **Ethereum mainnet** holds the canonical HUNT token and the
+  [Factory NFT](../factory-nft/overview.md): the long-term anchor of the economy.
+- **Base** carries the day-to-day HUNT activity: minting and trading HUNT-backed tokens,
+  where transactions need to be cheap and fast. Base HUNT also pays the top-up when legacy
+  Mini Buildings [migrate to Factory NFTs](../factory-nft/migrating-buildings.md).
 
 ## Backed 1:1
 
@@ -26,11 +27,12 @@ then read from Base contracts within that balance. See [Supply & Distribution](s
 
 ## Bridging
 
-HUNT moves between Ethereum and Base through Base's canonical **`L2StandardBridge`**, which
-supports two-way transfers using standard Layer 2 bridging.
+HUNT moves between Ethereum and Base through Base's canonical Standard Bridge:
+**`L1StandardBridge`** on Ethereum, which holds the bridged HUNT, and **`L2StandardBridge`** on
+Base. It supports two-way transfers using standard Layer 2 bridging.
 
 The supported route is **[Superbridge](https://superbridge.app/?fromChainKey=eth&fromTokenAddress=0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5&toChainKey=base&toTokenAddress=0x37f0c2915CeCC7e977183B8543Fc0864d03E064C)**,
-an interface to that canonical bridge — the link above is pre-filled for HUNT in the
+an interface to that canonical bridge. The link above is pre-filled for HUNT in the
 Ethereum → Base direction. Background on the expansion to Base is in the
 [announcement](https://news.hunt.town/p/expand-hunt-to-base-chain-bridge).
 

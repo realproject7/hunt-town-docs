@@ -1,9 +1,9 @@
-# Co-op — Overview
+# Co-op: Overview
 
 **Co-op is a HUNT-based launchpad and DEX.** Builders launch project tokens backed by HUNT,
 and anyone can buy or sell those tokens against HUNT on their bonding curves. It is the
 product the renewed hunt.town grew out of: for years "Hunt Town" and the Co-op were the same
-thing. Today the Co-op is one product in the studio, and the most direct expression of the
+thing. Today the Co-op is one product of the factory, and the most direct expression of the
 [reserve-token](../hunt/reserve-token.md) thesis.
 
 ## The idea
@@ -36,5 +36,4 @@ other token built on it.
 - [Launch a Project Token](launch-a-project-token.md): how builders launch.
 - [HUNT-backed Project Tokens](hunt-backed-project-tokens.md): the token model.
 
-> Co-op is moving to its own domain, **coop.hunt.town**, as the renewed hunt.town becomes
-> the studio landing page.
+> Co-op lives at **[coop.hunt.town](https://coop.hunt.town)**.

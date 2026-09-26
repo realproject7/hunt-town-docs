@@ -17,17 +17,17 @@ burnable.
 
 When creating an asset, a creator sets:
 
-- **Name / ticker / metadata** — including logo and website (see
+- **Name / ticker / metadata**, including logo and website (see
   [Creator Tools](creator-tools.md)).
-- **Reserve token** — the asset that backs the curve. In the Hunt Town economy this is
+- **Reserve token:** the asset that backs the curve. In the Hunt Town economy this is
   often **HUNT**, making the asset HUNT-backed; Mint Club supports other reserve tokens too.
-- **Curve type and intervals** — linear, exponential, or flat, with tunable price steps
+- **Curve type and intervals:** linear, exponential, or flat, with tunable price steps
   (see [Bonding Curves](bonding-curves.md)).
-- **Supply parameters** — including maximum supply where applicable (e.g. NFT collections
+- **Supply parameters**, including maximum supply where applicable (e.g. NFT collections
   with a capped edition count).
 
-Once deployed, the asset is live and tradable on its curve immediately — no liquidity pool
-to seed, no listing step.
+Once deployed, the asset is live and tradable on its curve immediately, with no liquidity pool
+to seed and no listing step.
 
 ## No-code, but composable
 

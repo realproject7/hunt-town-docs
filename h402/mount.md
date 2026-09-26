@@ -13,7 +13,7 @@ claude "Read https://raw.githubusercontent.com/Steemhunt/h402-cli/main/SKILL.md
         and use it to <your task>"
 ```
 
-The skill file teaches the agent the whole workflow — how to search the catalog, inspect a
+The skill file teaches the agent the whole workflow: how to search the catalog, inspect a
 capability, pick a provider, and pay for a call. From then on the agent can reach every
 capability in the catalog without further setup.
 
@@ -60,7 +60,3 @@ handshake, signs locally, and returns the result. See [Call & Pay](call-and-pay.
 - **Spend is legible in dollars.** Prices are quoted in USDC before the agent commits, and
   `--max-usd` caps what a single call may spend.
 - **Safe retries.** Idempotency keys mean a retried call is not charged twice.
-
-> A proposed extension would let **Building NFT** holders delegate a recurring stablecoin
-> h402 credit to an agent's wallet, so the agent spends that allowance before its own USDC.
-> See [Building NFTs → h402 credits](../hunt/building-nfts.md) (under review).

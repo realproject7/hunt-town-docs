@@ -3,3 +3,16 @@ root: ./
 structure:
   readme: README.md
   summary: SUMMARY.md
+
+# Old URL path (no leading slash) -> file path relative to root.
+# GitBook applies these only when the old path no longer resolves.
+redirects:
+  hunt-town/studio-model: hunt-town/factory-model.md
+  hunt/building-nfts: factory-nft/migrating-buildings.md
+  token/building-nfts: factory-nft/migrating-buildings.md
+  token/hunt: hunt/hunt-erc20.md
+  token/hunt-backed-project-tokens: co-op/hunt-backed-project-tokens.md
+  how/launch-a-project-token: co-op/launch-a-project-token.md
+  how/hunt-as-the-reserve-token: hunt/reserve-token.md
+  ecosystem/mint-club: mint-club/overview.md
+  ecosystem/basehunt: hunt/base-hunt.md

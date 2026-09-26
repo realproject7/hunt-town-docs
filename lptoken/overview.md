@@ -1,6 +1,6 @@
-# lpTOKEN.fun — Overview
+# lpTOKEN.fun: Overview
 
-**One market. Two ways to take part — the token and its liquidity.**
+**One market. Two ways to take part: the token and its liquidity.**
 
 The token has an LP. Now the LP has a token. On lpTOKEN.fun you can trade the coin, or hold
 its fee-earning liquidity as a transferable token of its own.
@@ -8,8 +8,8 @@ its fee-earning liquidity as a transferable token of its own.
 ## The idea
 
 In a normal AMM market there are two very different positions, and only one of them is easy
-to hold. You can buy the token — simple, liquid, one balance in your wallet. Or you can
-provide liquidity — which earns swap fees, but means managing an NFT position, a price
+to hold. You can buy the token: simple, liquid, one balance in your wallet. Or you can
+provide liquidity, which earns swap fees but means managing an NFT position, a price
 range, and a rebalancing problem.
 
 lpTOKEN.fun makes the second position as easy to hold as the first. A **Uniswap v4
@@ -20,7 +20,7 @@ can mint, hold, transfer, and redeem like any other.
 
 - **Two exposures to one market.** The token tracks price. The **lpTOKEN** share tracks the
   liquidity: it holds both sides of the pair and accrues swap fees.
-- **Fees stay in the vault.** Swap fees earned by the position are not skimmed — they remain
+- **Fees stay in the vault.** Swap fees earned by the position are not skimmed. They remain
   in the vault and back every share. Anyone can permissionlessly compound idle balances
   into more liquidity.
 - **A market from day one.** Builders can launch a token and its LP together, with the
@@ -31,7 +31,7 @@ can mint, hold, transfer, and redeem like any other.
 | Path | What it is |
 | --- | --- |
 | **Dual launch** | Launch a new token and its LP vault together on the platform. Initial shares are permanently burned, and a one-sided launch position creates a floor that grows with volume. See [Dual Launch](dual-launch.md). |
-| **Curated LP vault** | Wrap an existing Uniswap v4 pool in a vault so its liquidity becomes an lpTOKEN. No launch position, no floor — pure mint / redeem / compound. |
+| **Curated LP vault** | Wrap an existing Uniswap v4 pool in a vault so its liquidity becomes an lpTOKEN. No launch position, no floor: pure mint / redeem / compound. |
 
 ## Where it runs
 
@@ -40,10 +40,10 @@ tokens launch against each chain's native currency: ETH on Robinhood Chain, Base
 Ethereum, and USDC on Arc. Contract addresses are listed in
 [Contracts & Addresses](../reference/contracts.md).
 
-## Why the studio built it
+## Why we built it
 
 A token economy needs more than a price chart. Giving a market a liquidity token means the
-depth behind it is something anyone can hold, price, and use — and it gives builders a real
+depth behind it is something anyone can hold, price, and use. It also gives builders a real
 market on day one rather than a launch followed by a liquidity problem.
 
 lpTOKEN.fun won **Best Uniswap Stack Contribution** at **ETHOnline 2026**.

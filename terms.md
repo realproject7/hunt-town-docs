@@ -1,6 +1,6 @@
 # Terms
 
-_Last Updated: June 30, 2026_
+_Last Updated: September 23, 2026_
 
 These Terms constitute an agreement between you (“you,” “user”) and Hunt Town, operated by BourbonShake Inc. (“Core Team,” “we,” “us,” or “our”), governing your access to and use of the Hunt Town website, documentation, and decentralized applications that provide access to onchain services on Ethereum, the Base Network, and other supported chains (collectively, the “Site”).
 
@@ -10,7 +10,7 @@ By accessing or using the Site, you acknowledge that you have read, understood, 
 
 ### 1. Overview
 
-Hunt Town is a product studio for the onchain Builder & Agent Economy. It builds and operates a family of onchain products — including HUNT (the reserve token), Building NFTs, the Co-op, Mint Club, lpTOKEN.fun, and h402 — that connect builders, holders, and AI agents.
+Hunt Town is an onchain product factory for the Builder & Agent Economy. It builds and operates a family of onchain products, including HUNT (the reserve token), the Factory NFT, the Co-op, Mint Club, lpTOKEN.fun, and h402, that connect builders, holders, and AI agents.
 
 The Site provides access to decentralized smart contracts and community tools but does not custody user assets or directly execute onchain transactions on your behalf.
 
@@ -20,9 +20,10 @@ The Site provides access to decentralized smart contracts and community tools bu
 
 * All project tokens launched within Hunt Town are independent, user-created projects.
 * These tokens are not operated, controlled, or endorsed by the Hunt Town Core Team.
-* The Core Team holds no legal, financial, or managerial responsibility for any project, token, or outcome that occurs within the Hunt Town ecosystem.
+* The Core Team holds no legal, financial, or managerial responsibility for any user-created project or token, or for any outcome of those projects.
 * Users are solely responsible for any actions, decisions, or losses incurred through interaction with project tokens.
 * Always do your own research (DYOR) before buying or minting any token.
+* This section covers user-created projects. The Factory NFT, which the Core Team operates, is covered in Section 6.
 
 ***
 
@@ -48,18 +49,25 @@ Users must use third-party wallets and maintain sufficient network tokens (e.g.,
 
 ### 5. Use of HUNT Token
 
-* HUNT is the core token used as the reserve asset for Building NFTs and project tokens launched within the Co-op.
-* Minting or burning any asset may lock or release HUNT within bonding curve contracts.
+* HUNT is the core token. It backs the Factory NFT and serves as the reserve asset for project tokens launched within the Co-op.
+* Minting a Factory NFT deposits HUNT into the Factory NFT contract, and burning one releases 95% of its NAV in HUNT. Minting or burning a project token locks or releases HUNT within its bonding curve contract.
 * HUNT’s value and market price are volatile, and you may lose part or all of your locked assets.
 * The Core Team provides no guarantees regarding HUNT’s price, stability, or liquidity.
 
 ***
 
-### 6. Building NFTs
+### 6. Factory NFTs
 
-* Building NFTs are NFTs minted by locking HUNT.
-* Minting a Building NFT locks HUNT in its bonding curve pool (or Townhall contract for Main Buildings).
-* Once minted, NFTs and their associated HUNT reserves are governed solely by smart contract logic.
+* The Factory NFT is an ERC-1155 token on Ethereum. Each Factory NFT is backed by an equal share of the HUNT held by the Factory NFT contract.
+* Minting costs the current NAV per NFT in HUNT. Other supported tokens may be swapped to HUNT as part of the mint.
+* Burning a Factory NFT redeems 95% of its NAV in HUNT. The remaining 5% is a burn fee that stays in the contract. The last Factory NFT cannot be burned.
+* Redemption is denominated in HUNT. Because of the burn fee, a burn can give back less HUNT than was paid to mint. The dollar value of any redemption follows the HUNT price and can fall.
+* Sales on NFT marketplaces carry a 3% royalty, which is used to buy HUNT for the contract.
+* HUNT may be added to the contract from revenue of Hunt Town’s products, marketplace royalties, burn fees, and other income. These inflows are not guaranteed and have no fixed schedule or amount.
+* The contract owner can change the metadata, the royalty operator, and the transfer validator. The owner cannot withdraw the HUNT held by the contract, mint Factory NFTs without HUNT backing, or upgrade the contract.
+* Migrating Building NFTs into Factory NFTs is one way and cannot be reversed. Only whole Factory NFTs are issued, and top-ups are not refunded.
+* Factory NFTs are not an investment. They give no right to any payment from the Core Team. The only redemption is the burn described above.
+* Once minted, Factory NFTs and the HUNT behind them are governed solely by smart contract logic.
 
 ***
 
@@ -73,9 +81,9 @@ Users must use third-party wallets and maintain sufficient network tokens (e.g.,
 
 ### 8. Mint Club Protocol Integration
 
-Hunt Town operates on top of the Mint Club Protocol, a decentralized no-code bonding curve framework.
+Hunt Town’s Mint Club-based products, such as the Co-op, operate on top of the Mint Club Protocol, a decentralized no-code bonding curve framework.
 
-While Hunt Town provides the interface for interaction, all minting, burning, and pricing logic is executed by Mint Club smart contracts.
+For those products, Hunt Town provides the interface for interaction, and all minting, burning, and pricing logic is executed by Mint Club smart contracts. The Factory NFT and lpTOKEN.fun run on their own smart contracts, which are not part of the Mint Club Protocol.
 
 The Core Team has no administrative control over Mint Club’s deployed contracts.
 
@@ -115,6 +123,9 @@ Using blockchain-based services involves risks including but not limited to:
 * Market volatility and token devaluation.
 * Wallet loss or compromise.
 * Network congestion, gas fee spikes, or failed transactions.
+* Factory NFT values are counted in HUNT. Their dollar value follows the HUNT price and can fall.
+* Burning a Factory NFT carries a 5% burn fee, so you may receive less HUNT than you paid.
+* Migrating Building NFTs into Factory NFTs is one way and cannot be undone.
 
 You acknowledge that the Hunt Town Core Team is not liable for losses resulting from these risks.
 

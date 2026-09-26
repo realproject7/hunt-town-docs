@@ -22,7 +22,7 @@ A project token is a **HUNT-backed child token** on a bonding curve (powered by 
    from the reserve.
 
 Because each project runs on its own curve and its own reserve, builders run **completely
-independent projects** while still being connected through the shared HUNT reserve — the
+independent projects** while still being connected through the shared HUNT reserve. That is the
 core of the [Co-op model](overview.md).
 
 ## Shared upside

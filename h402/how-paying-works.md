@@ -13,8 +13,8 @@ caller ──▶ retry + signature      (EIP-3009 authorization, same idempotenc
 caller ◀── result                 (settlement confirmed)
 ```
 
-1. **Call.** A normal request to the provider's pinned path. Free capabilities — and calls
-   covered by credit — return immediately, with no payment step.
+1. **Call.** A normal request to the provider's pinned path. Free capabilities, and calls
+   covered by credit, return immediately, with no payment step.
 2. **Challenge.** If payment is required, the server returns `402` with the exact amount,
    the payee, and a short validity window.
 3. **Sign.** The caller signs an **EIP-3009 `TransferWithAuthorization`** over **Base USDC**
@@ -48,15 +48,13 @@ and cap it with `--max-usd`.
 
 Callers can hold **bonus credits** that are drawn down before any USDC is charged.
 
-- `h402 auth` establishes a session by signing a challenge with your wallet — no password,
+- `h402 auth` establishes a session by signing a challenge with your wallet. No password,
   no account.
 - `h402 credits` shows the balance.
 - Credits are consumed **earliest-expiring first**, and a call falls through to USDC once
   they are exhausted. `--no-credit` skips them entirely.
 
-Today credits are issued as onboarding grants. The same mechanism is what a recurring
-program — such as the proposed
-[Building NFT credits](../hunt/building-nfts.md) — would run on.
+Today credits are issued as onboarding grants.
 
 ## Properties that matter for agents
 

@@ -12,21 +12,21 @@ who decides which one serves a call.
 GET|POST /routes/{provider}/{category}/{action}
 ```
 
-The caller — a human, an agent, or the CLI on the agent's behalf — chooses the provider
+The caller (a human, an agent, or the CLI on the agent's behalf) chooses the provider
 before the call. There is no request-time routing and no automatic failover to a different
 provider mid-call.
 
 > **The automatic router is retired.** An earlier version of h402 accepted
 > `/routes/auto/...` and picked a provider server-side. That path now returns **`410 Gone`**
-> with recovery metadata — the current providers, their statuses, and each one's pinned
-> path — and never quotes or charges. If you are working from older material that describes
+> with recovery metadata (the current providers, their statuses, and each one's pinned
+> path) and never quotes or charges. If you are working from older material that describes
 > automatic routing, it no longer applies.
 
 ### The recommended default
 
 The catalog publishes a `defaultProvider` for each capability. It is a **display
 recommendation**, computed from live health and quality-adjusted price over a minimum
-sample threshold — not a router. A client may pin it as a convenience (the CLI does exactly
+sample threshold. It is not a router. A client may pin it as a convenience (the CLI does exactly
 this when `--provider` is omitted: it reads the recommendation, then pins it), but the
 choice is still made by the client, before the call, and is reported back in the response so
 the decision is auditable.
@@ -36,7 +36,7 @@ the decision is auditable.
 There is no verification score. A provider is either **enabled** or it is not, and *enabled
 is the verification signal*:
 
-- A provider becomes enabled only after a **real, paid probe** against its live endpoint —
+- A provider becomes enabled only after a **real, paid probe** against its live endpoint,
   never from documentation, a mock, or an assumed response shape.
 - The **exact response body** from that paid call is stored as the provider's **sample**.
   This is what the catalog shows you as a "real sample".
@@ -60,7 +60,7 @@ is a ranking signal among providers that already passed it.
 For a given capability you can compare, side by side:
 
 - **price** per call,
-- the **stored real sample** — the actual shape and quality of what you will get back,
+- the **stored real sample**, showing the actual shape and quality of what you will get back,
 - the provider's **native input schema**, and
 - whether it is currently enabled.
 

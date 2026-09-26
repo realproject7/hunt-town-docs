@@ -50,7 +50,7 @@ For each provider of a capability the catalog exposes:
 - the **price** per call (provider price plus h402's fee), in Base USDC,
 - the provider's **native input schema** and an example input,
 - a **stored real-response sample** from an actual paid call, and
-- its **status** — only paid-tested providers are listed as enabled.
+- its **status**: only paid-tested providers are listed as enabled.
 
 That is enough to choose a provider and predict both the cost and the response shape before
 committing. See [Providers & Verification](providers.md).

@@ -6,7 +6,7 @@ redeeming, and compounding work.
 
 ## One vault, one pool, one position
 
-Each vault is a minimal clone pinned to **exactly one pool** — its currency pair, fee tier,
+Each vault is a minimal clone pinned to **exactly one pool**. Its currency pair, fee tier,
 tick spacing, and hook are fixed in the clone's immutable arguments at deployment and can
 never be changed afterwards.
 
@@ -15,7 +15,7 @@ vault is bootstrapped and never re-derived. That matters: if the range were reco
 call, a later deposit could quietly move a position that holders were told was permanent.
 
 The vault contract **is** the ERC-20 contract **and** the position owner. An lpTOKEN share
-is not a wrapper or a receipt pointing somewhere else — it is a direct pro-rata claim on the
+is not a wrapper or a receipt pointing somewhere else. It is a direct pro-rata claim on the
 vault itself.
 
 ## What a share claims
@@ -36,8 +36,8 @@ liquidity itself, plus every fee that has accrued to it and not yet been redeplo
 ## Mint
 
 `mintPair` deposits **both legs at the vault's current ratio** and issues shares in
-proportion. Because a mint scales every component of the portfolio — position liquidity and
-idle balances alike — by the same ratio, a depositor can never convert pre-existing idle
+proportion. Because a mint scales every component of the portfolio (position liquidity and
+idle balances alike) by the same ratio, a depositor can never convert pre-existing idle
 value at a price of their choosing.
 
 The app also offers a single-asset convenience path that swaps into the correct ratio before
@@ -45,7 +45,7 @@ depositing, for people who hold only one side.
 
 ## Redeem
 
-`redeem` burns shares and pays out **in kind** — a proportional slice of the position's
+`redeem` burns shares and pays out **in kind**: a proportional slice of the position's
 liquidity plus a proportional share of idle balances, in both currencies. There is no lockup
 and no admin approval; redemption is always available.
 
@@ -70,7 +70,7 @@ address. This is the standard defence against the first-depositor share-price ma
 attack: the supply can never be driven to a state where one share represents the entire
 vault.
 
-For platform launches the dead-lock goes much further — see [Dual Launch](dual-launch.md).
+For platform launches the dead-lock goes much further. See [Dual Launch](dual-launch.md).
 
 ## What nobody can do
 

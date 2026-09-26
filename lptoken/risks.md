@@ -11,8 +11,8 @@ product. These are the risks the protocol names for itself.
   does not eliminate it.
 - **Loss-versus-rebalancing (LVR).** Arbitrageurs, not the pool, capture the value of price
   moves between trades. This is a structural cost of passive liquidity provision.
-- **LP competition and dilution.** Other liquidity providers — including concentrated and
-  just-in-time liquidity — can take fee share away from the vault's position.
+- **LP competition and dilution.** Other liquidity providers, including concentrated and
+  just-in-time liquidity, can take fee share away from the vault's position.
 - **Routing away.** Trades can be routed to other venues or pools entirely, in which case
   the vault earns no fees from them.
 

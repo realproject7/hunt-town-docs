@@ -4,15 +4,21 @@
 
 ## Hunt Town
 
-* [The Studio Model](hunt-town/studio-model.md)
+* [The Factory Model](hunt-town/factory-model.md)
 * [The Builder & Agent Economy](hunt-town/builder-agent-economy.md)
+
+## Factory NFT
+
+* [Overview](factory-nft/overview.md)
+* [Mint & Burn](factory-nft/mint-and-burn.md)
+* [The NAV Vault](factory-nft/nav-vault.md)
+* [Migrating Buildings](factory-nft/migrating-buildings.md)
 
 ## HUNT
 
 * [HUNT (ERC20)](hunt/hunt-erc20.md)
 * [Supply & Distribution](hunt/supply.md)
 * [Buyback & Burn](hunt/buyback-and-burn.md)
-* [Building NFTs](hunt/building-nfts.md)
 * [HUNT as the Reserve Token](hunt/reserve-token.md)
 * [Base HUNT (Bridged)](hunt/base-hunt.md)
 

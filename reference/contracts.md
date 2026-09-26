@@ -10,13 +10,14 @@ links in [Links & Resources](links.md) before transacting.
 | Ethereum | `0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5` |
 | Base (bridged) | `0x37f0c2915CeCC7e977183B8543Fc0864d03E064C` |
 
-## Building NFTs
+## Mint Club V2
 
-| Asset | Network | Standard | Address |
-| --- | --- | --- | --- |
-| Main Building NFT | Ethereum | ERC-721 | `0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96` |
-| Mini Building NFT | Base | ERC-1155 (id `0`) | `0x475f8E3eE5457f7B4AAca7E989D35418657AdF2a` |
-| Building NFT (Mainnet) contract | Ethereum | — | `0xb09A1410cF4C49F92482F5cd2CbF19b638907193` |
+| Contract | Network | Address |
+| --- | --- | --- |
+| Mint Club V2 Bond (holds every Base HUNT reserve) | Base | `0xc5a076cad94176c2996B32d8466Be1cE757FAa27` |
+
+The supply method reads this contract's HUNT balance and subtracts the reserve behind the
+legacy Mini Buildings. See [Supply & Distribution](../hunt/supply.md).
 
 ## Payments (h402)
 
@@ -53,3 +54,14 @@ Ethereum because they were deployed deterministically.
 Individual LP vaults are deterministic clones of the vault implementation, one per pool;
 their addresses are listed per market in the app. The live contract table is published at
 [lptoken.fun/contracts](https://lptoken.fun/contracts).
+
+## Legacy: Building NFTs
+
+Building NFTs are legacy assets. Holders can migrate them into Factory NFTs. See
+[Migrating Buildings](../factory-nft/migrating-buildings.md).
+
+| Contract | Network | Standard | Address |
+| --- | --- | --- | --- |
+| Main Building NFT | Ethereum | ERC-721 | `0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96` |
+| Mini Building NFT | Base | ERC-1155 (id `0`) | `0x475f8E3eE5457f7B4AAca7E989D35418657AdF2a` |
+| Town Hall (holds the HUNT behind Main Buildings) | Ethereum | Not a token | `0xb09A1410cF4C49F92482F5cd2CbF19b638907193` |

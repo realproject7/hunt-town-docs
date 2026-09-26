@@ -40,7 +40,7 @@ POST /routes/{provider}/{category}/{action}
 ```
 
 1. **Call** with an `idempotency-key` header and no payment.
-2. If the capability is free — or covered by credit — you get the result immediately.
+2. If the capability is free, or covered by credit, you get the result immediately.
 3. Otherwise the server returns **`402`** with the price challenge.
 4. **Sign** an EIP-3009 authorization for the quoted amount, locally.
 5. **Retry the same request, with the same idempotency key**, attaching the signature. The
@@ -70,7 +70,7 @@ retry ensures a flaky network cannot cause two payments for one task.
 
 One deliberate safety property: if the server responds to a retry with a *replacement*
 payment challenge, the client **refuses it automatically**. Creating a new payment requires
-a fresh, explicit call — an unattended agent cannot be walked into paying twice by a
+a fresh, explicit call, so an unattended agent cannot be walked into paying twice by a
 surprise re-quote.
 
 ## Errors

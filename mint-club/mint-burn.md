@@ -1,7 +1,7 @@
 # Mint & Burn
 
 Trading a Mint Club asset means **minting** (buying) or **burning** (selling) against its
-bonding curve. There is no order book and no liquidity pool — every trade is with the curve
+bonding curve. There is no order book and no liquidity pool. Every trade is with the curve
 itself, at a deterministic price.
 
 ## Minting (buy)
@@ -36,5 +36,6 @@ the curve and reclaim reserve, rather than depending on finding a buyer.
 - **Early-supporter upside.** On rising curves (linear/exponential), earlier minters acquire
   at lower points on the curve.
 
-> Fees apply on mint/burn — see [Economics](economics.md) for creator royalties and platform
-> fees, which are taken as part of the trade.
+> A creator royalty can apply to each mint and burn, and it is taken as part of the trade.
+> The protocol's share comes out of that royalty when the creator claims it. See
+> [Economics](economics.md).

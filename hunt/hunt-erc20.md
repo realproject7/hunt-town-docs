@@ -1,48 +1,47 @@
 # HUNT (ERC20)
 
-**HUNT is the token that connects Hunt Town's product economy.** It is the shared utility
-token for the token economies the studio launches, and the token the studio buys back and
-burns with the revenue its products generate.
+**HUNT is the token that connects Hunt Town's product economy.** It backs the
+[Factory NFT](../factory-nft/overview.md), and it is the reserve asset underneath the token
+economies the factory launches.
 
 Many products. One HUNT.
 
 | | |
 | --- | --- |
-| **Launched** | 2018 |
+| **Launched** | 2018 (the ERC-20 contract dates from February 2019) |
 | **Networks** | Ethereum (canonical) · Base (bridged) |
-| **Issuance** | Fixed — 500,000,000 HUNT, no inflation |
+| **Issuance** | Fixed: 500,000,000 HUNT, no inflation |
 | **Standard** | ERC-20 |
 
-## Two ways HUNT connects the economy
+## The core asset: the Factory NFT
 
-### 1. A foundation for the tokens we launch
+Every Factory NFT holds an equal share of the HUNT in the Factory NFT contract on
+Ethereum. Minting locks HUNT at the current NAV, and burning takes 95% of the NAV back, all
+counted in HUNT. Revenue from Hunt Town's products buys more HUNT for the vault, and
+marketplace royalties and burn fees add to it.
 
-HUNT is the shared utility token underneath the token economies the studio ships, which
-gives individual product economies a common foundation instead of a fresh, disconnected
-token each time.
+There is no fixed schedule for these purchases, and no amount is promised. See
+[Factory NFT](../factory-nft/overview.md) and [The NAV Vault](../factory-nft/nav-vault.md).
 
-- In the [Co-op](../co-op/overview.md), HUNT **backs project tokens** in bonding-curve
-  reserves — see [HUNT as the Reserve Token](reserve-token.md).
-- [Building NFTs](building-nfts.md) also lock HUNT: 100 per Mini Building and 1,000 per Main
-  Building.
+## The reserve for the tokens we launch
 
-Because HUNT has no emission schedule, the only way these assets come into existence is by
-**locking existing HUNT** — so ecosystem activity tightens supply rather than diluting it.
+HUNT is also the reserve asset underneath the token economies the factory ships. That gives
+individual product economies a common foundation instead of a fresh, disconnected token each
+time.
 
-### 2. Product revenue, back into HUNT
+In the [Co-op](../co-op/overview.md), HUNT **backs project tokens** in bonding-curve
+reserves. See [HUNT as the Reserve Token](reserve-token.md).
 
-Revenue from the studio's products funds **HUNT buybacks and burns**. Revenue accumulates,
-and the team may then buy HUNT on the open market and permanently remove it from supply.
-
-These are **occasional, discretionary events** — timing and amounts depend on accumulated
-revenue and the team's decision. There is no fixed schedule and no guaranteed allocation.
-See [Buyback & Burn](buyback-and-burn.md).
+Because HUNT has no emission schedule, the only way project tokens and Factory NFTs come
+into existence is by **locking existing HUNT**. Ecosystem activity tightens supply rather
+than diluting it.
 
 ## Supply
 
-HUNT was issued once, with a fixed initial supply of **500,000,000**. There is no minting
-function and no inflation, so total supply only ever moves in one direction: **down**, as
-tokens are burned.
+HUNT was issued once, with a fixed initial supply of **500,000,000**. The HUNT contract has
+a minter role, but its only minter was removed on February 19, 2024. No address can mint
+HUNT, so the total supply cannot grow. Past burns reduced it, and each one is recorded in
+[Buyback & Burn](buyback-and-burn.md).
 
 The Ethereum token is canonical. Bridged HUNT on Base is a representation of it and is
 **not** added to total supply. For how supply is measured and what "locked" means, see

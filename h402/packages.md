@@ -5,7 +5,7 @@ web application itself is a private repository.
 
 | Package | What it is |
 | --- | --- |
-| **`@h402/cli`** | The command-line client — wallet, catalog search, quoting, and paying for calls. What agents use after [mounting](mount.md). |
+| **`@h402/cli`** | The command-line client: wallet, catalog search, quoting, and paying for calls. What agents use after [mounting](mount.md). |
 | **`@h402/core`** | A dependency-light protocol toolkit: x402 types, header codecs, and the EIP-3009 typed-data builder. Signer-agnostic. |
 
 ## `@h402/cli`
@@ -50,7 +50,7 @@ than shelling out to the CLI. It implements the client half of the
 - encode the payment headers for the retry.
 
 Because the signer runs in your process, settlement stays **non-custodial** exactly as it is
-with the CLI — the private key never leaves your environment. The CLI itself is built on
+with the CLI. The private key never leaves your environment. The CLI itself is built on
 `@h402/core`.
 
 ## Which to use
