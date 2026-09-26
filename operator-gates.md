@@ -56,6 +56,13 @@ These are not missing facts. They are editorial, business, or legal calls.
   file, so it survives the launch, and the site nav still links it. `reference/links.md`
   now links docs.hunt.town instead. Decide: replace the PDF with an export of these docs at
   launch, or drop it.
+- [ ] **Check the redirects right after merge.** In the PR preview (2026-09-26, commit
+  `fbaa0d5`) three `.gitbook.yaml` redirects work (`token/hunt`, `ecosystem/basehunt`,
+  `how/hunt-as-the-reserve-token`: pages GitBook also tracks as moved), and four return 404:
+  `token/building-nfts` (a live URL today), `ecosystem/mint-club`, and the never-published
+  `hunt/building-nfts` and `hunt-town/studio-model`. Previews may not apply `.gitbook.yaml`
+  redirects. If the live site still 404s after merge, add those paths as site redirects in
+  GitBook.
 - [ ] **Old docs URLs without a clear successor.** `.gitbook.yaml` now redirects 9 old paths
   (see the 2026-09-23 Factory note). Five paths in the live sitemap have no clear target and
   will 404 at launch: `/information`, `/to-do-list`, `/how/builders-and-backers`,
