@@ -1,7 +1,6 @@
 # The Builder & Agent Economy
 
-[The Factory Model](factory-model.md) describes *how* Hunt Town works. This page describes
-**who it builds for**: the onchain **Builder & Agent Economy**, the growing population of
+Hunt Town builds for the onchain **Builder & Agent Economy**: the growing population of
 people, and increasingly software agents, that create, transact, and coordinate onchain.
 
 Naming both halves is deliberate. They are two populations with the same underlying needs,
@@ -42,7 +41,7 @@ The four active products map onto the two halves, and the foundation is shared:
 | [h402](../h402/overview.md) | **Agents** | A capability market an agent mounts once, then uses to discover a capability, choose a verified provider, and pay per call in stablecoins. |
 | [lpTOKEN.fun](../lptoken/overview.md) | **Builders** | A market from day one: a token and its fee-earning liquidity, both holdable. |
 | [Co-op](../co-op/overview.md) | **Builders** | A launchpad and DEX where builders launch HUNT-backed tokens and anyone can trade them against HUNT. |
-| [Mint Club](../mint-club/overview.md) | **Builders** | The no-code bonding-curve primitive the rest of the ecosystem is issued on. |
+| [Mint Club](../mint-club/overview.md) | **Builders** | The no-code bonding-curve protocol that Co-op and other HUNT-backed tokens are issued on. |
 
 ## Why onchain
 

@@ -68,8 +68,20 @@ exactly one provider.
 **Reserve token**: the asset held in a bonding curve to back an issued token/NFT. In Hunt
 Town this is frequently HUNT.
 
+**Seed NFT**: the one Factory NFT minted when the contract was deployed, backed by 1,000
+HUNT. The team holds it, and it has no special rights. See
+[The NAV Vault](../factory-nft/nav-vault.md).
+
+**Top-up**: the HUNT a holder adds when migrating Buildings, so that their value reaches
+whole Factory NFTs. It is never refunded. See
+[Migrating Buildings](../factory-nft/migrating-buildings.md).
+
 **x402**: the standard that uses HTTP `402 Payment Required` as a real payment handshake;
 h402's foundation.
+
+**Zap router**: the contract that swaps ETH, USDC or USDT for exactly the HUNT a Factory NFT
+mint needs, through Uniswap V4, and mints in the same transaction. See
+[Mint & Burn](../factory-nft/mint-and-burn.md).
 
 ## Legacy
 
@@ -77,3 +89,6 @@ h402's foundation.
 ERC-721) holds 1,000 HUNT in the Town Hall contract until it unlocks; a **Mini Building**
 (Base, ERC-1155) was minted with 100 HUNT through Mint Club. Holders can migrate both into
 Factory NFTs. See [Migrating Buildings](../factory-nft/migrating-buildings.md).
+
+**Town Hall**: the Ethereum contract that holds the 1,000 HUNT behind each Main Building and
+records when each one unlocks. See [Migrating Buildings](../factory-nft/migrating-buildings.md).

@@ -35,8 +35,8 @@ markup, shown transparently before they authorize.
 ## Getting listed today
 
 Listing is currently **reviewed by the h402 team** rather than self-serve. Submissions go
-through the Builders page on the h402 site, and the team runs the paid evaluation before a
-capability appears in the catalog.
+through the [Builders page](https://h402.hunt.town/builders) on the h402 site, and the team
+runs the paid evaluation before a capability appears in the catalog.
 
 Self-serve onboarding with automatic evaluation is planned but **not yet available**. Do
 not assume a builder dashboard exists today.

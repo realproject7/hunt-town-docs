@@ -1,6 +1,6 @@
 # Terms
 
-_Last Updated: September 23, 2026_
+_Last Updated: September 27, 2026_
 
 These Terms constitute an agreement between you (“you,” “user”) and Hunt Town, operated by BourbonShake Inc. (“Core Team,” “we,” “us,” or “our”), governing your access to and use of the Hunt Town website, documentation, and decentralized applications that provide access to onchain services on Ethereum, the Base Network, and other supported chains (collectively, the “Site”).
 
@@ -62,9 +62,9 @@ Users must use third-party wallets and maintain sufficient network tokens (e.g.,
 * Minting costs the current NAV per NFT in HUNT. Other supported tokens may be swapped to HUNT as part of the mint.
 * Burning a Factory NFT redeems 95% of its NAV in HUNT. The remaining 5% is a burn fee that stays in the contract. The last Factory NFT cannot be burned.
 * Redemption is denominated in HUNT. Because of the burn fee, a burn can give back less HUNT than was paid to mint. The dollar value of any redemption follows the HUNT price and can fall.
-* Sales on NFT marketplaces carry a 3% royalty, which is used to buy HUNT for the contract.
+* The contract sets a 3% royalty (ERC-2981). Marketplaces that honor it pay it, and it is used to buy HUNT for the contract.
 * HUNT may be added to the contract from revenue of Hunt Town’s products, marketplace royalties, burn fees, and other income. These inflows are not guaranteed and have no fixed schedule or amount.
-* The contract owner can change the metadata, the royalty operator, and the transfer validator. The owner cannot withdraw the HUNT held by the contract, mint Factory NFTs without HUNT backing, or upgrade the contract.
+* The contract owner can change the metadata and the royalty operator. The owner cannot withdraw the HUNT held by the contract, mint Factory NFTs without HUNT backing, or upgrade the contract.
 * Migrating Building NFTs into Factory NFTs is one way and cannot be reversed. Only whole Factory NFTs are issued, and top-ups are not refunded.
 * Factory NFTs are not an investment. They give no right to any payment from the Core Team. The only redemption is the burn described above.
 * Once minted, Factory NFTs and the HUNT behind them are governed solely by smart contract logic.

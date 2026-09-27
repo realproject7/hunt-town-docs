@@ -46,9 +46,6 @@ POST /routes/{provider}/{category}/{action}
 5. **Retry the same request, with the same idempotency key**, attaching the signature. The
    call settles and returns.
 
-The retired automatic path, `/routes/auto/*`, now returns `410 Gone` and lists the pinned
-providers to use instead. It never quotes or charges.
-
 ## The response
 
 Results come back in a consistent envelope, with the provider's native result inside it:

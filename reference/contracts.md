@@ -15,9 +15,10 @@ links in [Links & Resources](links.md) before transacting.
 | Contract | Network | Address |
 | --- | --- | --- |
 | Mint Club V2 Bond (holds every Base HUNT reserve) | Base | `0xc5a076cad94176c2996B32d8466Be1cE757FAa27` |
+| MT (Mint Token, ERC-20) | Base | `0xFf45161474C39cB00699070Dd49582e417b57a7E` |
 
-The supply method reads this contract's HUNT balance and subtracts the reserve behind the
-legacy Mini Buildings. See [Supply & Distribution](../hunt/supply.md).
+The supply method reads the Bond's HUNT balance and subtracts the reserve behind the legacy
+Mini Buildings. See [Supply & Distribution](../hunt/supply.md).
 
 ## Payments (h402)
 

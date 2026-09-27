@@ -47,6 +47,3 @@ depth behind it is something anyone can hold, price, and use. It also gives buil
 market on day one rather than a launch followed by a liquidity problem.
 
 lpTOKEN.fun won **Best Uniswap Stack Contribution** at **ETHOnline 2026**.
-
-Read on: [LP Vaults & Shares](lp-vaults.md) · [Dual Launch](dual-launch.md) ·
-[Fees & Economics](fees.md) · [Risks](risks.md).

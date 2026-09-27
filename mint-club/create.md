@@ -26,8 +26,7 @@ When creating an asset, a creator sets:
 - **Supply parameters**, including maximum supply where applicable (e.g. NFT collections
   with a capped edition count).
 
-Once deployed, the asset is live and tradable on its curve immediately, with no liquidity pool
-to seed and no listing step.
+Once deployed, the asset is live on its curve right away, with no listing step.
 
 ## No-code, but composable
 

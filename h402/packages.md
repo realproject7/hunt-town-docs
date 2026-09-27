@@ -35,8 +35,9 @@ The CLI targets the production backend, `https://h402.hunt.town`, by default.
 `H402_API_URL` or `--api-url` points it somewhere else, such as a local development server.
 
 OWS signing relies on native bindings for macOS and glibc-based Linux, on x64 or arm64.
-Elsewhere the CLI can still search, quote, and make free calls, but it cannot create wallets
-or sign payments. `h402 wallet list` is a read-only check to run first.
+Elsewhere, such as on Windows or Alpine Linux, the CLI can still search, quote, and make
+free calls, but it cannot create wallets or sign payments. `h402 wallet list` is a read-only
+check to run before creating or funding a wallet.
 
 ## `@h402/core`
 

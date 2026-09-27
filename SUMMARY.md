@@ -44,7 +44,6 @@
 ## Co-op
 
 * [Overview](co-op/overview.md)
-* [Launchpad & DEX](co-op/launchpad-and-dex.md)
 * [Launch a Project Token](co-op/launch-a-project-token.md)
 * [HUNT-backed Project Tokens](co-op/hunt-backed-project-tokens.md)
 

@@ -1,12 +1,8 @@
 # HUNT as the Reserve Token
 
-HUNT is more than the ecosystem's unit of account. It is its **reserve**. This page explains
-what "reserve token" means mechanically and why it makes the factory's products reinforce
-each other instead of competing for the same liquidity.
-
-> This is the **structural** half of HUNT's role: HUNT sitting underneath the tokens the
-> factory launches. The **economic** half, product revenue buying HUNT to back the Factory
-> NFT, is covered in [Factory NFT](../factory-nft/overview.md).
+HUNT is the **reserve** behind Co-op project tokens and other HUNT-backed tokens on Mint
+Club. This page explains what that means mechanically, and why it links those tokens instead
+of making them compete for the same liquidity.
 
 ## The mechanism
 

@@ -46,10 +46,9 @@ Following the skill file, the agent bootstraps itself:
 From there, paying for a capability is a normal tool call: the CLI handles the `402`
 handshake, signs locally, and returns the result. See [Call & Pay](call-and-pay.md).
 
-> **Platform note.** Wallet creation and signing use OWS native bindings, available on macOS
-> and glibc-based Linux (x64 or arm64). On other systems, such as Windows or Alpine Linux,
-> the CLI can still search, quote, and make free calls. `h402 wallet list` is a safe,
-> read-only check to run before creating or funding a wallet.
+> **Platform note.** Creating a wallet and signing need macOS or glibc-based Linux. Elsewhere
+> the CLI can still search, quote, and make free calls. See
+> [SDK & CLI Packages](packages.md).
 
 ## Why this suits agents
 

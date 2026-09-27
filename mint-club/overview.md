@@ -21,15 +21,10 @@ MCDegen, Hamcaster, PumpSea, Hyped.club, MintDrop) were issued on Mint Club's cu
 
 ## Why bonding curves
 
-A bonding curve replaces the usual "launch a token, then go find liquidity" problem with a
-deterministic, reserve-backed market:
-
-- **Instant liquidity.** The curve itself is the market; there is always a price to mint or
-  burn at, with no DEX pool to seed.
-- **Reserve-backed.** Every token/NFT is backed by a reserve asset held in the curve, so
-  there is real value behind the supply.
-- **No-code.** Creators choose a curve and a reserve and deploy. The protocol handles the
-  rest.
+A bonding curve replaces the usual "launch a token, then go find liquidity" problem: the
+curve itself is the market, with a price to mint or burn at from the start and a reserve held
+behind the supply. Creators choose a curve and a reserve and deploy, with no code. See
+[Bonding Curves](bonding-curves.md).
 
 ## How it relates to HUNT
 

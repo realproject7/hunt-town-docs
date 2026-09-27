@@ -62,9 +62,8 @@ the [Factory NFT](../factory-nft/overview.md) instead of burning it. That HUNT g
 Factory NFT contract, where it raises the NAV per NFT for every holder. See
 [The NAV Vault](../factory-nft/nav-vault.md).
 
-The difference matters. Burned HUNT is gone for good. HUNT in the Factory NFT still exists.
-It backs the NFTs, a holder who burns a Factory NFT redeems 95% of that NFT's share, and it
-counts as locked in [Supply & Distribution](supply.md).
+The difference matters. Burned HUNT is gone for good. HUNT in the Factory NFT still exists:
+it backs the NFTs and counts as locked in [Supply & Distribution](supply.md).
 
 There is no schedule for these purchases and no fixed amount. Nothing here is a commitment
 to buy, a yield, or a return. See [Terms](../terms.md).

@@ -21,7 +21,8 @@
   [how it works](https://lptoken.fun/methodology) ·
   [contracts](https://lptoken.fun/contracts)
 - **Co-op:** [coop.hunt.town](https://coop.hunt.town)
-- **Mint Club:** [mint.club](https://mint.club) · docs: [docs.mint.club](https://docs.mint.club)
+- **Mint Club:** [mint.club](https://mint.club) · docs: [docs.mint.club](https://docs.mint.club) ·
+  SDK: [sdk.mint.club](https://sdk.mint.club)
 
 ## Where HUNT trades
 

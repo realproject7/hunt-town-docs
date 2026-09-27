@@ -40,6 +40,3 @@ part of the mint or burn transaction:
 
 - **Mint:** the minter pays the reserve deposit plus the mint royalty.
 - **Burn:** the burn royalty is taken from the reserve paid out on sale.
-
-The split is fixed by the protocol: 80% of each royalty goes to the creator and 20% to the
-protocol. The royalty rates themselves are part of each asset's configuration.

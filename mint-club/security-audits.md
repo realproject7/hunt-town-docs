@@ -22,12 +22,14 @@ community-visible review of the protocol's core contracts.
 
 ## Why reserve-backing is a security property
 
-The bonding-curve model is not only an economic design; it is also a safety property. Because
-each asset's value is held as **reserve in its curve** and is **redeemable by burning**,
-holders are not dependent on a discretionary treasury or an off-chain promise. The backing is
-on-chain and rule-bound by the curve contract.
+Each asset's reserve is held in its curve and is redeemable by burning, so holders do not
+depend on a discretionary treasury or an offchain promise. See
+[Bonding Curves](bonding-curves.md).
 
 ## The Mint Club V2 contracts
 
-The V2 contracts are the deployed, audited implementation of the create / mint / burn / curve
-logic described throughout this section, and the same contracts the [SDK](sdk.md) drives.
+The V2 contracts are the deployed, audited implementation of the create, mint, burn and curve
+logic described in this section, and the same contracts the [SDK](sdk.md) drives. Source:
+[Steemhunt/mint.club-v2-contract](https://github.com/Steemhunt/mint.club-v2-contract). The
+Bond contract on Base, which holds every Base HUNT reserve, is listed in
+[Contracts & Addresses](../reference/contracts.md#mint-club-v2).

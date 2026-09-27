@@ -85,3 +85,13 @@ HUNT back ÷ HUNT locked = 0.95 × multiplier at burn ÷ multiplier at mint
 
 No deposit is scheduled, so the multiplier may not rise at all. No return is promised. See
 [Terms](../terms.md).
+
+## On hunt.town
+
+Mint and burn at [hunt.town/factory](https://hunt.town/factory) with a browser wallet on
+Ethereum.
+
+1. **Connect** your wallet, and switch to Ethereum if it asks.
+2. **Mint:** set the number of NFTs and choose what to pay with. HUNT, USDC and USDT need an
+   approval first. ETH does not. Then confirm the mint in your wallet.
+3. **Burn:** open the Burn tab, set the number of NFTs, and confirm the burn in your wallet.

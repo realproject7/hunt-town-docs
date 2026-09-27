@@ -1,9 +1,7 @@
 # The Factory Model
 
 Hunt Town is an **Onchain Product Factory**. We design, build, ship, and operate many products
-over time rather than maintaining a single app forever. This page is about **how the factory
-works**. The companion page, [The Builder & Agent Economy](builder-agent-economy.md), is
-about **who it builds for**.
+over time rather than maintaining a single app forever.
 
 What makes a factory coherent is that its products are not isolated. Ours share an economy,
 a set of primitives, and a community, and they feed one another. They also back one shared
@@ -40,25 +38,22 @@ There is no deposit schedule and no set amount, and everything is counted in HUN
 
 ## The shared foundation
 
-Active products are not built from scratch each time. They sit on a common foundation:
+Active products are not built from scratch each time. They draw on a shared foundation:
 
-- **[HUNT](../hunt/hunt-erc20.md)**: the token underneath the economies we launch, and the
-  token that product revenue buys for the Factory NFT.
-- **[The Factory NFT](../factory-nft/overview.md)**: an NFT on Ethereum backed by HUNT. It
-  mints at NAV (1,000 HUNT × the multiplier) and burns for 95% of NAV in HUNT.
-- **[Mint Club](../mint-club/overview.md)**: the bonding-curve protocol that issues much of
-  the ecosystem's token and NFT supply.
+- **[The Factory NFT](../factory-nft/overview.md)**: the one asset every product's revenue
+  backs.
+- **[HUNT](../hunt/hunt-erc20.md)**: the token that revenue buys for the Factory NFT, and the
+  reserve behind Co-op project tokens.
+- **[Mint Club](../mint-club/overview.md)**: the bonding-curve protocol that Co-op and other
+  HUNT-backed tokens are issued on.
 
-A new product plugs into this foundation instead of reinventing it. That is why the factory
-can ship quickly, and why every product reinforces HUNT rather than pulling attention away
-from it.
+A new product uses the parts that fit instead of reinventing them. That is why the factory
+can ship quickly, and why every product's revenue reinforces HUNT.
 
 ## Active products and the archive
 
-At any time the factory runs a small set of **active products**: today
-[h402](../h402/overview.md), [lpTOKEN.fun](../lptoken/overview.md),
-[Co-op](../co-op/overview.md), and [Mint Club](../mint-club/overview.md). It also keeps a
-much larger archive of **previous products**: 25 entries spanning 2018 to 2025, documented
+At any time the factory runs a small set of **active products**, four today. It also keeps
+a much larger archive of **previous products**: 25 entries spanning 2018 to 2025, documented
 in full in the [Build Log](../track-record/build-log.md).
 
 We keep the archive public and honest on purpose. The retired products are not failures to

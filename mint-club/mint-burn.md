@@ -23,18 +23,13 @@ To exit, you **burn** the asset:
 - **Reserve is returned to you** at the current curve price.
 - The price moves **down** along the curve for the next trade.
 
-This is the redeemable, refundable property of the model: a holder can always burn back to
-the curve and reclaim reserve, rather than depending on finding a buyer.
+A holder can always burn back to the curve rather than wait for a buyer.
 
-## Benefits for holders
+## For holders
 
-- **Instant liquidity, both ways.** You can always mint or burn at a quotable price.
-- **Reserve-backed value.** There is real reserve held behind the supply, redeemable through
-  the curve.
-- **Transparent pricing.** Price is a deterministic function of supply, not a thin or
-  manipulable order book.
-- **Early-supporter upside.** On rising curves (linear/exponential), earlier minters acquire
-  at lower points on the curve.
+Minting and burning are always open at a quotable price, backed by the reserve held in the
+curve. See [Bonding Curves](bonding-curves.md). On rising curves (linear or exponential),
+earlier minters buy at lower points on the curve.
 
 > A creator royalty can apply to each mint and burn, and it is taken as part of the trade.
 > The protocol's share comes out of that royalty when the creator claims it. See

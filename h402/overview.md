@@ -30,7 +30,7 @@ h402 collapses that into **one integration and one payment rail**.
 
 ## The vocabulary
 
-These three nouns are used precisely throughout this section.
+These terms are used precisely throughout this section.
 
 | Term | What it is |
 | --- | --- |
@@ -39,13 +39,8 @@ These three nouns are used precisely throughout this section.
 | **Call** | One request against **one pinned provider** of a capability. Every executable call names its provider explicitly. |
 | **Catalog** | The curated index of capabilities and their providers, browsable by humans and queryable by agents. |
 
-Capabilities are organised into categories such as `ai`, `web`, `crypto`, `finance`,
-`maps`, `research`, `security`, `social`, `travel`, and `weather`.
-
-> **Provider selection is explicit.** Earlier versions of h402 offered an automatic router
-> that picked a provider at request time. That has been **retired**. The catalog publishes
-> a recommended default, but the caller decides. See
-> [Providers & Verification](providers.md).
+Capabilities are grouped into categories such as `ai`, `web` and `crypto`. See
+[Discover Capabilities](discover-capabilities.md) for the full list.
 
 ## Two sides of the market
 
@@ -60,10 +55,3 @@ h402 is **live in beta** at [h402.hunt.town](https://h402.hunt.town). The catalo
 and the payment flow described in this section all run there today, and the CLI targets it
 by default. The `@h402/cli` and `@h402/core` packages are published on npm and are still
 pre-1.0, so details can change between releases.
-
-## Where the pieces are documented
-
-[Mount Once](mount.md) · [Discover Capabilities](discover-capabilities.md) ·
-[Providers & Verification](providers.md) · [Call & Pay](call-and-pay.md) ·
-[How Paying Works](how-paying-works.md) · [For Builders](for-builders.md) ·
-[SDK & CLI Packages](packages.md).

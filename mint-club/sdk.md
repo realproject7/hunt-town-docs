@@ -4,6 +4,18 @@ Everything the no-code Mint Club interface does (create assets, mint, burn, run 
 lock-ups) is also available programmatically through the **Mint Club V2 SDK**. The SDK is how
 developers and partner teams build their own products on top of Mint Club's curves.
 
+## Install
+
+The SDK is the TypeScript package
+[`mint.club-v2-sdk`](https://www.npmjs.com/package/mint.club-v2-sdk) on npm:
+
+```
+npm i mint.club-v2-sdk
+```
+
+Docs: [sdk.mint.club](https://sdk.mint.club) · Source:
+[Steemhunt/mint.club-v2-sdk](https://github.com/Steemhunt/mint.club-v2-sdk)
+
 ## What the SDK enables
 
 - **Create** ERC-20 tokens and ERC-1155 NFTs on bonding curves from code.

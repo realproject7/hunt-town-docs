@@ -1,7 +1,13 @@
 # MINT Token
 
-**MINT (ticker MT)** is Mint Club's platform token. Importantly for the Hunt Town economy, it
+**MT (Mint Token)** is Mint Club's platform token. Importantly for the Hunt Town economy, it
 is itself a **HUNT-backed child token**.
+
+| | |
+| --- | --- |
+| **Network** | Base |
+| **Contract** | `0xFf45161474C39cB00699070Dd49582e417b57a7E` |
+| **Reserve** | HUNT on Base, held by the Mint Club V2 Bond |
 
 ## MT and its relationship to HUNT
 

@@ -1,24 +1,12 @@
 # Co-op: Overview
 
-**Co-op is a HUNT-based launchpad and DEX.** Builders launch project tokens backed by HUNT,
-and anyone can buy or sell those tokens against HUNT on their bonding curves. It is the
-product the renewed hunt.town grew out of: for years "Hunt Town" and the Co-op were the same
+**Co-op is a HUNT-based launchpad and DEX at [coop.hunt.town](https://coop.hunt.town).**
+Builders launch project tokens backed by HUNT, and anyone can buy or sell those tokens
+against HUNT on their bonding curves. For years "Hunt Town" and the Co-op were the same
 thing. Today the Co-op is one product of the factory, and the most direct expression of the
 [reserve-token](../hunt/reserve-token.md) thesis.
 
-## The idea
-
-Most launchpads spin up isolated projects that compete for the same liquidity. The Co-op
-does the opposite: it **connects every project through a common reserve asset, HUNT**.
-
-- **Builders launch** project tokens backed by HUNT. Each token has a market from the first
-  block, with no liquidity pool to seed.
-- **Anyone trades** those tokens against HUNT. Buying a token locks HUNT in its reserve, and
-  selling returns HUNT from it.
-- As projects grow, **more HUNT locks** into their bonding-curve reserves, which expands the
-  Co-op's total value locked and tightens HUNT's circulating supply.
-
-## Co-op structure
+## How it works
 
 ```
    Builders ──launch──▶  HUNT-backed project tokens  ◀──buy / sell──  Anyone
@@ -26,14 +14,13 @@ does the opposite: it **connects every project through a common reserve asset, H
                    every reserve is held in HUNT
 ```
 
-Each builder runs a completely independent project, yet every project shares the same
-reserve asset: the success of one strengthens the foundation of HUNT, and by extension every
-other token built on it.
-
-## In this section
-
-- [Launchpad & DEX](launchpad-and-dex.md): how launching and trading work together.
-- [Launch a Project Token](launch-a-project-token.md): how builders launch.
-- [HUNT-backed Project Tokens](hunt-backed-project-tokens.md): the token model.
-
-> Co-op lives at **[coop.hunt.town](https://coop.hunt.town)**.
+- **Launch.** A builder launches a project token on its own bonding curve, with HUNT as the
+  reserve from day one. It trades from the moment it launches, with no liquidity pool to
+  seed and no listing to wait for. See [Launch a Project Token](launch-a-project-token.md).
+- **Trade.** Anyone buys or sells the token against HUNT. Buying mints the token and locks
+  HUNT in its reserve. Selling burns it and returns HUNT from the reserve, so a holder can
+  always sell back to the curve. The price follows the curve as a function of supply, not
+  an externally seeded pool.
+- **One reserve.** Each project runs its own curve and reserve, so builders stay fully
+  independent. Every reserve is HUNT, so each buy on any project locks more of the asset
+  that backs all of them. See [HUNT-backed Project Tokens](hunt-backed-project-tokens.md).

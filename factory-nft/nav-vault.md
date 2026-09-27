@@ -24,14 +24,20 @@ the same share as one minted at launch.
 HUNT comes in from four sources:
 
 - **Revenue from Hunt Town's products.** Product revenue is used to buy HUNT, and that HUNT
-  is sent to the vault.
+  is deposited into the vault.
 - **Royalties from NFT marketplace sales (3%).** The contract sets a 3% royalty (ERC-2981),
   paid to a royalty operator by the marketplaces that honor it. The operator buys HUNT with
   it and deposits that HUNT into the vault.
 - **The burn fee (5%).** When an NFT is burned, 5% of its NAV stays in the vault.
 - **Other income.**
 
-There is no deposit schedule, and the amounts are not fixed. No inflow is promised.
+Revenue and royalty HUNT go in through the contract's `deposit` function, which reverts if
+the number of NFTs has changed since the deposit was prepared. A plain HUNT transfer to the
+contract also raises the NAV, without that check.
+
+There is no deposit schedule, and the amounts are not fixed. No inflow is promised. The NAV
+is counted in HUNT, so its dollar value moves with the HUNT price, in either direction. See
+[Terms](../terms.md).
 
 ## What each action does
 
@@ -47,17 +53,11 @@ Rounding on mints and burns leaves small remainders in the vault.
 
 - The contract cannot be upgraded.
 - The owner cannot withdraw HUNT from the vault or mint NFTs without HUNT behind them.
-- The owner can change only the metadata, the royalty operator, and the transfer validator,
-  and can hand ownership over or give it up. The transfer validator never applies to minting
-  or burning.
+- The owner can change only the metadata and the royalty operator, and can hand ownership
+  over, in two steps, or give it up.
 - The 3% royalty and the 5% burn fee are fixed in the contract.
 - Supply can never drop below one NFT, so there is always an NFT for the vault's HUNT to
   back.
-
-## Counted in HUNT
-
-The NAV is counted in HUNT. Its dollar value follows the HUNT price and moves with it, in
-either direction. See [Terms](../terms.md).
 
 ## Live numbers
 
