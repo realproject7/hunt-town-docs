@@ -1,4 +1,4 @@
-# MINT Token
+# MT (Mint Token)
 
 **MT (Mint Token)** is Mint Club's platform token. Importantly for the Hunt Town economy, it
 is itself a **HUNT-backed child token**.

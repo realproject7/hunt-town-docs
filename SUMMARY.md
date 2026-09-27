@@ -50,7 +50,7 @@
 ## Mint Club
 
 * [Overview](mint-club/overview.md)
-* [MINT Token](mint-club/mint-token.md)
+* [MT (Mint Token)](mint-club/mint-token.md)
 * [Bonding Curves](mint-club/bonding-curves.md)
 * [Create Assets](mint-club/create.md)
 * [Mint & Burn](mint-club/mint-burn.md)

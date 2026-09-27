@@ -16,8 +16,8 @@ Many products. One HUNT.
 ## The core asset: the Factory NFT
 
 Every Factory NFT holds an equal share of the HUNT in the Factory NFT contract on Ethereum.
-Product revenue, marketplace royalties and burn fees add HUNT to it, with no fixed schedule
-or amount. See [The NAV Vault](../factory-nft/nav-vault.md).
+Product revenue and marketplace royalties add HUNT to it, with no fixed schedule or
+amount. See [The NAV Vault](../factory-nft/nav-vault.md).
 
 ## The reserve for HUNT-backed tokens
 

@@ -21,7 +21,7 @@ MCDegen, Hamcaster, PumpSea, Hyped.club, MintDrop) were issued on Mint Club's cu
 
 ## Why bonding curves
 
-A bonding curve replaces the usual "launch a token, then go find liquidity" problem: the
+A bonding curve removes the usual "launch a token, then go find liquidity" problem: the
 curve itself is the market, with a price to mint or burn at from the start and a reserve held
 behind the supply. Creators choose a curve and a reserve and deploy, with no code. See
 [Bonding Curves](bonding-curves.md).
@@ -30,8 +30,8 @@ behind the supply. Creators choose a curve and a reserve and deploy, with no cod
 
 Mint Club supports many reserve tokens, but it is tightly woven into the Hunt Town economy:
 **HUNT-backed** tokens use HUNT as their reserve (the basis of the
-[Co-op](../co-op/overview.md)), and Mint Club's own platform token, **MINT (MT)**, is itself
-a HUNT-backed child token. See [MINT Token](mint-token.md).
+[Co-op](../co-op/overview.md)), and Mint Club's own platform token, **MT (Mint Token)**, is itself
+a HUNT-backed child token. See [MT (Mint Token)](mint-token.md).
 
 > Full Mint Club product documentation, including event and campaign material not relevant to
 > this whitepaper, lives at **docs.mint.club**. This section covers the core protocol.

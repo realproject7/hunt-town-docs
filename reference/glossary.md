@@ -18,7 +18,7 @@ the NAV per NFT for everyone still holding. See [Mint & Burn](../factory-nft/min
 the outcome, not the vendor. ("Route" is the internal term for the same thing.)
 
 **Child token**: a token issued on a bonding curve with another token (often HUNT) as its
-reserve. Co-op project tokens and MINT (MT) are HUNT-backed child tokens.
+reserve. Co-op project tokens and MT (Mint Token) are HUNT-backed child tokens.
 
 **Co-op**: Hunt Town's HUNT-based launchpad and DEX, where builders launch HUNT-backed tokens
 and anyone can trade them against HUNT. Lives at coop.hunt.town.
@@ -49,11 +49,11 @@ into the vault.
 **Mint / Burn**: buying (mint) and selling (burn) an asset against its bonding curve. Factory
 NFTs work differently: they mint at NAV and burn for 95% of NAV, with no curve.
 
-**MINT (MT)**: Mint Club's platform token; itself a HUNT-backed child token. (Migrated from
-the older "MINT" token to "MT" on June 5, 2025.)
+**Mint Club**: the no-code bonding-curve protocol for tokens (ERC-20) and NFTs (ERC-1155).
+Co-op project tokens and MT are issued on it.
 
-**Mint Club**: the no-code bonding-curve protocol for tokens (ERC-20) and NFTs (ERC-1155)
-that powers much of the ecosystem.
+**MT (Mint Token)**: Mint Club's platform token; itself a HUNT-backed child token. It replaced
+the older MINT token on June 5, 2025.
 
 **Multiplier**: the NAV per NFT divided by 1,000 HUNT, shown as ×1.0000. It was ×1.0000 at
 launch. It rises when HUNT is added without minting, and when NFTs are burned.
@@ -79,8 +79,8 @@ whole Factory NFTs. It is never refunded. See
 **x402**: the standard that uses HTTP `402 Payment Required` as a real payment handshake;
 h402's foundation.
 
-**Zap router**: the contract that swaps ETH, USDC or USDT for exactly the HUNT a Factory NFT
-mint needs, through Uniswap V4, and mints in the same transaction. See
+**Zap router**: the contract that swaps another token (ETH, USDC or USDT on hunt.town) for
+exactly the HUNT a Factory NFT mint needs, through Uniswap V4, and mints in the same transaction. See
 [Mint & Burn](../factory-nft/mint-and-burn.md).
 
 ## Legacy

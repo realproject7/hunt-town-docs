@@ -6,7 +6,7 @@ description: An Onchain Product Factory, building since 2018.
 
 **Hunt Town is an Onchain Product Factory.** We have built onchain products since 2018, and
 each one hands what it learned to the next. Their revenue backs one asset, the Factory NFT,
-and everything is counted in HUNT.
+counted in HUNT.
 
 ## How Hunt Town works
 
@@ -34,7 +34,7 @@ of the NAV in HUNT. The other 5% stays in the vault.
 [Mint & Burn](factory-nft/mint-and-burn.md)
 {% endcontent-ref %}
 
-**The vault.** Marketplace royalties and burn fees add HUNT too. There is nothing to claim,
+**The vault.** Marketplace royalties add HUNT too. There is nothing to claim,
 no schedule and no set amount, and no return is promised. The NAV is counted in HUNT, so its
 dollar value follows the HUNT price.
 
@@ -89,7 +89,7 @@ issued on it.
 
 ## What came before
 
-25 previous projects since 2018. Each entry records the bet we made, what worked, what
+25 previous projects since 2018. Each entry records the bet or the collab, what worked, what
 broke, and what it seeded.
 
 {% content-ref url="track-record/build-log.md" %}

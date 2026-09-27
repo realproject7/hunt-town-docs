@@ -2,8 +2,8 @@
 
 Builders join the Co-op by **launching a project token** at
 [coop.hunt.town](https://coop.hunt.town). Every Co-op token is a **HUNT-backed child token**
-on a bonding curve, issued through the [Mint Club](../mint-club/overview.md) protocol that
-underpins much of the ecosystem.
+on a bonding curve, issued through the [Mint Club](../mint-club/overview.md) bonding-curve
+protocol.
 
 ## What launching gives a builder
 

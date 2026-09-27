@@ -1,8 +1,8 @@
 # Factory NFT: Overview
 
 **The Factory NFT is the one asset that Hunt Town's products back.** You lock HUNT to mint
-one. Product revenue, marketplace royalties and burn fees add more HUNT to the vault, which
-raises the NAV of every NFT at once. Burn any time to take 95% of your NFT's NAV back in
+one. Product revenue and marketplace royalties add more HUNT to the vault, which raises the
+NAV of every NFT at once. Burn any time to take 95% of your NFT's NAV back in
 HUNT.
 
 Hunt Town runs many products. The Factory NFT ties them to one asset, counted in HUNT.
@@ -28,9 +28,9 @@ Hunt Town runs many products. The Factory NFT ties them to one asset, counted in
 1. **Mint at NAV.** Anyone can mint by locking the current NAV per NFT in HUNT. At launch
    that is 1,000 HUNT. You can also pay with ETH, USDC or USDT, which is swapped to HUNT in
    the same transaction.
-2. **The vault grows.** Product revenue, marketplace royalties, burn fees and other income
-   add HUNT to the contract. Any HUNT added outside a mint raises the NAV per NFT for every
-   holder at once. There is nothing to claim and no holding period.
+2. **The vault grows.** Product revenue, marketplace royalties and other income add HUNT to
+   the contract, with no schedule or set amount. Any HUNT added outside a mint raises the NAV
+   per NFT for every holder at once. There is nothing to claim and no holding period.
 3. **Burn for HUNT.** Burning an NFT redeems 95% of its NAV in HUNT. The other 5% stays in
    the vault, which raises the NAV for everyone still holding.
 

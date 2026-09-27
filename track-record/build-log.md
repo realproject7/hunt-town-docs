@@ -156,7 +156,7 @@ recognize and reward Web3 builders, via seasonal leaderboards and grants.
   Clap was later built on.
 - **What broke:** As the ecosystem grew, the appreciation model (tipping posts) hit its limits.
   Hunt Town pivoted from recognizing posts to backing actual projects, replacing the program
-  with the Co-op (the current hunt.town).
+  with the Co-op (now at coop.hunt.town).
 - **What it seeded:** The NFT-allowance → tipping/grants model and the Base + Farcaster builder
   community: the foundation Clap was built on and the direct predecessor of the Co-op.
 - **Generations:**

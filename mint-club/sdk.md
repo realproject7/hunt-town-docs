@@ -16,6 +16,8 @@ npm i mint.club-v2-sdk
 Docs: [sdk.mint.club](https://sdk.mint.club) · Source:
 [Steemhunt/mint.club-v2-sdk](https://github.com/Steemhunt/mint.club-v2-sdk)
 
+> The SDK is still under construction, so its API may change.
+
 ## What the SDK enables
 
 - **Create** ERC-20 tokens and ERC-1155 NFTs on bonding curves from code.

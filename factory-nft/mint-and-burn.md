@@ -92,6 +92,6 @@ Mint and burn at [hunt.town/factory](https://hunt.town/factory) with a browser w
 Ethereum.
 
 1. **Connect** your wallet, and switch to Ethereum if it asks.
-2. **Mint:** set the number of NFTs and choose what to pay with. HUNT, USDC and USDT need an
-   approval first. ETH does not. Then confirm the mint in your wallet.
+2. **Mint:** set the number of NFTs and choose what to pay with. HUNT, USDC and USDT may need an
+   approval first (USDT can ask twice). ETH does not. Then confirm the mint in your wallet.
 3. **Burn:** open the Burn tab, set the number of NFTs, and confirm the burn in your wallet.

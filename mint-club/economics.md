@@ -25,7 +25,7 @@ set to 0%, the protocol fee is 0% too.
 
 Platform fees fund the protocol and feed back into the ecosystem, including the **MT
 buyback-and-burn** program, where platform revenue is used to buy and burn
-[MINT (MT)](mint-token.md), tightening its supply over time.
+[MT (Mint Token)](mint-token.md), tightening its supply over time.
 
 ## Creation fee
 

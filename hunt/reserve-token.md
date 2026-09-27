@@ -15,8 +15,8 @@ The [Factory NFT](../factory-nft/overview.md) holds HUNT too, on Ethereum. That 
 by the Factory NFT contract rather than a curve reserve: Factory NFTs mint at NAV and burn
 for 95% of NAV, with no curve.
 
-Because HUNT has **no inflationary emission**, the only way new assets enter the economy is
-by locking existing HUNT. So:
+Because HUNT has **no inflationary emission**, the only way new HUNT-backed assets come into
+existence is by locking existing HUNT. So:
 
 - More projects launched → more HUNT locked in reserves.
 - More Factory NFTs minted → more HUNT held by the Factory NFT contract.

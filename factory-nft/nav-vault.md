@@ -31,10 +31,6 @@ HUNT comes in from four sources:
 - **The burn fee (5%).** When an NFT is burned, 5% of its NAV stays in the vault.
 - **Other income.**
 
-Revenue and royalty HUNT go in through the contract's `deposit` function, which reverts if
-the number of NFTs has changed since the deposit was prepared. A plain HUNT transfer to the
-contract also raises the NAV, without that check.
-
 There is no deposit schedule, and the amounts are not fixed. No inflow is promised. The NAV
 is counted in HUNT, so its dollar value moves with the HUNT price, in either direction. See
 [Terms](../terms.md).
