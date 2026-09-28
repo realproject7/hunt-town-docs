@@ -7,6 +7,8 @@ What makes a factory coherent is that its products are not isolated. Ours share 
 a set of primitives, and a community, and they feed one another. Product revenue also backs
 one shared asset: the [Factory NFT](../factory-nft/overview.md).
 
+<figure><img src="../.gitbook/assets/site/site-home-hero.jpg" alt="The hunt.town home page"><figcaption><p>hunt.town</p></figcaption></figure>
+
 ## Build → ship → seed
 
 Every product follows the same arc, and the last step is the one that makes the factory
@@ -46,6 +48,8 @@ A new product uses the parts that fit instead of reinventing them.
 At any time the factory runs a small set of **active products** and keeps a much larger
 public archive of **previous products** in the [Build Log](../track-record/build-log.md). The
 retired products are the track record that earned the factory its current thesis.
+
+<figure><img src="../.gitbook/assets/site/site-buildlog.jpg" alt="The Build Log on hunt.town"><figcaption><p>The public archive: the Build Log on hunt.town</p></figcaption></figure>
 
 ## Builders and holders
 

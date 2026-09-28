@@ -18,8 +18,10 @@ HUNT.
   backs every NFT.
 - **Existing holders are not diluted.** New NFTs bring in their full share of HUNT, so the
   NAV per NFT does not drop.
-- **Pay with HUNT,** or with ETH, USDC or USDT swapped to HUNT through Uniswap V4 in the same
+- **Pay with HUNT,** or with ETH, USDC or USDT swapped to HUNT through Uniswap v4 in the same
   transaction.
+
+<figure><img src="../.gitbook/assets/site/site-mint-modal.jpg" alt="The mint panel on hunt.town" width="420"><figcaption><p>Minting on hunt.town</p></figcaption></figure>
 
 ## Burn
 
@@ -34,6 +36,8 @@ HUNT you receive = HUNT in the vault × q ÷ NFTs in supply × 95%
 - **Only the holder can burn.** A burn takes NFTs from the burner's own wallet.
 - **The last NFT stays.** Supply can never drop below one, so the last Factory NFT cannot
   be burned.
+
+<figure><img src="../.gitbook/assets/site/site-burn-modal.jpg" alt="The burn panel on hunt.town" width="420"><figcaption><p>Burning on hunt.town: the 5% fee stays in the vault</p></figcaption></figure>
 
 ## A worked example
 

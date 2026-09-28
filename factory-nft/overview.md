@@ -5,6 +5,8 @@ one. Product revenue and marketplace royalties add more HUNT to the vault, which
 NAV of every NFT at once. Burn any time to take 95% of your NFT's NAV back in
 HUNT.
 
+<figure><img src="../.gitbook/assets/site/site-factory-hero.jpg" alt="The Factory NFT page on hunt.town"><figcaption><p>The Factory NFT on hunt.town</p></figcaption></figure>
+
 ## At a glance
 
 | | |
@@ -30,6 +32,8 @@ HUNT.
    the vault, which raises the NAV for everyone still holding.
 
 Details: [Mint & Burn](mint-and-burn.md) · [The NAV Vault](nav-vault.md).
+
+<figure><img src="../.gitbook/assets/site/site-home-factory.jpg" alt="The Factory NFT on the hunt.town home page"><figcaption><p>The Factory NFT on the hunt.town home page</p></figcaption></figure>
 
 ## NAV and the multiplier
 

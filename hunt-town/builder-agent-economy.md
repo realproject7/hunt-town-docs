@@ -19,6 +19,8 @@ alone**, struggling to bootstrap liquidity, attract users, and stay alive long e
 matter. The factory's answer is a shared economy where projects are connected through a
 common reserve asset, so the success of one strengthens the foundation under all of them.
 
+<figure><img src="../.gitbook/assets/coop/coop-project.jpg" alt="A Co-op project page"><figcaption><p>An example Co-op project, backed by HUNT. Figures at capture time.</p></figcaption></figure>
+
 ## Agents
 
 The newer half is **agents**. Autonomous software is starting to do real economic work
@@ -28,6 +30,8 @@ for what it uses without a human in the loop and without custodial accounts**.
 Traditional rails assume a person with a card, an account, and a billing relationship per
 vendor. That does not survive contact with an agent that needs dozens of services, once
 each, at machine speed.
+
+<figure><img src="../.gitbook/assets/products/h402-home.jpg" alt="The h402 home page"><figcaption><p>h402: agents pay per call</p></figcaption></figure>
 
 ## Which product serves which half
 

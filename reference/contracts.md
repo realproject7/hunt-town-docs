@@ -23,6 +23,16 @@ links in [Links & Resources](links.md) before transacting.
 | --- | --- | --- |
 | Neverlose.money vault (its HUNT counts as locked) | Ethereum | `0x7edBE5aF30Ba6Ba2DE9EdDc72C2f585D1B0D5775` |
 
+## Co-op
+
+Co-op tokens are created through the Mint Club V2 Bond above, which holds their HUNT
+reserves. The Co-op app adds two contracts on Base:
+
+| Contract | Network | Address |
+| --- | --- | --- |
+| Swap and buy (pays for a buy in ETH or USDC through Uniswap v4) | Base | `0xcB835BF2eE7D63A3e55c580A962920fc1524B447` |
+| Project updates | Base | `0xdD066121E4488edB73c4Ff7f461592c084e4303A` |
+
 ## Payments (h402)
 
 | Asset | Network | Address |

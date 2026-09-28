@@ -32,6 +32,8 @@ There is no deposit schedule, and the amounts are not fixed. No inflow is promis
 is counted in HUNT, so its dollar value moves with the HUNT price, in either direction. See
 [Terms](../terms.md).
 
+<figure><img src="../.gitbook/assets/site/site-factory-vault.jpg" alt="How HUNT reaches the vault"><figcaption><p>How HUNT reaches the vault, on hunt.town/factory. The numbers are an example, not a forecast.</p></figcaption></figure>
+
 ## What each action does
 
 | Action | HUNT in the vault | NFTs in supply | NAV per NFT |

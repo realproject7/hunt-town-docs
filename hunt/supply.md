@@ -39,6 +39,8 @@ Notes on method:
 
 None of this is a promise about price.
 
+<figure><img src="../.gitbook/assets/site/site-factory-supply.jpg" alt="The HUNT supply panel on hunt.town"><figcaption><p>The supply panel on hunt.town/factory, with figures at capture time</p></figcaption></figure>
+
 ## Live figures
 
 Live burned, locked and circulating figures, split by chain:

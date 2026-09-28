@@ -40,6 +40,9 @@
 ## Co-op
 
 * [Overview](co-op/overview.md)
+* [Launch a Project Token](co-op/launch-a-project-token.md)
+* [Trading & the HUNT Reserve](co-op/trading.md)
+* [Fees & Risks](co-op/fees-and-risks.md)
 
 ## Mint Club
 

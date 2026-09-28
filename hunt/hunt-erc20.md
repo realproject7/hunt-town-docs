@@ -11,6 +11,8 @@ and other HUNT-backed tokens on Mint Club.
 | **Issuance** | Fixed: 500,000,000 HUNT, no inflation |
 | **Standard** | ERC-20 |
 
+<figure><img src="../.gitbook/assets/site/site-factory-hunt.jpg" alt="HUNT on hunt.town"><figcaption><p>HUNT on hunt.town/factory</p></figcaption></figure>
+
 ## The core asset: the Factory NFT
 
 Every Factory NFT holds an equal share of the HUNT in the Factory NFT contract on Ethereum.

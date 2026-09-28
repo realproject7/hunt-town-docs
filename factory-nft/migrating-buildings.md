@@ -4,6 +4,8 @@ Building NFTs are Hunt Town's legacy NFTs. Holders can turn them into Factory NF
 Building counts toward the lock-up at a fixed HUNT value, and you add HUNT to reach whole
 Factory NFTs.
 
+<figure><img src="../.gitbook/assets/site/site-migrate-hero.jpg" alt="The migration portal on hunt.town"><figcaption><p>The migration portal</p></figcaption></figure>
+
 ## The rules
 
 - **One way.** Migrated Buildings do not come back.
@@ -29,6 +31,8 @@ normally hold that HUNT back.
   with. The 5% burn royalty that applies when a Mini Building is burned on Mint Club is not
   taken off.
 
+<figure><img src="../.gitbook/assets/site/site-migrate-waivers.jpg" alt="Every Building counts in full"><figcaption><p>Every Building counts in full</p></figcaption></figure>
+
 ## How many Factory NFTs
 
 The Buildings' HUNT value is rounded up to whole Factory NFTs at the current lock-up of
@@ -39,6 +43,8 @@ At ×1.0000, one Main Building or ten Mini Buildings make one Factory NFT with n
 top-up grows as the multiplier rises.
 
 Migrate at [hunt.town/migrate](https://hunt.town/migrate).
+
+<figure><img src="../.gitbook/assets/site/site-migrate-gates.jpg" alt="The Ethereum and Base gates"><figcaption><p>One gate per chain</p></figcaption></figure>
 
 ## Legacy Buildings
 

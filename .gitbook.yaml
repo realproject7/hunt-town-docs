@@ -11,8 +11,11 @@ redirects:
   hunt/building-nfts: factory-nft/migrating-buildings.md
   token/building-nfts: factory-nft/migrating-buildings.md
   token/hunt: hunt/hunt-erc20.md
-  token/hunt-backed-project-tokens: co-op/overview.md
-  how/launch-a-project-token: co-op/overview.md
+  token/hunt-backed-project-tokens: co-op/trading.md
+  how/launch-a-project-token: co-op/launch-a-project-token.md
   how/hunt-as-the-reserve-token: hunt/reserve-token.md
   ecosystem/mint-club: mint-club/overview.md
   ecosystem/basehunt: hunt/base-hunt.md
+  how/builders-and-backers: co-op/overview.md
+  how/daily-backing-and-minting-flow: co-op/overview.md
+  how/daily-backing-point-bp: co-op/overview.md
