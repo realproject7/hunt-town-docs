@@ -25,13 +25,9 @@
 ## h402
 
 * [Overview](h402/overview.md)
-* [Mount Once](h402/mount.md)
-* [Discover Capabilities](h402/discover-capabilities.md)
 * [Providers & Verification](h402/providers.md)
-* [Call & Pay](h402/call-and-pay.md)
 * [How Paying Works](h402/how-paying-works.md)
 * [For Builders](h402/for-builders.md)
-* [SDK & CLI Packages](h402/packages.md)
 
 ## lpTOKEN.fun <a href="#lptoken" id="lptoken"></a>
 
@@ -44,19 +40,13 @@
 ## Co-op
 
 * [Overview](co-op/overview.md)
-* [Launch a Project Token](co-op/launch-a-project-token.md)
-* [HUNT-backed Project Tokens](co-op/hunt-backed-project-tokens.md)
 
 ## Mint Club
 
 * [Overview](mint-club/overview.md)
 * [MT (Mint Token)](mint-club/mint-token.md)
 * [Bonding Curves](mint-club/bonding-curves.md)
-* [Create Assets](mint-club/create.md)
-* [Mint & Burn](mint-club/mint-burn.md)
-* [Creator Tools](mint-club/creator-tools.md)
 * [Economics](mint-club/economics.md)
-* [SDK & Integration](mint-club/sdk.md)
 * [Security & Audits](mint-club/security-audits.md)
 
 ## Track Record

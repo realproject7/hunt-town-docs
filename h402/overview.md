@@ -19,8 +19,9 @@ h402 collapses that into **one integration and one payment rail**.
 
 ## Three ideas
 
-- **Mount once.** The agent reads one skill file and gains the whole catalog. Adding a
-  capability later means nothing new to install. See [Mount Once](mount.md).
+- **Mount once.** The agent reads one skill file, which teaches it to search the catalog,
+  pick a provider and pay. From then on it reaches the whole catalog, and adding a
+  capability later means nothing new to install.
 - **Verified providers, explicit choice.** Every listed provider has been paid-tested with
   its real response stored as a sample. The caller compares samples and per-call prices and
   **pins** the provider it wants. See [Providers & Verification](providers.md).
@@ -30,28 +31,28 @@ h402 collapses that into **one integration and one payment rail**.
 
 ## The vocabulary
 
-These terms are used precisely throughout this section.
+h402 is **task-first**: an agent looks for the outcome it wants, not the vendor who
+provides it.
 
 | Term | What it is |
 | --- | --- |
 | **Capability** | One task, named `category/action`, e.g. `web/search`. It describes the outcome, not the vendor. |
 | **Provider** | One concrete implementation of a capability, with its own input schema, price, upstream service, and a stored real-response sample. A capability can have many providers. |
 | **Call** | One request against **one pinned provider** of a capability. Every executable call names its provider explicitly. |
-| **Catalog** | The curated index of capabilities and their providers, browsable by humans and queryable by agents. |
+| **Catalog** | The curated index of capabilities and their providers, browsable by humans and queryable by agents. h402 lists only providers it has verified and does not crawl the web for endpoints. |
 
-Capabilities are grouped into categories such as `ai`, `web` and `crypto`. See
-[Discover Capabilities](discover-capabilities.md) for the full list.
+Capabilities are grouped into categories such as `ai`, `web` and `crypto`. The live list is
+in the [catalog](https://h402.hunt.town/catalog).
 
 ## Two sides of the market
 
 - **For agents and apps:** mount the skill, search the catalog, call what you need, pay per
-  call. Start at [Mount Once](mount.md).
+  call. Callers use the open-source `@h402/cli`, or embed the payment flow in their own app
+  with `@h402/core`.
 - **For API builders:** list a capability and reach agent demand without building billing.
   See [For Builders](for-builders.md).
 
 ## Status
 
-h402 is **live in beta** at [h402.hunt.town](https://h402.hunt.town). The catalog, the CLI,
-and the payment flow described in this section all run there today, and the CLI targets it
-by default. The `@h402/cli` and `@h402/core` packages are published on npm and are still
-pre-1.0, so details can change between releases.
+h402 is **live in beta** at [h402.hunt.town](https://h402.hunt.town), so details can change.
+Developer docs: [h402.hunt.town/docs](https://h402.hunt.town/docs).

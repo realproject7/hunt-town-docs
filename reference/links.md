@@ -30,9 +30,6 @@
 
 - [Uniswap](https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5&chain=mainnet)
 
-Minting a Factory NFT with HUNT needs HUNT on Ethereum. The mint also accepts ETH, USDC or
-USDT and swaps it to HUNT in the same transaction.
-
 **DEX (Base)**
 
 - [Uniswap](https://app.uniswap.org/swap?inputCurrency=ETH&outputCurrency=0x37f0c2915CeCC7e977183B8543Fc0864d03E064C&chain=base)
@@ -88,3 +85,5 @@ See [Mint Club → Security & Audits](../mint-club/security-audits.md) for conte
   [etherscan.io](https://etherscan.io/address/0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96)
 - **Legacy: Mini Building NFT (Base):**
   [basescan.org](https://basescan.org/token/0x475f8E3eE5457f7B4AAca7E989D35418657AdF2a)
+- **Legacy Buildings:** [Main Building collection](https://opensea.io/collection/hunt-town) ·
+  [Mini Building on Mint Club](https://mint.club/nft/base/MINIBD)

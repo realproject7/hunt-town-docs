@@ -83,7 +83,7 @@ Pump.fun-style.
 
 - **The bet:** Combine the instant-liquidity, speculative UX of Pump.fun with the NFT focus of
   OpenSea: bonding curves make NFTs tradable instantly, no DEX liquidity pools needed.
-- **What worked:** Triggered explosive early trading: many NFTs hit 20–30 ETH each in volume in
+- **What worked:** Triggered explosive early trading: many NFTs hit 20 to 30 ETH each in volume in
   the early days. Its Pump.fun-style creator royalties were seen as a fresh, novel mechanic by
   the market. (Precise aggregate traction is hard to recover.)
 - **What broke:** The NFT market deteriorated, draining demand for speculative NFT trading; the
@@ -136,7 +136,7 @@ bonding-curve tokens on Degen Chain (L3).
 - **What it seeded:** Showed Mint Club tokens could plug into an existing external
   social-tipping rail ($DEGEN) as a mint/spend destination on another chain, so effectively it
   dominated that rail.
-- **Meta:** 2024-08-21 · Degen Chain (L3) / Farcaster · Mint Club–led, Degen-team-supported ·
+- **Meta:** 2024-08-21 · Degen Chain (L3) / Farcaster · Mint Club-led, Degen-team-supported ·
   [launch post](https://news.hunt.town/p/buy-tokens-with-your-degen-tips) · [shutdown
   note](https://farcaster.xyz/jacek/0x8706342d)
 
@@ -145,7 +145,7 @@ bonding-curve tokens on Degen Chain (L3).
 ## #019 · Hunt Tip · 2024 · Sunset → Co-op
 
 A Farcaster tipping / rewards system where Building-NFT holders give daily tip allowances to
-recognize and reward Web3 builders, via seasonal leaderboards and grants.
+recognize and reward onchain builders, via seasonal leaderboards and grants.
 
 - **The bet:** Reward builders inside the social feed: turn Building NFT ownership into a daily
   tipping allowance and recurring community influence, paired with seasonal Builder/Tipper
@@ -163,7 +163,7 @@ recognize and reward Web3 builders, via seasonal leaderboards and grants.
   - **V1 (~Jul 2024):** monthly ranking. Top-3 builders won 100 / 60 / 40 Mini Building NFTs per
     month. Building NFTs grant daily tip allowances (Main = 1,000 / Mini = 100).
   - **V2 (Feb 3, 2025):** shifted monthly → daily ranking so far more builders could earn (daily
-    3 / 2 / 1 Mini Building NFTs for 1st–3rd), with wallet-connected personal ranking on the
+    3 / 2 / 1 Mini Building NFTs for 1st to 3rd), with wallet-connected personal ranking on the
     Hunt Tip site; Tipper Grants unchanged.
 - **Meta:** 2024-07 · Base / Farcaster · [V1
   launch](https://x.com/steemhunt/status/1818826061251330257) · [V2
@@ -280,13 +280,13 @@ virtual points with no real money at stake.
 ## #014 · Chatcasso · 2022 · Sunset
 
 An AI NFT wizard that lived in a chat window. You described the art you wanted, it drew it,
-deployed the collection on-chain, and gave it a public mint page.
+deployed the collection onchain, and gave it a public mint page.
 
 - **The bet:** In 2022 we saw three separate jobs in making an NFT collection: get the art,
   deploy a contract, build a mint page. We thought one chat could do all three. Describe a style
   or upload a reference, approve what the bot draws, fill in a short form, and the collection
   goes live on BNB Chain with a mint page anyone can open.
-- **What worked:** It won first place in the Lifestyle in Web3 track at a BNB Chain hackathon
+- **What worked:** It won first place in the lifestyle track of a BNB Chain hackathon
   held in Seoul on Dec 17-19, 2022, and took a $5,000 BUSD prize. It ran as a working demo, not
   a mock. The bot generated artwork from a text prompt or an uploaded image, let you accept it
   or hit retry, then deployed a real collection to BNB Chain, Goerli or Mumbai from inside the
@@ -317,18 +317,18 @@ anyone can mint a color-variant edition of it on a bonding curve.
 - **The bet:** V1 proved people would draw together, but the artists wanted collections of their
   own, not one canvas everybody shared. So Dixel was rebuilt as a factory: a creator sets the
   artwork, supply, mint price, royalty and start time, and their followers mint color variants
-  of it. Same on-chain, refundable-reserve model, handed to the creator instead of the crowd.
+  of it. Same onchain, refundable-reserve model, handed to the creator instead of the crowd.
 - **What worked:** The team raised seed funding from VistaLabs and Edimus Capital, announced 6
   May 2022, and was picked as one of the top 5 projects in the Klaytn Incubation Program,
   announced 7 April 2022. V2 shipped to mainnet on 27 June 2022, straight after a community
   security audit that ran on a $10,000 USDT bounty. It is still running, now across Base,
-  Ethereum, Polygon, BNB Chain and Kaia, and in practice people use it like POAP: on-chain proof
+  Ethereum, Polygon, BNB Chain and Kaia, and in practice people use it like POAP: onchain proof
   of attendance and commemorative collectibles.
 - **What broke:** The NFT market cooled sharply after the 2021 peak and took the draw-to-earn
   demand with it. V2 kept the minting tool alive but never got to be the social platform the
   first generation was chasing.
 - **What it seeded:** DIXEL was minted on the Mint Club protocol from the start. The fully
-  on-chain (vector, base64) collectible with a refundable reserve fed straight into Mint Club's
+  onchain (vector, base64) collectible with a refundable reserve fed straight into Mint Club's
   NFT tooling and its multi-chain direction.
 - **Meta:** 2022-06-27 · Multi-chain: Base / Ethereum / Polygon / BNB Chain / Kaia ·
   [dixel.club](https://dixel.club) · [V2 investment + launch
@@ -350,7 +350,7 @@ an SVG-based NFT, earning $DIXEL when someone later painted over their work.
   with a launch airdrop to the AirNFT, PancakeSwap NFT, BakerySwapV3 NFT, MintedVodka and Mint
   Club communities. It shipped as a full product, not a demo: a drawing editor, a gallery, a
   rewards page, a burn-for-refund flow, a marketplace and a $DIXEL buy flow. The economics were
-  on-chain: each pixel cost 0.1% more after every overwrite, 10% of a mint split among everyone
+  onchain: each pixel cost 0.1% more after every overwrite, 10% of a mint split among everyone
   who had painted those pixels before, and the other 90% held in a refundable reserve the owner
   could claim by burning the NFT. One undated capture of the live gallery shows the shared
   canvas at edition #877 with 170,485 overwritten pixels.
@@ -427,16 +427,16 @@ bonding curve backed by MINT made it tradable right away with no liquidity pool.
 A gamified HODL / savings protocol that pays bonuses to disciplined long-term lockers, funded by
 early-exit penalties from those who break their lock.
 
-- **The bet:** Behavioral finance on-chain: force long-term holding by penalizing early
+- **The bet:** Behavioral finance onchain: force long-term holding by penalizing early
   withdrawal and redistributing those penalties to the holders who stayed. "Earn bonus from
   losers."
 - **What worked:** Shipped working Ethereum HODL lock-up contracts (ETH / BTC / HUNT). At its
   peak it reached ~$24.15M cumulative lock-ups and ~$489.5K total bonus generated for
   disciplined holders.
 - **What broke:** After the peak, the meme-coin trend on Ethereum L1 sent gas fees to abnormal,
-  sustained highs. A single lock-up transaction could cost $400–500 in gas. That made the
+  sustained highs. A single lock-up transaction could cost $400 to $500 in gas. That made the
   deposit/lock loop economically unviable for most users, and the protocol lost momentum.
-- **What it seeded:** Pioneered our on-chain lock-up + penalty-redistribution mechanics, which
+- **What it seeded:** Pioneered our onchain lock-up + penalty-redistribution mechanics, which
   carried into Mint Club's lock-up tooling.
 - **Meta:** 2020-12 · Ethereum · [neverlose.money](https://neverlose.money) · [launch
   post](https://steemit.com/neverlosemoney/@steemhunt/hunt-s-4th-dapp-neverlose-money-is-officially-launched-today)

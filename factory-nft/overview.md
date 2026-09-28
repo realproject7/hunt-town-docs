@@ -1,11 +1,9 @@
 # Factory NFT: Overview
 
-**The Factory NFT is the one asset that Hunt Town's products back.** You lock HUNT to mint
+**The Factory NFT is the one asset that product revenue backs.** You lock HUNT to mint
 one. Product revenue and marketplace royalties add more HUNT to the vault, which raises the
 NAV of every NFT at once. Burn any time to take 95% of your NFT's NAV back in
 HUNT.
-
-Hunt Town runs many products. The Factory NFT ties them to one asset, counted in HUNT.
 
 ## At a glance
 
@@ -17,7 +15,6 @@ Hunt Town runs many products. The Factory NFT ties them to one asset, counted in
 | **Lock-up per NFT** | 1,000 HUNT × the multiplier (1,000 HUNT at launch) |
 | **Pay with** | HUNT, or ETH, USDC or USDT swapped to HUNT in the same transaction |
 | **Backed by** | HUNT, held by the Factory NFT contract itself |
-| **At launch** | One seed NFT backed by 1,000 HUNT (×1.0000) |
 | **Minimum supply** | One. The last NFT cannot be burned |
 | **Burn fee** | 5%, stays in the vault |
 | **Marketplace royalty** | 3% |
@@ -25,9 +22,7 @@ Hunt Town runs many products. The Factory NFT ties them to one asset, counted in
 
 ## How it works
 
-1. **Mint at NAV.** Anyone can mint by locking the current NAV per NFT in HUNT. At launch
-   that is 1,000 HUNT. You can also pay with ETH, USDC or USDT, which is swapped to HUNT in
-   the same transaction.
+1. **Mint at NAV.** Anyone can mint by locking the current NAV per NFT in HUNT.
 2. **The vault grows.** Product revenue, marketplace royalties and other income add HUNT to
    the contract, with no schedule or set amount. Any HUNT added outside a mint raises the NAV
    per NFT for every holder at once. There is nothing to claim and no holding period.
@@ -62,6 +57,4 @@ way. See [Migrating Buildings](migrating-buildings.md).
 
 ## Where to use it
 
-Mint and burn at [hunt.town/factory](https://hunt.town/factory). The page also shows the
-live NAV per NFT, multiplier, supply and vault HUNT, and an example of how vault growth
-changes what a burn gives back.
+Mint, burn and live figures: [hunt.town/factory](https://hunt.town/factory).

@@ -15,7 +15,7 @@ returns reserve. The core primitive of [Mint Club](../mint-club/bonding-curves.m
 the NAV per NFT for everyone still holding. See [Mint & Burn](../factory-nft/mint-and-burn.md).
 
 **Capability**: one task on h402, named `category/action` (e.g. `web/search`). It describes
-the outcome, not the vendor. ("Route" is the internal term for the same thing.)
+the outcome, not the vendor.
 
 **Child token**: a token issued on a bonding curve with another token (often HUNT) as its
 reserve. Co-op project tokens and MT (Mint Token) are HUNT-backed child tokens.
@@ -23,8 +23,8 @@ reserve. Co-op project tokens and MT (Mint Token) are HUNT-backed child tokens.
 **Co-op**: Hunt Town's HUNT-based launchpad and DEX, where builders launch HUNT-backed tokens
 and anyone can trade them against HUNT. Lives at coop.hunt.town.
 
-**EIP-3009**: the `transferWithAuthorization` standard used by h402 to sign a stablecoin
-payment authorization locally, enabling non-custodial settlement.
+**EIP-3009**: the standard for signed token-transfer authorizations. h402 uses it so a caller
+signs a stablecoin payment locally.
 
 **Factory NFT**: Hunt Town's HUNT-backed NFT on Ethereum (ERC-1155, token id `0`). It mints
 at NAV and burns for 95% of NAV in HUNT. See [Factory NFT](../factory-nft/overview.md).
@@ -59,7 +59,7 @@ the older MINT token on June 5, 2025.
 launch. It rises when HUNT is added without minting, and when NFTs are burned.
 
 **NAV per NFT**: the HUNT held by the Factory NFT contract divided by the number of Factory
-NFTs, rounded down. See [The NAV Vault](../factory-nft/nav-vault.md).
+NFTs. See [The NAV Vault](../factory-nft/nav-vault.md).
 
 **Provider**: one concrete implementation of a capability on h402, with its own input
 schema, price, upstream service, and a stored real-response sample. Every call is pinned to
@@ -78,10 +78,6 @@ whole Factory NFTs. It is never refunded. See
 
 **x402**: the standard that uses HTTP `402 Payment Required` as a real payment handshake;
 h402's foundation.
-
-**Zap router**: the contract that swaps another token (ETH, USDC or USDT on hunt.town) for
-exactly the HUNT a Factory NFT mint needs, through Uniswap V4, and mints in the same transaction. See
-[Mint & Burn](../factory-nft/mint-and-burn.md).
 
 ## Legacy
 

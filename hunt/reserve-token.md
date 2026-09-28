@@ -1,8 +1,7 @@
 # HUNT as the Reserve Token
 
-HUNT is the **reserve** behind Co-op project tokens and other HUNT-backed tokens on Mint
-Club. This page explains what that means mechanically, and why it links those tokens instead
-of making them compete for the same liquidity.
+HUNT is the **reserve** behind [Co-op](../co-op/overview.md) project tokens and other
+HUNT-backed tokens on [Mint Club](../mint-club/overview.md).
 
 ## The mechanism
 
@@ -26,25 +25,11 @@ existence is by locking existing HUNT. So:
 ## Why it matters
 
 Most onchain projects launch a fresh token and compete with every other token for
-attention and liquidity. The reserve model does the opposite: it **links** projects.
-
-- **A shared foundation.** Each builder runs an independent project, but every project is
-  backed by the same reserve. When one project grows, it locks more HUNT behind the whole
-  economy, not behind a token of its own.
-- **Growth locks HUNT.** Growth tightens supply. Reserves hold more HUNT as activity grows,
-  and circulating HUNT falls.
-- **HUNT behind every token.** Curve assets are reserve-backed rather than purely
-  speculative: there is HUNT actually held behind them, redeemable through the curve.
+attention and liquidity. The reserve model does the opposite: it **links** projects. Each
+builder runs an independent project, but every project is backed by the same reserve. When
+one project grows, it locks more HUNT behind the whole economy, not behind a token of its
+own.
 
 This is the core of Hunt Town's thesis: a shared economy where **the success of one
 project contributes to the strength of all of them**, rather than fragmenting a community
 across disconnected tokens.
-
-## Relationship to product tokens
-
-- **Co-op project tokens** are HUNT-backed child tokens. See
-  [HUNT-backed Project Tokens](../co-op/hunt-backed-project-tokens.md).
-- **The Factory NFT** holds HUNT behind every NFT. See
-  [Factory NFT](../factory-nft/overview.md).
-- **Mint Club** provides the bonding-curve engine that makes reserve-backing possible. See
-  [Mint Club Overview](../mint-club/overview.md).

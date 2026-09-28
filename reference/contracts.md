@@ -17,8 +17,11 @@ links in [Links & Resources](links.md) before transacting.
 | Mint Club V2 Bond (holds every Base HUNT reserve) | Base | `0xc5a076cad94176c2996B32d8466Be1cE757FAa27` |
 | MT (Mint Token, ERC-20) | Base | `0xFf45161474C39cB00699070Dd49582e417b57a7E` |
 
-The supply method reads the Bond's HUNT balance and subtracts the reserve behind the legacy
-Mini Buildings. See [Supply & Distribution](../hunt/supply.md).
+## Neverlose.money
+
+| Contract | Network | Address |
+| --- | --- | --- |
+| Neverlose.money vault (its HUNT counts as locked) | Ethereum | `0x7edBE5aF30Ba6Ba2DE9EdDc72C2f585D1B0D5775` |
 
 ## Payments (h402)
 
@@ -29,7 +32,7 @@ Mini Buildings. See [Supply & Distribution](../hunt/supply.md).
 ## lpTOKEN.fun
 
 Deployed on **Robinhood Chain** (chain id `4663`), **Base** (`8453`), **Arc** (`5042`), and
-**Ethereum** (`1`). Addresses are taken from the protocol's own deployment records.
+**Ethereum** (`1`).
 
 | Contract | Robinhood Chain | Base |
 | --- | --- | --- |
@@ -49,11 +52,7 @@ Deployed on **Robinhood Chain** (chain id `4663`), **Base** (`8453`), **Arc** (`
 | LpTokenZapRouter | `0x905F3AE86108c6A3b1a345dACEaef6c4749Ec66a` | `0x905F3AE86108c6A3b1a345dACEaef6c4749Ec66a` |
 | LpTokenLens | `0x5dfA75b0185efBaEF286E80B847ce84ff8a62C2d` | `0x5dfA75b0185efBaEF286E80B847ce84ff8a62C2d` |
 
-The factory, vault implementation, zap router, and lens share one address on Arc and
-Ethereum because they were deployed deterministically.
-
-Individual LP vaults are deterministic clones of the vault implementation, one per pool;
-their addresses are listed per market in the app. The live contract table is published at
+Each market's vault address is shown in the app. Live table:
 [lptoken.fun/contracts](https://lptoken.fun/contracts).
 
 ## Legacy: Building NFTs

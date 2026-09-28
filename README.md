@@ -5,7 +5,7 @@ description: An Onchain Product Factory, building since 2018.
 # Introduction
 
 **Hunt Town is an Onchain Product Factory.** We have built onchain products since 2018, and
-each one hands what it learned to the next. Their revenue backs one asset, the Factory NFT,
+each one hands what it learned to the next. Product revenue backs one asset, the Factory NFT,
 counted in HUNT.
 
 ## How Hunt Town works

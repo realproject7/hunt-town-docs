@@ -1,9 +1,6 @@
 # Buyback & Burn
 
-**Built by products. Recorded in HUNT.** From 2020 to 2022, retired allocations, HUNT → MINT
-swaps, and quarterly burns funded by fee revenue removed 301,087,312 HUNT from supply. The
-buyback-and-burn program has ended. This page keeps the full record and explains where
-product revenue goes now.
+HUNT's buyback-and-burn ran from 2020 to 2022 and has ended.
 
 ## The historical record
 
@@ -52,18 +49,15 @@ Totals are rounded to the nearest whole HUNT.
 The 88 HUNT reconciliation has no transaction of its own. It is the residual in the team's
 HUNT supply workbook that closes the historical entries to the canonical supply.
 
-Because no address can mint HUNT, a burn is irreversible: burned supply cannot be reissued.
-See [Supply & Distribution](supply.md).
-
 ## Burns have ended
 
-The buyback-and-burn program has ended. Revenue from Hunt Town's products now buys HUNT for
-the [Factory NFT](../factory-nft/overview.md) instead of burning it. That HUNT goes into the
+Product revenue now buys HUNT for the [Factory NFT](../factory-nft/overview.md) instead of
+burning it. That HUNT goes into the
 Factory NFT contract, where it raises the NAV per NFT for every holder. See
 [The NAV Vault](../factory-nft/nav-vault.md).
 
-The difference matters. Burned HUNT is gone for good. HUNT in the Factory NFT still exists:
-it backs the NFTs and counts as locked in [Supply & Distribution](supply.md).
+Unlike burned HUNT, HUNT in the Factory NFT still exists: it backs the NFTs and counts as
+locked in [Supply & Distribution](supply.md).
 
 There is no schedule for these purchases and no fixed amount. Nothing here is a commitment
 to buy, a yield, or a return. See [Terms](../terms.md).

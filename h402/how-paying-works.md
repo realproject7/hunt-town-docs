@@ -6,19 +6,12 @@ never leaves their machine.
 
 ## The handshake
 
-```
-caller ──▶ call pinned provider   (idempotency-key, no payment)
-caller ◀── 402  price challenge   (amount in Base USDC, payee, expiry)
-caller ──▶ retry + signature      (EIP-3009 authorization, same idempotency key)
-caller ◀── result                 (settlement confirmed)
-```
-
-1. **Call.** A normal request to the provider's pinned path. Free capabilities, and calls
-   covered by credit, return immediately, with no payment step.
+1. **Call.** A normal request to the pinned provider. Free capabilities, and calls covered
+   by credit, return immediately, with no payment step.
 2. **Challenge.** If payment is required, the server returns `402` with the exact amount,
    the payee, and a short validity window.
-3. **Sign.** The caller signs an **EIP-3009 `TransferWithAuthorization`** over **Base USDC**
-   for exactly the quoted amount. No funds move yet and no key is shared.
+3. **Sign.** The caller signs **an EIP-3009 authorization** over **Base USDC** for exactly
+   the quoted amount. No funds move yet and no key is shared.
 4. **Settle.** The caller retries with the signature attached. The authorization settles
    into h402's treasury through the Coinbase CDP facilitator, the provider call executes,
    and the result returns.
@@ -28,9 +21,8 @@ caller ◀── result                 (settlement confirmed)
 Two hops, deliberately separated:
 
 - The **caller's** payment settles into h402's treasury.
-- h402 then pays the **upstream provider** from its own operating wallet. That payment goes
-  over x402 in Base USDC wherever the provider supports it. Providers that only accept
-  Tempo MPP are paid with a one-shot Tempo charge (`tempo/charge`) instead.
+- h402 then pays the **upstream provider** from its own operating wallet: over x402 in Base
+  USDC where the provider supports it, otherwise in the way that provider accepts.
 
 The caller therefore signs one authorization, in one asset, on one chain, regardless of how
 the provider behind the capability prefers to be paid.
@@ -41,31 +33,19 @@ A quoted price is the **provider's price plus h402's markup of 5%**. The markup 
 in the quote, so the caller authorizes the final amount and there is nothing added
 afterwards.
 
-Prices are denominated in USDC, which is what lets an agent reason about spend in dollars
-and cap it with `--max-usd`.
+Prices are denominated in USDC, which is what lets an agent reason about spend in dollars.
+Every payment is a one-shot, exact charge.
 
 ## Credits
 
-Callers can hold **bonus credits** that are drawn down before any USDC is charged.
-
-- `h402 auth` establishes a session by signing a challenge with your wallet. No password,
-  no account.
-- `h402 credits` shows the balance.
-- Credits are consumed **earliest-expiring first**, and a call falls through to USDC once
-  they are exhausted. `--no-credit` skips them entirely.
-
-Today credits are issued as onboarding grants.
+Callers can hold **bonus credits**, issued today as onboarding grants, which are drawn down
+before any USDC is charged.
 
 ## Properties that matter for agents
 
-- **Non-custodial.** Signatures are produced client-side; h402 holds no user keys and no
-  user balance.
 - **Bounded authorizations.** Each signature covers a single quoted amount and expires
   quickly, so a stale one cannot be replayed for more than it authorized.
 - **No ambiguous charges.** A request whose payment state is unclear is not forwarded;
   it is reconciled rather than retried against another provider.
-- **Idempotent retries.** See [Call & Pay](call-and-pay.md).
-
-> h402 is pre-1.0 and the payments layer is still evolving. Today every payment is a
-> one-shot, exact charge. Treat rail-level specifics here as current-as-documented rather
-> than frozen.
+- **No double charges.** A retried call is not charged twice, and the client refuses a new
+  price challenge on a retry instead of paying again.

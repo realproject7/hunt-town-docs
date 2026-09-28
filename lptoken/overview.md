@@ -3,7 +3,8 @@
 **One market. Two ways to take part: the token and its liquidity.**
 
 The token has an LP. Now the LP has a token. On lpTOKEN.fun you can trade the coin, or hold
-its fee-earning liquidity as a transferable token of its own.
+its fee-earning liquidity as a transferable token of its own. lpTOKEN.fun won **Best Uniswap
+Stack Contribution** at **ETHOnline 2026**.
 
 ## The idea
 
@@ -21,8 +22,7 @@ can mint, hold, transfer, and redeem like any other.
 - **Two exposures to one market.** The token tracks price. The **lpTOKEN** share tracks the
   liquidity: it holds both sides of the pair and accrues swap fees.
 - **Fees stay in the vault.** Swap fees earned by the position are not skimmed. They remain
-  in the vault and back every share. Anyone can permissionlessly compound idle balances
-  into more liquidity.
+  in the vault and back every share.
 - **A market from day one.** Builders can launch a token and its LP together, with the
   initial liquidity permanently locked, instead of bootstrapping a pool afterwards.
 
@@ -39,11 +39,3 @@ lpTOKEN.fun is **live** on **Robinhood Chain**, **Base**, **Arc**, and **Ethereu
 tokens launch against each chain's native currency: ETH on Robinhood Chain, Base, and
 Ethereum, and USDC on Arc. Contract addresses are listed in
 [Contracts & Addresses](../reference/contracts.md).
-
-## Why we built it
-
-A token economy needs more than a price chart. Giving a market a liquidity token means the
-depth behind it is something anyone can hold, price, and use. It also gives builders a real
-market on day one rather than a launch followed by a liquidity problem.
-
-lpTOKEN.fun won **Best Uniswap Stack Contribution** at **ETHOnline 2026**.

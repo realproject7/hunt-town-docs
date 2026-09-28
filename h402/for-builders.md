@@ -16,15 +16,11 @@ relationship for every caller.
 ## How a listing works
 
 1. **Expose an endpoint.** One capability, one price, reachable over HTTP.
-2. **h402 lists it as a provider candidate** for the matching `category/action`, with your
+2. **h402 adds it as a provider candidate** for the matching `category/action`, with your
    native input schema and an example.
-3. **It is paid-probed.** A real, paid call is made against your live endpoint and the exact
-   response is stored as your sample. Only then does the provider go **enabled**. See
-   [Providers & Verification](providers.md).
-4. **It is scored on live traffic.** Success rate and latency feed a quality score that
-   ranks enabled providers.
-5. **You compete on quality-adjusted price.** Out-score your peers and your provider becomes
-   the catalog's recommended default for that capability.
+3. **It is paid-probed, then ranked.** A real paid call must pass before the provider is
+   enabled, and its live success rate, latency and price decide whether it becomes the
+   recommended default. See [Providers & Verification](providers.md).
 
 ## How you get paid
 
@@ -37,6 +33,3 @@ markup, shown transparently before they authorize.
 Listing is currently **reviewed by the h402 team** rather than self-serve. Submissions go
 through the [Builders page](https://h402.hunt.town/builders) on the h402 site, and the team
 runs the paid evaluation before a capability appears in the catalog.
-
-Self-serve onboarding with automatic evaluation is planned but **not yet available**. Do
-not assume a builder dashboard exists today.

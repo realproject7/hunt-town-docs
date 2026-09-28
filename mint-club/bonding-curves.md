@@ -7,32 +7,42 @@ liquidity pool to seed.
 
 ## How a curve works
 
+Trading an asset means **minting** (buying) or **burning** (selling) against its curve. There
+is no order book and no counterparty: every trade is with the curve itself.
+
 - Every asset is backed by a **reserve** of a chosen reserve token, held in the curve.
 - **Minting (buying)** deposits reserve and issues new supply at the current curve price.
 - **Burning (selling)** removes supply and returns reserve at the current curve price.
 - Price is **deterministic**: it depends only on where you are on the curve, so there is
   always a quotable mint/burn price and instant liquidity.
 
+A creator royalty can apply to each mint and burn. See [Economics](economics.md).
+
 ## Curve types
 
-Mint Club lets creators choose the **shape** of the curve and the price-variation intervals,
-so the asset's economics match the intent:
+Creators choose the **shape** of the curve:
 
-| Curve | Behavior | Suits |
-| --- | --- | --- |
-| **Linear** | Price rises steadily with supply. | Predictable, fair-launch-style economics. |
-| **Exponential** | Price accelerates as supply grows. | Early-supporter upside, scarcity plays. |
-| **Flat** | Price stays constant. | Fixed-price mints, memberships, stable units. |
+| Curve | Behavior |
+| --- | --- |
+| **Linear** | Price rises steadily with supply. |
+| **Exponential** | Price accelerates as supply grows. |
+| **Flat** | Price stays constant. |
 
-Creators can also tune the **price-variation intervals** (how the price steps along the
-curve) to shape the experience between these extremes.
+## Creating an asset
+
+Anyone can deploy an asset on a curve with no code: a **token** (ERC-20) for a project or
+community, or an **NFT** (ERC-1155) for memberships and collectibles. The creator sets the
+name, ticker and metadata, the **reserve token**, the curve type and its price steps, and
+supply limits such as a maximum supply. The asset is live on its curve right away, with no
+listing step.
+
+Each asset is a standard ERC-20 or ERC-1155 token on open contracts, so other teams can
+build products on it, as several in the [Build Log](../track-record/build-log.md) did.
 
 ## Reserve backing and refunds
 
 Because the reserve is held in the curve, the model is **reserve-backed and refundable**: a
-holder can always burn back to the curve and reclaim reserve at the current price. This is
-the property that makes Mint Club assets fundamentally different from purely speculative
-tokens: there is real reserve behind the supply, redeemable at any time through the curve.
+holder can always burn back to the curve and reclaim reserve at the current price.
 
 In the Hunt Town economy, the reserve token is frequently **HUNT**, which is how Co-op
 project tokens (and the legacy Mini Buildings) are [HUNT-backed](../hunt/reserve-token.md).

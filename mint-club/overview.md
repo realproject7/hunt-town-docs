@@ -13,18 +13,26 @@ MCDegen, Hamcaster, PumpSea, Hyped.club, MintDrop) were issued on Mint Club's cu
 ## What you can do
 
 - **Create** an ERC-20 token or ERC-1155 NFT on a bonding curve, choosing the curve shape
-  and the reserve token that backs it. See [Create Assets](create.md).
+  and the reserve token that backs it.
 - **Mint and burn** against the curve: buying mints new supply and pushes price up along the
-  curve; selling burns supply and returns reserve. See [Mint & Burn](mint-burn.md).
-- **Use creator tools:** airdrops, lock-ups, free minting, ownership transfer, royalty
-  claims. See [Creator Tools](creator-tools.md).
+  curve; selling burns supply and returns reserve.
 
-## Why bonding curves
+See [Bonding Curves](bonding-curves.md).
 
-A bonding curve removes the usual "launch a token, then go find liquidity" problem: the
-curve itself is the market, with a price to mint or burn at from the start and a reserve held
-behind the supply. Creators choose a curve and a reserve and deploy, with no code. See
-[Bonding Curves](bonding-curves.md).
+## Creator tools
+
+No-code tools for running an asset after launch:
+
+- **Airdrops** of tokens or NFTs to a list of recipients.
+- **Lock-ups** that hold supply for a set period, for vesting or team allocations.
+- **Free minting** by the creator under set conditions, for distribution, seeding or rewards.
+- **Ownership transfer** to another address, such as a multisig or a DAO.
+- **Royalty claims** for the royalties the creator earns on trading. See
+  [Economics](economics.md).
+- **Logo and website** for how the asset is shown.
+
+Everything the no-code interface does is also available from code through the Mint Club V2
+SDK: [sdk.mint.club](https://sdk.mint.club).
 
 ## How it relates to HUNT
 
@@ -33,5 +41,4 @@ Mint Club supports many reserve tokens, but it is tightly woven into the Hunt To
 [Co-op](../co-op/overview.md)), and Mint Club's own platform token, **MT (Mint Token)**, is itself
 a HUNT-backed child token. See [MT (Mint Token)](mint-token.md).
 
-> Full Mint Club product documentation, including event and campaign material not relevant to
-> this whitepaper, lives at **docs.mint.club**. This section covers the core protocol.
+> Full product docs: [docs.mint.club](https://docs.mint.club).

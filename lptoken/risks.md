@@ -1,28 +1,28 @@
 # Risks
 
 Holding an lpTOKEN share is not the same as holding the token, and it is not a yield
-product. These are the risks the protocol names for itself.
+product.
 
 ## Liquidity-provision risks
 
-- **Impermanent loss.** A liquidity position holds both sides of a pair. When the price
-  moves, the position ends up with more of the weaker asset and less of the stronger one, so
-  it can be worth less than simply having held either asset. Fee income offsets this; it
-  does not eliminate it.
+- **Impermanent loss.** When the price moves, the position ends up with more of the weaker
+  asset, so it can be worth less than simply holding either one. Fees offset this but do
+  not remove it.
 - **Loss-versus-rebalancing (LVR).** Arbitrageurs, not the pool, capture the value of price
   moves between trades. This is a structural cost of passive liquidity provision.
 - **LP competition and dilution.** Other liquidity providers, including concentrated and
   just-in-time liquidity, can take fee share away from the vault's position.
 - **Routing away.** Trades can be routed to other venues or pools entirely, in which case
   the vault earns no fees from them.
+- **Uniswap's protocol fee.** Uniswap governance, not lpTOKEN.fun, controls a protocol fee that
+  Uniswap can deduct before LP fees. It would reduce the swap fees the vault position earns.
 
 ## Protocol risks
 
-- **Vaults are not upgradeable.** There is no proxy and no admin patch path. This removes
-  admin risk, but it also means **a bug cannot be fixed in place**. A flawed vault would
-  have to be abandoned rather than repaired.
+- **Vaults are not upgradeable.** This removes admin risk, but **a bug cannot be fixed in
+  place**: a flawed vault would have to be abandoned rather than repaired.
 - **Smart-contract risk generally.** The contracts are onchain, permissionless, and final.
-  Audits and careful design reduce this risk; they do not remove it.
+  Careful design reduces this risk; it does not remove it.
 - **Position range limits.** A vault's price range is pinned at bootstrap. Prices can move
   outside the range, in which case the position stops earning fees until price returns.
 

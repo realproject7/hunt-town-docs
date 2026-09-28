@@ -1,6 +1,6 @@
 # Terms
 
-_Last Updated: September 27, 2026_
+_Last Updated: September 28, 2026_
 
 These Terms constitute an agreement between you (“you,” “user”) and Hunt Town, operated by BourbonShake Inc. (“Core Team,” “we,” “us,” or “our”), governing your access to and use of the Hunt Town website, documentation, and decentralized applications that provide access to onchain services on Ethereum, the Base Network, and other supported chains (collectively, the “Site”).
 
@@ -63,7 +63,7 @@ Users must use third-party wallets and maintain sufficient network tokens (e.g.,
 * Burning a Factory NFT redeems 95% of its NAV in HUNT. The remaining 5% is a burn fee that stays in the contract. The last Factory NFT cannot be burned.
 * Redemption is denominated in HUNT. Because of the burn fee, a burn can give back less HUNT than was paid to mint. The dollar value of any redemption follows the HUNT price and can fall.
 * The contract sets a 3% royalty (ERC-2981). Marketplaces that honor it pay it, and it is used to buy HUNT for the contract.
-* HUNT may be added to the contract from revenue of Hunt Town’s products, marketplace royalties, burn fees, and other income. These inflows are not guaranteed and have no fixed schedule or amount.
+* HUNT may be added to the contract from product revenue, marketplace royalties, burn fees, and other income. These inflows are not guaranteed and have no fixed schedule or amount.
 * The contract owner can change the metadata and the royalty operator. The owner cannot withdraw the HUNT held by the contract, mint Factory NFTs without HUNT backing, or upgrade the contract.
 * Migrating Building NFTs into Factory NFTs is one way and cannot be reversed. Only whole Factory NFTs are issued, and top-ups are not refunded.
 * Factory NFTs are not an investment. They give no right to any payment from the Core Team. The only redemption is the burn described above.
@@ -91,10 +91,10 @@ The Core Team has no administrative control over Mint Club’s deployed contract
 
 ### 9. h402 Payments
 
-h402 is Hunt Town’s onchain payment protocol for paid API routes and AI-agent calls, settled in stablecoins (e.g., USDC) on the Base Network.
+h402 is Hunt Town’s onchain payment protocol for paid API capabilities and AI-agent calls, settled in stablecoins (e.g., USDC) on the Base Network.
 
 * h402 payments are non-custodial: payments are made directly from your wallet to a provider’s settlement address through smart contracts. The Core Team does not hold, route, or reverse user funds.
-* Paid routes are operated by independent providers. The Core Team does not control, endorse, or guarantee any third-party route, including its pricing, availability, output, or fitness for any purpose.
+* Paid capabilities are served by independent providers. The Core Team does not control, endorse, or guarantee any third-party provider, including its pricing, availability, output, or fitness for any purpose.
 * You are solely responsible for the calls you authorize and the funds you spend, including payments made on your behalf by automated agents you configure.
 
 ***

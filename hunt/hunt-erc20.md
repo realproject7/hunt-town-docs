@@ -4,8 +4,6 @@
 [Factory NFT](../factory-nft/overview.md), and it is the reserve behind Co-op project tokens
 and other HUNT-backed tokens on Mint Club.
 
-Many products. One HUNT.
-
 | | |
 | --- | --- |
 | **Launched** | 2018 (the ERC-20 contract dates from February 2019) |
@@ -27,10 +25,8 @@ in its reserve. See [HUNT as the Reserve Token](reserve-token.md).
 
 ## Supply
 
-HUNT was issued once, **500,000,000** in total, and no address can mint more. Past burns
-reduced it, and each one is recorded in [Buyback & Burn](buyback-and-burn.md). For how
-supply is measured across Ethereum and Base, and what "locked" means, see
-[Supply & Distribution](supply.md).
+Past burns are recorded in [Buyback & Burn](buyback-and-burn.md). How supply is measured
+across Ethereum and Base is in [Supply & Distribution](supply.md).
 
 ## Contracts
 
