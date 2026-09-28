@@ -1,7 +1,8 @@
 # The Build Log
 
 Everything Hunt Town has shipped since 2018: the products, experiments, and partner builds that
-got the factory to where it is. **25 projects**, newest first.
+got the factory to where it is. **25 projects**, newest first. Each one also has its own page on
+[hunt.town/build-log](https://hunt.town/build-log).
 
 Each entry records four things: **the bet** we made (or, for partner builds, **the collab**),
 **what worked**, **what broke**, and the field that matters most for a factory, **what it
@@ -14,6 +15,10 @@ and succeeded by a named product · 🤝 = partner/collab build. Index numbers a
 ---
 
 ## #025 · Clap · 2025 · Sunset → Co-op
+
+<figure><img src="../.gitbook/assets/build-log/clap.jpg" alt="Clap"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/clap" class="button secondary">View on hunt.town</a>
 
 A Farcaster mini-app that gamifies builder-content discovery: "Swipe Right. Clap to Earn."
 
@@ -36,6 +41,10 @@ A Farcaster mini-app that gamifies builder-content discovery: "Swipe Right. Clap
 
 ## #024 · MintDrop · 2025 · Sunset
 
+<figure><img src="../.gitbook/assets/build-log/mintdrop.jpg" alt="MintDrop" width="320"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/mintdrop" class="button secondary">View on hunt.town</a>
+
 A daily spin-to-earn Farcaster mini-app. Hold $MT, spin daily, win $MT-backed token rewards.
 
 - **The bet:** A low-friction daily raffle as a new-user acquisition funnel for Mint Club:
@@ -56,6 +65,10 @@ A daily spin-to-earn Farcaster mini-app. Hold $MT, spin daily, win $MT-backed to
 ---
 
 ## #023 · Hyped.club · 2025 · Sunset
+
+<figure><img src="../.gitbook/assets/build-log/hyped-club.jpg" alt="Hyped.club"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/hyped-club" class="button secondary">View on hunt.town</a>
 
 A token-trading app where "hTokens" are backed by an original token but built to amplify its price
 swings. Trade hot tokens with extra beta.
@@ -78,6 +91,10 @@ swings. Trade hot tokens with extra beta.
 
 ## #022 · PumpSea · 2024 · Sunset
 
+<figure><img src="../.gitbook/assets/build-log/pumpsea.jpg" alt="PumpSea"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/pumpsea" class="button secondary">View on hunt.town</a>
+
 A Mint Club platform to trade NFTs like meme coins: buy and sell NFTs on bonding curves,
 Pump.fun-style.
 
@@ -97,6 +114,10 @@ Pump.fun-style.
 ---
 
 ## #021 · Hamcaster · 2024 · Sunset · 🤝
+
+<figure><img src="../.gitbook/assets/build-log/hamcaster.jpg" alt="Hamcaster"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/hamcaster" class="button secondary">View on hunt.town</a>
 
 A SocialFi app to tokenize your Farcaster profile ("Caster Tokens") and share daily $HAM
 rewards.
@@ -123,6 +144,10 @@ rewards.
 
 ## #020 · MCDegen · 2024 · Sunset · 🤝
 
+<figure><img src="../.gitbook/assets/build-log/mcdegen.jpg" alt="MCDegen"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/mcdegen" class="button secondary">View on hunt.town</a>
+
 Mint tokens with your Farcaster $DEGEN tip allowance. Instead of tipping, spend tips on Mint Club
 bonding-curve tokens on Degen Chain (L3).
 
@@ -143,6 +168,10 @@ bonding-curve tokens on Degen Chain (L3).
 ---
 
 ## #019 · Hunt Tip · 2024 · Sunset → Co-op
+
+<figure><img src="../.gitbook/assets/build-log/hunt-tip.jpg" alt="Hunt Tip"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/hunt-tip" class="button secondary">View on hunt.town</a>
 
 A Farcaster tipping / rewards system where Building-NFT holders give daily tip allowances to
 recognize and reward onchain builders, via seasonal leaderboards and grants.
@@ -173,6 +202,10 @@ recognize and reward onchain builders, via seasonal leaderboards and grants.
 ---
 
 ## #018 · MCTraveller · 2024 · Sunset · 🤝
+
+<figure><img src="../.gitbook/assets/build-log/mctraveller.jpg" alt="MCTraveller"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/mctraveller" class="button secondary">View on hunt.town</a>
 
 McDonald's With Traveller: an art raffle where the entry ticket was itself a bonding-curve NFT
 on Base, and the prizes were original art and travel.
@@ -210,6 +243,10 @@ on Base, and the prizes were original art and travel.
 
 ## #017 · Farcards · 2024 · Still live · 🤝
 
+<figure><img src="../.gitbook/assets/build-log/farcards.jpg" alt="Farcards"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/farcards" class="button secondary">View on hunt.town</a>
+
 Collectible NFT trading cards on Farcaster. Your profile becomes a tradable card.
 
 - **The collab:** Built and run by an independent Farcaster builder team; Hunt Town / Mint
@@ -231,6 +268,10 @@ Collectible NFT trading cards on Farcaster. Your profile becomes a tradable card
 
 ## #016 · Memberify · 2024 · Sunset · 🤝
 
+<figure><img src="../.gitbook/assets/build-log/memberify.jpg" alt="Memberify"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/memberify" class="button secondary">View on hunt.town</a>
+
 Mint your own bonding-curve membership NFT. Fans join by minting your personal "member" card.
 
 - **The collab:** Built and led by the Member team (gami); Hunt Town / Mint Club's role was
@@ -250,6 +291,10 @@ Mint your own bonding-curve membership NFT. Fans join by minting your personal "
 ---
 
 ## #015 · Town Poker · 2023 · Sunset
+
+<figure><img src="../.gitbook/assets/build-log/town-poker.jpg" alt="Town Poker"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/town-poker" class="button secondary">View on hunt.town</a>
 
 A Texas hold'em bot that dealt a full tournament inside the Hunt Town Discord, played for
 virtual points with no real money at stake.
@@ -278,6 +323,10 @@ virtual points with no real money at stake.
 ---
 
 ## #014 · Chatcasso · 2022 · Sunset
+
+<figure><img src="../.gitbook/assets/build-log/chatcasso.jpg" alt="Chatcasso"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/chatcasso" class="button secondary">View on hunt.town</a>
 
 An AI NFT wizard that lived in a chat window. You described the art you wanted, it drew it,
 deployed the collection onchain, and gave it a public mint page.
@@ -311,6 +360,10 @@ deployed the collection onchain, and gave it a public mint page.
 
 ## #013 · Dixel Club V2 · 2022 · Still live
 
+<figure><img src="../.gitbook/assets/build-log/dixel.png" alt="Dixel Club V2"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/dixel" class="button secondary">View on hunt.town</a>
+
 A pixel-NFT collection factory. A creator launches a 24x24 canvas as their own collection, and
 anyone can mint a color-variant edition of it on a bonding curve.
 
@@ -338,6 +391,10 @@ anyone can mint a color-variant edition of it on a bonding curve.
 ---
 
 ## #012 · Dixel Club V1 · 2022 · Sunset → Dixel Club V2
+
+<figure><img src="../.gitbook/assets/build-log/dixel-club-v1.jpg" alt="Dixel Club V1"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/dixel-club-v1" class="button secondary">View on hunt.town</a>
 
 One shared 16x16 pixel canvas on BNB Chain. Anyone could overwrite pixels and mint the result as
 an SVG-based NFT, earning $DIXEL when someone later painted over their work.
@@ -368,6 +425,10 @@ an SVG-based NFT, earning $DIXEL when someone later painted over their work.
 
 ## #011 · 1s.market · 2021 · Sunset · 🤝
 
+<figure><img src="../.gitbook/assets/build-log/1s-market.jpg" alt="1s.market"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/1s-market" class="button secondary">View on hunt.town</a>
+
 A marketplace to tokenize and trade anyone's time as "time tokens." Its tagline: "'Second' is the ultimate currency…"
 
 - **The collab:** The first-ever third-party project built on Mint Club. Partner tx0x (a Korean
@@ -392,6 +453,10 @@ A marketplace to tokenize and trade anyone's time as "time tokens." Its tagline:
 ---
 
 ## #010 · Mint Club V1 · 2021 · Sunset → Mint Club V2
+
+<figure><img src="../.gitbook/assets/build-log/mint-club-v1.jpg" alt="Mint Club V1"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/mint-club-v1" class="button secondary">View on hunt.town</a>
 
 A no-code token builder on BNB Chain. Anyone could launch a BEP20 token in a few clicks, and a
 bonding curve backed by MINT made it tradable right away with no liquidity pool.
@@ -424,6 +489,10 @@ bonding curve backed by MINT made it tradable right away with no liquidity pool.
 
 ## #009 · Neverlose.money · 2020 · Still live
 
+<figure><img src="../.gitbook/assets/build-log/neverlose.jpg" alt="Neverlose.money"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/neverlose" class="button secondary">View on hunt.town</a>
+
 A gamified HODL / savings protocol that pays bonuses to disciplined long-term lockers, funded by
 early-exit penalties from those who break their lock.
 
@@ -444,6 +513,10 @@ early-exit penalties from those who break their lock.
 ---
 
 ## #008 · Nomadtask · 2020 · Still live
+
+<figure><img src="../.gitbook/assets/build-log/nomadtask.jpg" alt="Nomadtask"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/nomadtask" class="button secondary">View on hunt.town</a>
 
 A bounty-based marketing-task marketplace pairing product makers with "digital nomads" who
 complete paid micro-tasks (reviews, social actions, content).
@@ -468,6 +541,10 @@ complete paid micro-tasks (reviews, social actions, content).
 ---
 
 ## #007 · Gudoks · 2020 · Sunset
+
+<figure><img src="../.gitbook/assets/build-log/gudoks.jpg" alt="Gudoks"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/gudoks" class="button secondary">View on hunt.town</a>
 
 A Korean-run marketing service that paid people already active in reward communities to follow a
 client's social channel, with each follow verified by screenshot before payout.
@@ -497,6 +574,10 @@ client's social channel, with each follow verified by screenshot before payout.
 
 ## #006 · CoronaTasks · 2020 · Sunset
 
+<figure><img src="../.gitbook/assets/build-log/coronatasks.jpg" alt="CoronaTasks"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/coronatasks" class="button secondary">View on hunt.town</a>
+
 A one-page directory of sites that paid for small remote tasks, built during the 2020 lockdowns.
 
 - **The bet:** The pitch was in the tagline: a hand-picked list of websites where you can earn
@@ -520,6 +601,10 @@ A one-page directory of sites that paid for small remote tasks, built during the
 ---
 
 ## #005 · Testfly · 2020 · Sunset
+
+<figure><img src="../.gitbook/assets/build-log/testfly.jpg" alt="Testfly"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/testfly" class="button secondary">View on hunt.town</a>
 
 A marketplace for on-demand beta tests. Makers wrote a test instruction, and verified testers
 around the world ran it and sent back screenshots and written feedback.
@@ -549,6 +634,10 @@ around the world ran it and sent back screenshots and written feedback.
 
 ## #004 · LOL Hunt · 2019 · Still live
 
+<figure><img src="../.gitbook/assets/build-log/lol-hunt.jpg" alt="LOL Hunt"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/lol-hunt" class="button secondary">View on hunt.town</a>
+
 A daily top chart of the funniest YouTube clips, shared and upvoted by users worldwide.
 
 - **The bet:** The Steemhunt "community-curated daily leaderboard" formula could extend beyond
@@ -569,6 +658,10 @@ A daily top chart of the funniest YouTube clips, shared and upvoted by users wor
 ---
 
 ## #003 · DRG OTC · 2019 · Sunset
+
+<figure><img src="../.gitbook/assets/build-log/drg-otc.jpg" alt="DRG OTC"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/drg-otc" class="button secondary">View on hunt.town</a>
 
 A public board for peer-to-peer token trades. You pasted a Bitberry escrow link, the site read
 it and listed it, and anyone could join the trade without signing up.
@@ -599,6 +692,10 @@ it and listed it, and anyone could join the trade without signing up.
 ---
 
 ## #002 · Reviewhunt · 2019 · Sunset → Nomadtask
+
+<figure><img src="../.gitbook/assets/build-log/reviewhunt.jpg" alt="Reviewhunt"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/reviewhunt" class="button secondary">View on hunt.town</a>
 
 A review-campaign marketplace where makers paid early adopters in HUNT to run quests on a new
 app, leave a store review, then post about it on their own channel.
@@ -635,6 +732,10 @@ app, leave a store review, then post about it on their own channel.
 ---
 
 ## #001 · Steemhunt · 2018 · Still live
+
+<figure><img src="../.gitbook/assets/build-log/steemhunt.jpg" alt="Steemhunt"><figcaption></figcaption></figure>
+
+<a href="https://hunt.town/build-log/steemhunt" class="button secondary">View on hunt.town</a>
 
 A Product-Hunt-style daily leaderboard where curators earn crypto for sharing and upvoting cool
 products. Where it all started.

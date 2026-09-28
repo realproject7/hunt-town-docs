@@ -10,6 +10,8 @@ much of the ecosystem is built on: Co-op project tokens, legacy Mini Buildings, 
 products in the [Build Log](../track-record/build-log.md) (1s.market, Memberify, Farcards,
 MCDegen, Hamcaster, PumpSea, Hyped.club, MintDrop) were issued on Mint Club's curves.
 
+<figure><img src="../.gitbook/assets/products/mintclub-home.jpg" alt="The Mint Club home page"><figcaption><p>The Mint Club home page</p></figcaption></figure>
+
 ## What you can do
 
 - **Create** an ERC-20 token or ERC-1155 NFT on a bonding curve, choosing the curve shape

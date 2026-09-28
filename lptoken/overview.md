@@ -17,6 +17,8 @@ lpTOKEN.fun makes the second position as easy to hold as the first. A **Uniswap 
 liquidity position is wrapped in an ERC-20**, so the LP side of a market becomes a token you
 can mint, hold, transfer, and redeem like any other.
 
+<figure><img src="../.gitbook/assets/products/lptoken-swap.jpg" alt="How a swap feeds the pool and its lpTOKEN"><figcaption><p>How a swap feeds the pool and its lpTOKEN</p></figcaption></figure>
+
 ## What that gives you
 
 - **Two exposures to one market.** The token tracks price. The **lpTOKEN** share tracks the

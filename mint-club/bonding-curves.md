@@ -30,6 +30,8 @@ Creators choose the **shape** of the curve:
 
 ## Creating an asset
 
+<figure><img src="../.gitbook/assets/products/mintclub-create.jpg" alt="Creating a child token on Mint Club"><figcaption><p>Creating a child token on Mint Club</p></figcaption></figure>
+
 Anyone can deploy an asset on a curve with no code: a **token** (ERC-20) for a project or
 community, or an **NFT** (ERC-1155) for memberships and collectibles. The creator sets the
 name, ticker and metadata, the **reserve token**, the curve type and its price steps, and

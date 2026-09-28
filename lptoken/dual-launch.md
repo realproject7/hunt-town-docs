@@ -3,6 +3,8 @@
 A **dual launch** creates a token and its LP vault in the same transaction, so a new market
 opens with liquidity already in place and its LP side already tokenized.
 
+<figure><img src="../.gitbook/assets/products/lptoken-launch.jpg" alt="The lpTOKEN.fun launch form"><figcaption><p>The launch form and its fixed terms</p></figcaption></figure>
+
 ## What happens at launch
 
 1. A fixed-supply token is deployed: **1,000,000,000** tokens, minted once, with no mint,

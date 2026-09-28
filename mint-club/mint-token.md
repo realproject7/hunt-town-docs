@@ -13,6 +13,8 @@ token**.
 > concluded on June 5, 2025**, after which **MT powers Mint Club exclusively**. References to
 > "MINT" in older material refer to the pre-migration token.
 
+<figure><img src="../.gitbook/assets/products/mintclub-mt.jpg" alt="MT on Mint Club"><figcaption><p>MT on Mint Club, with HUNT as its parent</p></figcaption></figure>
+
 ## What MT does
 
 - **Buyback & burn.** Mint Club's own token model: platform fees buy back MT and burn it.

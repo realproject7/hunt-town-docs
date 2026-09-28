@@ -8,6 +8,8 @@ more, without setting up each API separately.
 It is Hunt Town's product for the "Agent" half of the
 [Builder & Agent Economy](../hunt-town/builder-agent-economy.md).
 
+<figure><img src="../.gitbook/assets/products/h402-home.jpg" alt="The h402 home page"><figcaption><p>The h402 home page</p></figcaption></figure>
+
 ## The problem
 
 An agent that needs ten different services today needs ten integrations: ten sets of API
@@ -40,6 +42,8 @@ provides it.
 | **Provider** | One concrete implementation of a capability, with its own input schema, price, upstream service, and a stored real-response sample. A capability can have many providers. |
 | **Call** | One request against **one pinned provider** of a capability. Every executable call names its provider explicitly. |
 | **Catalog** | The curated index of capabilities and their providers, browsable by humans and queryable by agents. h402 lists only providers it has verified and does not crawl the web for endpoints. |
+
+<figure><img src="../.gitbook/assets/products/h402-catalog.jpg" alt="The h402 capability catalog"><figcaption><p>The capability catalog</p></figcaption></figure>
 
 Capabilities are grouped into categories such as `ai`, `web` and `crypto`. The live list is
 in the [catalog](https://h402.hunt.town/catalog).

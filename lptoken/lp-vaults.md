@@ -3,6 +3,8 @@
 An **LP vault** is the contract that turns a Uniswap v4 liquidity position into a
 transferable ERC-20.
 
+<figure><img src="../.gitbook/assets/products/lptoken-share.jpg" alt="An lpTOKEN share card"><figcaption><p>An lpTOKEN share card</p></figcaption></figure>
+
 ## One vault, one pool, one position
 
 Each vault is pinned to **exactly one pool**. Its currency pair and fee tier are fixed at

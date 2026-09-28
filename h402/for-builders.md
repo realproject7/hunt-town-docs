@@ -4,6 +4,8 @@ The other side of the market is the **API builders** who supply capabilities. h4
 existing API a path to agent demand without building billing, key management, or a customer
 relationship for every caller.
 
+<figure><img src="../.gitbook/assets/products/h402-builders.jpg" alt="The h402 Builders page"><figcaption><p>The Builders page</p></figcaption></figure>
+
 ## What you get
 
 - **Per-call monetization.** Your service is paid per call in Base USDC. No per-customer

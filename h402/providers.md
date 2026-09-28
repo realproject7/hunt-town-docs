@@ -5,6 +5,8 @@ pay, the catalog shows each provider's price, its input schema, a sample of a re
 response, and whether it is enabled. That is enough to predict the cost and the shape of the
 result.
 
+<figure><img src="../.gitbook/assets/products/h402-providers.jpg" alt="Providers of the web search capability"><figcaption><p>Providers of one capability, compared side by side</p></figcaption></figure>
+
 ## Selection is explicit
 
 **Every executable call is pinned to one provider.** The caller (a human, an agent, or the
