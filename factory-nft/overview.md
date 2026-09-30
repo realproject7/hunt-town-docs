@@ -49,11 +49,6 @@ HUNT than you locked. No return is promised. See
 [What you get back in HUNT](mint-and-burn.md#what-you-get-back-in-hunt) and
 [Terms](../terms.md).
 
-## Building NFTs
-
-Main and Mini Building NFTs are legacy assets. Holders can turn them into Factory NFTs, one
-way. See [Migrating Buildings](migrating-buildings.md).
-
 ## Where to use it
 
 Mint, burn and live figures: [hunt.town/factory](https://hunt.town/factory).

@@ -43,7 +43,7 @@ outright, plus the swap fees the position earns.
 > on fees earned, impermanent loss, and how much of the pool's liquidity the vault
 > represents. See [Risks](risks.md).
 
-## The protocol's own backtest
+## How it works
 
-The product publishes its backtest, a historical model and not a forecast, at
+The product explains its full model at
 [lptoken.fun/methodology](https://lptoken.fun/methodology).
