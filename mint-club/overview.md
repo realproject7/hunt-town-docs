@@ -6,9 +6,10 @@ curve, with no smart-contract code and no seeded liquidity pool, and the asset i
 mintable and burnable against its reserve.
 
 For Hunt Town, Mint Club is both an **active product** and the **protocol primitive** that
-much of the ecosystem is built on: Co-op project tokens, legacy Mini Buildings, and many of the
-products in the [Build Log](../track-record/build-log.md) (1s.market, Memberify, Farcards,
-MCDegen, Hamcaster, PumpSea, Hyped.club, MintDrop) were issued on Mint Club's curves.
+much of the ecosystem is built on. Co-op project tokens and legacy Mini Buildings are issued
+on its curves, and so were the tokens of many products in the
+[Archives](../track-record/build-log.md): Dixel Club, 1s.market, Memberify, Farcards, MCDegen,
+Hamcaster, PumpSea, Hyped.club and MintDrop.
 
 <figure><img src="../.gitbook/assets/products/mintclub-home.jpg" alt="The Mint Club home page"><figcaption><p>The Mint Club home page</p></figcaption></figure>
 
@@ -27,6 +28,8 @@ No-code tools for running an asset after launch:
 
 - **Airdrops** of tokens or NFTs to a list of recipients.
 - **Lock-ups** that hold supply for a set period, for vesting or team allocations.
+- **Bulk sends** of a token to many wallets in one transaction.
+- **Staking pools** that a creator funds with reward tokens.
 - **Free minting** by the creator under set conditions, for distribution, seeding or rewards.
 - **Ownership transfer** to another address, such as a multisig or a DAO.
 - **Royalty claims** for the royalties the creator earns on trading. See
@@ -43,4 +46,4 @@ Mint Club supports many reserve tokens, but it is tightly woven into the Hunt To
 [Co-op](../co-op/overview.md)), and Mint Club's own platform token, **MT (Mint Token)**, is itself
 a HUNT-backed child token. See [MT (Mint Token)](mint-token.md).
 
-> Full product docs: [docs.mint.club](https://docs.mint.club).
+> Use it at [mint.club](https://mint.club). Full product docs: [docs.mint.club](https://docs.mint.club).

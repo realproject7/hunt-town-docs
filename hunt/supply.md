@@ -23,17 +23,19 @@ so Base is accounted for inside that balance rather than added on top. See
 Every HUNT falls into exactly one of three live categories:
 
 - **Burned:** removed from supply for good, by past burns or by sitting at the dead address.
-- **Locked:** still exists but is committed: held by the Factory NFT contract, time-locked in
-  the Neverlose.money vault, or sitting in the reserves of Co-op and other Mint Club tokens on
-  Base.
+- **Locked:** still exists but is committed: held by the Factory NFT contract, held by the
+  Town Hall behind Main Buildings, time-locked in the Neverlose.money vault, or sitting in the
+  reserves of Co-op and other Mint Club tokens on Base.
 - **Market circulation:** what remains, held in wallets, on exchanges, and in liquidity
   pools.
 
 Notes on method:
 
-- Legacy Building NFTs do not count as locked. The HUNT behind Main Buildings (held by the
-  Town Hall) and behind Mini Buildings counts as circulating. When the Factory NFT launched,
-  that HUNT moved from locked to circulating.
+- The HUNT behind Main Buildings counts as locked while it sits in the Town Hall, even after
+  a Building's one-year lock-up ends. Migrated Buildings still count: their HUNT stays in the
+  Town Hall.
+- The HUNT behind Mini Buildings sits in the Mint Club reserve on Base and counts as
+  circulating.
 - Market circulation is computed from onchain reads. It is **not** an exchange-reported
   float, and it may differ from third-party circulating-supply figures.
 

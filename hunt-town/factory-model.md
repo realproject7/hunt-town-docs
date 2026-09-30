@@ -20,7 +20,7 @@ compound:
 3. **Seed:** when a product is retired or evolves, its mechanics, its community, and its
    lessons **seed the next product**.
 
-The [Build Log](../track-record/build-log.md) records what each product seeded. Steemhunt's
+The [Archives](../track-record/build-log.md) show what each product seeded. Steemhunt's
 reward-curation model seeded everything. Neverlose.money's lock-up mechanics fed Mint Club's
 tooling. Hunt Tip's NFT-allowance tipping seeded the Co-op.
 
@@ -46,10 +46,10 @@ A new product uses the parts that fit instead of reinventing them.
 ## Active products and the archive
 
 At any time the factory runs a small set of **active products** and keeps a much larger
-public archive of **previous products** in the [Build Log](../track-record/build-log.md). The
+record of **previous products** in the [Archives](../track-record/build-log.md). The
 retired products are the track record that earned the factory its current thesis.
 
-<figure><img src="../.gitbook/assets/site/site-buildlog.jpg" alt="The Build Log on hunt.town"><figcaption><p>The public archive: the Build Log on hunt.town</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/site/site-buildlog.jpg" alt="The Archives on hunt.town"><figcaption><p>The Archives on hunt.town</p></figcaption></figure>
 
 ## Builders and holders
 

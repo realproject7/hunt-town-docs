@@ -37,7 +37,7 @@ lpTOKEN value  ≈  √(P_t / P_0)      (idealized, fees excluded)
 ```
 
 so an lpTOKEN share has roughly **half the price sensitivity** of holding the token
-outright, plus the fee income the position earns.
+outright, plus the swap fees the position earns.
 
 > An idealized approximation, not a promised volatility cap or return. Real outcomes depend
 > on fees earned, impermanent loss, and how much of the pool's liquidity the vault

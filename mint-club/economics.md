@@ -13,8 +13,7 @@ creator, who **claims** it through the [creator tools](overview.md#creator-tools
 
 ## Protocol fee
 
-The protocol fee is 20% of the creator royalty. It is deducted when the creator claims. With
-a 0.3% royalty, the creator receives 0.24% and the protocol receives 0.06%.
+The protocol keeps 20% of each creator royalty. With a 0.3% royalty, the creator receives 0.24% and the protocol receives 0.06%.
 
 Platform fees fund Mint Club's own token model: the buyback-and-burn of
 [MT (Mint Token)](mint-token.md).

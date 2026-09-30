@@ -49,7 +49,7 @@ The vaults are deliberately rigid:
 - **Not upgradeable.** There is no proxy and no patch path.
 - **No pause, no admin withdrawal.** No privileged role can move, freeze, or seize vault
   assets.
-- The factory owner can only curate **new** pools and set terms for **future** launches.
+- The owner of lpTOKEN.fun's factory contract can only curate **new** pools and set terms for **future** launches.
   Existing vaults and positions are untouchable.
 
 A bug cannot be fixed in place. See [Risks](risks.md).

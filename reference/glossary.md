@@ -20,8 +20,8 @@ the outcome, not the vendor.
 **Child token**: a token issued on a bonding curve with another token (often HUNT) as its
 reserve. Co-op project tokens and MT (Mint Token) are HUNT-backed child tokens.
 
-**Co-op**: Hunt Town's HUNT-based launchpad and DEX, where builders launch HUNT-backed tokens
-and anyone can trade them against HUNT. Lives at coop.hunt.town.
+**Co-op**: Hunt Town's HUNT-backed launchpad and DEX, where builders launch tokens with HUNT
+as their reserve and anyone can trade them against HUNT. Lives at coop.hunt.town.
 
 **EIP-3009**: the standard for signed token-transfer authorizations. h402 uses it so a caller
 signs a stablecoin payment locally.
@@ -34,10 +34,6 @@ discover, compare, and pay per call for capabilities. See [h402](../h402/overvie
 
 **HUNT**: the ERC-20 token that backs the Factory NFT and serves as the reserve asset for
 Co-op project tokens and other HUNT-backed tokens. Non-inflationary: no address can mint it.
-
-**Lock-up per NFT**: the HUNT one mint locks in the Factory NFT vault: the current NAV per
-NFT, or 1,000 HUNT × the multiplier. It was 1,000 HUNT at launch. See
-[Mint & Burn](../factory-nft/mint-and-burn.md).
 
 **lpTOKEN**: an ERC-20 share of a Uniswap v4 liquidity position held by an lpTOKEN.fun
 vault; a pro-rata claim on that position, its accrued fees, and the vault's idle balances.
@@ -55,11 +51,9 @@ Co-op project tokens and MT are issued on it.
 **MT (Mint Token)**: Mint Club's platform token; itself a HUNT-backed child token. It replaced
 the older MINT token on June 5, 2025.
 
-**Multiplier**: the NAV per NFT divided by 1,000 HUNT, shown as ×1.0000. It was ×1.0000 at
-launch. It rises when HUNT is added without minting, and when NFTs are burned.
-
 **NAV per NFT**: the HUNT held by the Factory NFT contract divided by the number of Factory
-NFTs. See [The NAV Vault](../factory-nft/nav-vault.md).
+NFTs. Minting one NFT locks this much HUNT. It was 1,000 HUNT at launch, and it rises when
+HUNT is added outside a mint or when NFTs are burned. See [The NAV Vault](../factory-nft/nav-vault.md).
 
 **Provider**: one concrete implementation of a capability on h402, with its own input
 schema, price, upstream service, and a stored real-response sample. Every call is pinned to
@@ -82,9 +76,10 @@ h402's foundation.
 ## Legacy
 
 **Building NFT**: Hunt Town's earlier HUNT-backed NFTs. A **Main Building** (Ethereum,
-ERC-721) holds 1,000 HUNT in the Town Hall contract until it unlocks; a **Mini Building**
-(Base, ERC-1155) was minted with 100 HUNT through Mint Club. Holders can migrate both into
-Factory NFTs. See [Migrating Buildings](../factory-nft/migrating-buildings.md).
+ERC-721) holds 1,000 HUNT in the Town Hall contract, released when the Building is burned
+after it unlocks. A **Mini Building** (Base, ERC-1155) was minted with 100 HUNT through Mint
+Club. Holders can migrate them into Factory NFTs. See
+[Migrating Buildings](../factory-nft/migrating-buildings.md).
 
 **Town Hall**: the Ethereum contract that holds the 1,000 HUNT behind each Main Building and
 records when each one unlocks. See [Migrating Buildings](../factory-nft/migrating-buildings.md).

@@ -7,12 +7,10 @@ its HUNT balance is the vault.
 
 ```
 NAV per NFT = HUNT in the vault ÷ NFTs in supply
-multiplier  = NAV per NFT ÷ 1,000 HUNT
 ```
 
-The Factory NFT launched with one seed NFT backed by 1,000 HUNT: a NAV per NFT of 1,000
-HUNT and a multiplier of ×1.0000. The team holds the seed. It is an ordinary Factory NFT
-with no special rights.
+The Factory NFT launched with one seed NFT backed by 1,000 HUNT, so the NAV per NFT started
+at 1,000 HUNT. The team holds the seed. It is an ordinary Factory NFT with no special rights.
 
 ## What raises the NAV
 
@@ -54,6 +52,6 @@ is counted in HUNT, so its dollar value moves with the HUNT price, in either dir
 
 ## Live numbers
 
-The live NAV per NFT, multiplier, supply, and vault HUNT are shown at
+The live NAV per NFT, supply, vault HUNT and daily NAV history are shown at
 [hunt.town/factory](https://hunt.town/factory#vault). The vault's HUNT also counts as locked in
 [Supply & Distribution](../hunt/supply.md).

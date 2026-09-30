@@ -1,18 +1,20 @@
 # Migrating Buildings
 
 Building NFTs are Hunt Town's legacy NFTs. Holders can turn them into Factory NFTs. Each
-Building counts toward the lock-up at a fixed HUNT value, and you add HUNT to reach whole
-Factory NFTs.
+Building counts at a fixed HUNT value, and you add HUNT to reach whole Factory NFTs.
+
+Main Buildings migrate on Ethereum. Mini Building migration from Base has not opened yet.
 
 <figure><img src="../.gitbook/assets/site/site-migrate-hero.jpg" alt="The migration portal on hunt.town"><figcaption><p>The migration portal</p></figcaption></figure>
 
 ## The rules
 
 - **One way.** Migrated Buildings do not come back.
-- **One chain at a time.** Main Buildings migrate on Ethereum. Mini Buildings migrate on
-  Base.
+- **One chain at a time.** Main Buildings migrate on Ethereum in one transaction. Mini
+  Buildings and their top-up are sent on Base.
 - **Whole NFTs only.** There are no partial Factory NFTs and no refunds.
-- **Factory NFTs arrive on Ethereum,** whichever chain you migrate from.
+- **Factory NFTs arrive on Ethereum,** whichever chain you migrate from. From Base, the team
+  confirms the deposit and then mints them to the same wallet on Ethereum.
 
 | | Main Building | Mini Building |
 | --- | --- | --- |
@@ -35,16 +37,22 @@ normally hold that HUNT back.
 
 ## How many Factory NFTs
 
-The Buildings' HUNT value is rounded up to whole Factory NFTs at the current lock-up of
-1,000 HUNT × the multiplier. The holder adds the difference in HUNT (the top-up), which is
-never refunded.
+The Buildings' HUNT value is divided by the current NAV per NFT and rounded up to whole
+Factory NFTs. The holder adds the difference in HUNT (the top-up), which is never refunded.
 
-At ×1.0000, one Main Building or ten Mini Buildings make one Factory NFT with no top-up. The
-top-up grows as the multiplier rises.
+At a NAV of 1,000 HUNT per NFT, one Main Building or ten Mini Buildings make one Factory NFT
+with no top-up. At 1,200 HUNT, ten Main Buildings plus 800 HUNT make nine Factory NFTs.
 
 Migrate at [hunt.town/migrate](https://hunt.town/migrate).
 
-<figure><img src="../.gitbook/assets/site/site-migrate-gates.jpg" alt="The Ethereum and Base gates"><figcaption><p>One gate per chain</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/site/site-migrate-gates.jpg" alt="The Ethereum and Base gates"><figcaption><p>One gate per chain. The Base gate has not opened yet.</p></figcaption></figure>
+
+## Where the HUNT comes from
+
+Migration does not burn Buildings or take out the HUNT behind them. The team funds the
+migration contract with HUNT, and the new Factory NFTs are minted from that HUNT at the full
+current NAV, like any other mint. The migrated Buildings and the top-up go to a team wallet,
+and the HUNT behind those Buildings stays where it is until the team redeems it.
 
 ## Legacy Buildings
 

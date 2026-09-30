@@ -1,4 +1,4 @@
-# The Build Log
+# Archives
 
 Everything Hunt Town has shipped since 2018: the products, experiments, and partner builds that
 got the factory to where it is. **25 projects**, newest first. Each one also has its own page on
@@ -299,7 +299,7 @@ Mint your own bonding-curve membership NFT. Fans join by minting your personal "
 A Texas hold'em bot that dealt a full tournament inside the Hunt Town Discord, played for
 virtual points with no real money at stake.
 
-- **The bet:** The point was to put the whole game where the community already was. The studio's
+- **The bet:** The point was to put the whole game where the community already was. Hunt Town's
   account is that members played with Build Points, the town's virtual points; on screen the bot
   deals and counts everything in chips. No real money was in it and there was nothing to cash
   out.
@@ -310,7 +310,7 @@ virtual points with no real money at stake.
   second gap, and side pots when players went all in. It ran as a knockout tournament with
   everyone starting at 1,000 chips, and one hand in the captures seats ten players with the
   community chat running in the same channel.
-- **What broke:** It was never gambling for money. The studio's account is that there could
+- **What broke:** It was never gambling for money. Hunt Town's account is that there could
   still have been legal or regulatory issues, and that was not a risk worth carrying for a
   community game. By that account it ran for a single event, the evening of 19 May 2023 that
   these captures come from, and then it stopped.
@@ -416,7 +416,7 @@ an SVG-based NFT, earning $DIXEL when someone later painted over their work.
   canvas with everyone else. They wanted their own collection, with their own followers minting
   color variants of it.
 - **What it seeded:** That demand became Dixel Club V2, which is still live. DIXEL itself was
-  minted on the Mint Club protocol, so V1 ran on the curves the studio still builds on.
+  minted on the Mint Club protocol, so V1 ran on the curves Hunt Town still builds on.
 - **Meta:** 2022-02-07 · BNB Chain (BSC) · [V1 launch
   post](https://news.hunt.town/p/meet-the-draw-to-earn-pixelfi-nft) · [V1 launch post (Steemit
   original)](https://steemit.com/dixel/@steemhunt/meet-the-draw-to-earn-pixelfi-nft-platform-dixel-club-mainnet-launch)
@@ -475,7 +475,7 @@ bonding curve backed by MINT made it tradable right away with no liquidity pool.
   read was that the market had moved past that: builders wanted several root tokens across
   several chains, and capital was flowing to Ethereum L2s like Base. The collateral root was a
   design decision rather than something to patch, so we rebuilt the protocol as Mint Club V2.
-- **What it seeded:** Mint Club V2, the protocol the studio runs today. Later products in this
+- **What it seeded:** Mint Club V2, the protocol Hunt Town runs today. Later products in this
   archive run on the Mint Club protocol rather than on V1: PumpSea, Hyped.club and MintDrop,
   plus partner builds like Farcards, Hamcaster and Memberify. V1 also closed a loop back to
   HUNT, because trading fees from trades without a referral code went to the quarterly HUNT
@@ -682,7 +682,7 @@ it and listed it, and anyone could join the trade without signing up.
   inherited that company's rules, and the launch post warned you might hit a KYC requirement
   before you could use the escrow at all. The team's read is that Bitberry shut down its
   business, and when the escrow went, the board had nothing left to list.
-- **What it seeded:** Nothing later grew directly out of it, but it taught the studio something
+- **What it seeded:** Nothing later grew directly out of it, but it taught us something
   about position: we had built the thin layer on someone else's rails, and the company
   underneath could end our product by closing its own. Mint Club later put us on the other side
   of that line, as the rails other teams build on.

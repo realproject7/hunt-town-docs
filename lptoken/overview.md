@@ -33,11 +33,11 @@ can mint, hold, transfer, and redeem like any other.
 | Path | What it is |
 | --- | --- |
 | **Dual launch** | Launch a new token and its LP vault together on the platform. Initial shares are permanently burned, and a one-sided launch position creates a floor that grows with volume. See [Dual Launch](dual-launch.md). |
-| **Curated LP vault** | Wrap an existing Uniswap v4 pool in a vault so its liquidity becomes an lpTOKEN. No launch position, no floor: pure mint / redeem / compound. |
+| **Curated LP vault** | Open a vault on an existing Uniswap v4 pool, so liquidity added through it is held as an lpTOKEN. No launch position, no floor: pure mint / redeem / compound. |
 
 ## Where it runs
 
-lpTOKEN.fun is **live** on **Robinhood Chain**, **Base**, **Arc**, and **Ethereum**. New
+lpTOKEN.fun is **live** at [lptoken.fun](https://lptoken.fun) on **Robinhood Chain**, **Base**, **Arc**, and **Ethereum**. New
 tokens launch against each chain's native currency: ETH on Robinhood Chain, Base, and
 Ethereum, and USDC on Arc. Contract addresses are listed in
 [Contracts & Addresses](../reference/contracts.md).

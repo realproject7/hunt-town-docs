@@ -1,6 +1,6 @@
 # Co-op: Overview
 
-**Co-op is a HUNT-based launchpad and DEX at [coop.hunt.town](https://coop.hunt.town).**
+**Co-op is a HUNT-backed launchpad and DEX at [coop.hunt.town](https://coop.hunt.town).**
 Builders launch project tokens on bonding curves with HUNT as the reserve, and anyone can
 buy or sell them against HUNT from the moment they launch. Co-op runs on the
 [Mint Club](../mint-club/overview.md) protocol on Base, and it is the most direct expression
@@ -36,7 +36,7 @@ of the [reserve-token](../hunt/reserve-token.md) thesis.
   10 HUNT.
 - **Mini Apps** that a project can list on its page.
 
-<figure><img src="../.gitbook/assets/coop/coop-project-top.jpg" alt="A Co-op project page with updates and Mini Apps"><figcaption><p>An example project page with updates and Mini Apps, from the current app</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/coop/coop-project-top.jpg" alt="A Co-op project page with updates and Mini Apps"><figcaption><p>An example project page with its Latest News (project updates) and Mini Apps</p></figcaption></figure>
 
 ## Built on Mint Club
 

@@ -26,6 +26,8 @@ Creators choose the **shape** of the curve:
 | --- | --- |
 | **Linear** | Price rises steadily with supply. |
 | **Exponential** | Price accelerates as supply grows. |
+| **Hyperbolic** | Price rises slowly at first, then faster as the remaining supply runs low. |
+| **Logarithmic** | Price rises fastest early, then levels off. |
 | **Flat** | Price stays constant. |
 
 ## Creating an asset
@@ -39,7 +41,7 @@ supply limits such as a maximum supply. The asset is live on its curve right awa
 listing step.
 
 Each asset is a standard ERC-20 or ERC-1155 token on open contracts, so other teams can
-build products on it, as several in the [Build Log](../track-record/build-log.md) did.
+build products on it, as several in the [Archives](../track-record/build-log.md) did.
 
 ## Reserve backing and refunds
 

@@ -32,8 +32,7 @@ launch, and there is no required first buy. See [Economics](../mint-club/economi
 
 - **A market from the first block,** with no liquidity pool to seed and no listing to wait
   for.
-- **Royalties on every trade,** paid in HUNT. The creator gets 80% and the protocol 20%,
-  taken when the creator claims.
+- **Royalties on every trade,** paid in HUNT. The creator gets 80% and the protocol 20%.
 - **A project page** on the Co-op, with project updates and Mini App links. The project
   details are stored as Mint Club token metadata, so they show on mint.club as well.
 - **Mint Club's creator tools** for the token, such as lock-ups and bulk sends. The

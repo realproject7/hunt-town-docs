@@ -23,16 +23,17 @@ product.
   place**: a flawed vault would have to be abandoned rather than repaired.
 - **Smart-contract risk generally.** The contracts are onchain, permissionless, and final.
   Careful design reduces this risk; it does not remove it.
-- **Position range limits.** A vault's price range is pinned at bootstrap. Prices can move
-  outside the range, in which case the position stops earning fees until price returns.
+- **Position range limits.** A vault's price range is fixed at bootstrap. It spans every
+  price a market can realistically reach, so only an extreme price would take it out of range
+  and stop it earning fees.
 
 ## Token risks
 
 - **The underlying token can go to zero.** Tokens launched on the platform are
   permissionless, user-created assets. Being launched here is not an endorsement, a vetting,
   or a guarantee of anything.
-- **A floor is depth, not a price.** The permanent launch position and unredeemable NAV
-  described in [Dual Launch](dual-launch.md) create standing bid depth that cannot be
+- **A floor is depth, not a price.** The permanent launch position and the NAV held by burned
+  launch shares, described in [Dual Launch](dual-launch.md), create standing bid depth that cannot be
   withdrawn. They do **not** guarantee a price, a return, or that you can exit at any
   particular level.
 

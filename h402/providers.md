@@ -1,9 +1,8 @@
 # Providers & Verification
 
 A **capability** is a task. A **provider** is one concrete implementation of it. Before you
-pay, the catalog shows each provider's price, its input schema, a sample of a real paid
-response, and whether it is enabled. That is enough to predict the cost and the shape of the
-result.
+pay, the catalog shows each provider's price, its input schema and a sample of a real paid
+response. That is enough to predict the cost and the shape of the result.
 
 <figure><img src="../.gitbook/assets/products/h402-providers.jpg" alt="Providers of the web search capability"><figcaption><p>Providers of one capability, compared side by side</p></figcaption></figure>
 

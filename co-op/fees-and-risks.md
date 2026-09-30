@@ -17,7 +17,7 @@ royalties work.
 - **Independent projects.** Co-op tokens are created by their builders. They are not
   operated, controlled or endorsed by the Hunt Town team, and appearing on the Co-op is not a
   recommendation. See [Terms](../terms.md).
-- **A steep curve.** Every token uses the same preset curve, and its price climbs steeply as
+- **A steep curve.** Every token launched on the Co-op uses the same preset curve, and its price climbs steeply as
   supply grows. Early and late buyers pay very different prices.
 - **Royalties on both sides.** A buy and a sell each pay a royalty, so a quick round trip
   returns less HUNT than it cost, unless both royalties are 0%.

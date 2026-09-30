@@ -14,13 +14,14 @@ HUNT.
 | **Network** | Ethereum mainnet |
 | **Standard** | ERC-1155, token id `0` |
 | **Supply** | Unlimited. Minted at NAV, burned for 95% of NAV |
-| **Lock-up per NFT** | 1,000 HUNT × the multiplier (1,000 HUNT at launch) |
-| **Pay with** | HUNT, or ETH, USDC or USDT swapped to HUNT in the same transaction |
+| **NAV per NFT** | The vault's HUNT divided by the number of NFTs. 1,000 HUNT at launch |
+| **Pay with** | HUNT, or ETH, USDC, USDT or DAI swapped to HUNT in the same transaction |
 | **Backed by** | HUNT, held by the Factory NFT contract itself |
 | **Minimum supply** | One. The last NFT cannot be burned |
 | **Burn fee** | 5%, stays in the vault |
-| **Marketplace royalty** | 3% |
+| **Marketplace royalty** | 3% (ERC-2981), paid by marketplaces that honor it |
 | **Upgradeable** | No |
+| **Contract** | `0x961eA6C51c185958b1A11ad8335046988D1B5734` · [Etherscan](https://etherscan.io/token/0x961eA6C51c185958b1A11ad8335046988D1B5734) · [OpenSea](https://opensea.io/item/ethereum/0x961eA6C51c185958b1A11ad8335046988D1B5734/0) |
 
 ## How it works
 
@@ -35,12 +36,6 @@ Details: [Mint & Burn](mint-and-burn.md) · [The NAV Vault](nav-vault.md).
 
 <figure><img src="../.gitbook/assets/site/site-home-factory.jpg" alt="The Factory NFT on the hunt.town home page"><figcaption><p>The Factory NFT on the hunt.town home page</p></figcaption></figure>
 
-## NAV and the multiplier
-
-**NAV per NFT** is the vault's HUNT divided by the number of NFTs. The **multiplier** is the
-NAV per NFT divided by 1,000 HUNT: ×1.0000 at launch, and ×1.0500 once each NFT is backed by
-1,050 HUNT. See [The NAV Vault](nav-vault.md#nav-per-nft).
-
 ## What the owner cannot do
 
 The owner cannot withdraw the vault's HUNT, mint NFTs without HUNT behind them, or upgrade
@@ -48,7 +43,7 @@ the contract. See [Safeguards](nav-vault.md#safeguards).
 
 ## Counted in HUNT
 
-The lock-up, the NAV and what a burn gives back are all counted in HUNT, and the dollar value
+What you lock, the NAV and what a burn gives back are all counted in HUNT, and the dollar value
 follows the HUNT price, which can fall. Because of the 5% burn fee, a burn can give back less
 HUNT than you locked. No return is promised. See
 [What you get back in HUNT](mint-and-burn.md#what-you-get-back-in-hunt) and

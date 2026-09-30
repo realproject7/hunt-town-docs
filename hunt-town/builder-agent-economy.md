@@ -12,7 +12,7 @@ out-create centralized platforms** when the people doing the work are rewarded d
 
 That bet started with Steemhunt in 2018, a community that curated products and earned
 crypto for it, and it has run through everything since: reward systems, NFT tooling, a
-HUNT-based launchpad.
+HUNT-backed launchpad.
 
 The hard problem for onchain builders has always been the same: **most projects start
 alone**, struggling to bootstrap liquidity, attract users, and stay alive long enough to
@@ -41,7 +41,7 @@ The active products map onto the two halves:
 | --- | --- | --- |
 | [h402](../h402/overview.md) | **Agents** | A capability market an agent mounts once, then uses to discover a capability, choose a verified provider, and pay per call in stablecoins. |
 | [lpTOKEN.fun](../lptoken/overview.md) | **Builders** | A market from day one: a token and its fee-earning liquidity, both holdable. |
-| [Co-op](../co-op/overview.md) | **Builders** | A launchpad and DEX where builders launch HUNT-backed tokens and anyone can trade them against HUNT. |
+| [Co-op](../co-op/overview.md) | **Builders** | A HUNT-backed launchpad and DEX: builders launch tokens, and anyone can trade them against HUNT. |
 | [Mint Club](../mint-club/overview.md) | **Builders** | The no-code bonding-curve protocol that Co-op and other HUNT-backed tokens are issued on. |
 
 The [Factory NFT](../factory-nft/overview.md) is where the products connect: product revenue

@@ -10,6 +10,14 @@ links in [Links & Resources](links.md) before transacting.
 | Ethereum | `0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5` |
 | Base (bridged) | `0x37f0c2915CeCC7e977183B8543Fc0864d03E064C` |
 
+## Factory NFT
+
+| Contract | Network | Address |
+| --- | --- | --- |
+| Factory NFT (ERC-1155, token id `0`, holds the vault's HUNT) | Ethereum | `0x961eA6C51c185958b1A11ad8335046988D1B5734` |
+| Factory zap router (mints with ETH, USDC, USDT or DAI through Uniswap v4) | Ethereum | `0x4556e496270636868A83d616A10DAa663C57352e` |
+| Building migrator (turns Main Buildings into Factory NFTs) | Ethereum | `0x9f9867A86e614f6CCD3fdc38Fb42B30894a63696` |
+
 ## Mint Club V2
 
 | Contract | Network | Address |

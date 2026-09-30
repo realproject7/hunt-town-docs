@@ -31,9 +31,9 @@ upgraded, and the owner cannot withdraw that HUNT.
 [Factory NFT: Overview](factory-nft/overview.md)
 {% endcontent-ref %}
 
-**Mint and burn.** Mint at the current NAV per NFT: 1,000 HUNT × the multiplier. Pay in
-HUNT, or in ETH, USDC or USDT swapped to HUNT in the same transaction. Burn any time for 95%
-of the NAV in HUNT. The other 5% stays in the vault for the holders who remain.
+**Mint and burn.** Mint at the current NAV per NFT, which started at 1,000 HUNT. Pay in
+HUNT, or in ETH, USDC, USDT or DAI swapped to HUNT in the same transaction. Burn any time for
+95% of the NAV in HUNT. The other 5% stays in the vault for the holders who remain.
 
 <figure><img src=".gitbook/assets/site/site-mint-modal.jpg" alt="The mint panel on hunt.town" width="420"><figcaption><p>Minting on hunt.town</p></figcaption></figure>
 
@@ -53,7 +53,8 @@ follows the HUNT price.
 
 **Building NFTs.** Legacy Main and Mini Buildings turn into Factory NFTs, one way. Each
 Building counts at the full HUNT it was minted with: locked Main Buildings are accepted, and
-Mini Buildings lose nothing to the 5% burn royalty.
+Mini Buildings lose nothing to the 5% burn royalty. Main Buildings migrate on Ethereum. Mini
+Building migration from Base has not opened yet.
 
 <figure><img src=".gitbook/assets/site/site-migrate-hero.jpg" alt="The migration portal on hunt.town"><figcaption><p>The migration portal</p></figcaption></figure>
 
@@ -92,11 +93,11 @@ held, moved and redeemed like any token. It runs on Robinhood Chain, Base, Arc a
 [lpTOKEN.fun: Overview](lptoken/overview.md)
 {% endcontent-ref %}
 
-**Co-op.** A HUNT-based launchpad and DEX at coop.hunt.town. Builders launch project tokens
+**Co-op.** A HUNT-backed launchpad and DEX at coop.hunt.town. Builders launch project tokens
 on bonding curves with HUNT as the reserve, and anyone can buy or sell them against HUNT from
 the moment they launch.
 
-<figure><img src=".gitbook/assets/coop/coop-launch.jpg" alt="The Co-op launch form" width="420"><figcaption><p>Launching a project on coop.hunt.town</p></figcaption></figure>
+<figure><img src=".gitbook/assets/coop/coop-launch.jpg" alt="The Co-op launch form" width="320"><figcaption><p>Launching a project on coop.hunt.town</p></figcaption></figure>
 
 {% content-ref url="co-op/overview.md" %}
 [Co-op: Overview](co-op/overview.md)
@@ -117,10 +118,10 @@ reserve from the start. Co-op tokens are issued on it.
 25 previous projects since 2018. Each entry records the bet or the collab, what worked, what
 broke, and what it seeded.
 
-<figure><img src=".gitbook/assets/site/site-buildlog.jpg" alt="The Build Log on hunt.town"><figcaption><p>The Build Log on hunt.town</p></figcaption></figure>
+<figure><img src=".gitbook/assets/site/site-buildlog.jpg" alt="The Archives on hunt.town"><figcaption><p>The Archives on hunt.town</p></figcaption></figure>
 
 {% content-ref url="track-record/build-log.md" %}
-[The Build Log](track-record/build-log.md)
+[Archives](track-record/build-log.md)
 {% endcontent-ref %}
 
 ## HUNT
