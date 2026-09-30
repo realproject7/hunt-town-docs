@@ -51,22 +51,11 @@ follows the HUNT price.
 [The NAV Vault](factory-nft/nav-vault.md)
 {% endcontent-ref %}
 
-**Building NFTs.** Legacy Main and Mini Buildings turn into Factory NFTs, one way. Each
-Building counts at the full HUNT it was minted with: locked Main Buildings are accepted, and
-Mini Buildings lose nothing to the 5% burn royalty. Main Buildings migrate on Ethereum. Mini
-Building migration from Base has not opened yet.
-
-<figure><img src=".gitbook/assets/site/site-migrate-hero.jpg" alt="The migration portal on hunt.town"><figcaption><p>The migration portal</p></figcaption></figure>
-
-{% content-ref url="factory-nft/migrating-buildings.md" %}
-[Migrating Buildings](factory-nft/migrating-buildings.md)
-{% endcontent-ref %}
-
 ## Who we build for
 
 The onchain Builder & Agent Economy: people who launch, trade and build onchain, and a
-growing number of software agents that pay for the services they use. Co-op, lpTOKEN.fun and
-Mint Club serve builders. h402 serves agents.
+growing number of software agents that pay for the services they use. Each product we run
+serves builders, agents, or both.
 
 {% content-ref url="hunt-town/builder-agent-economy.md" %}
 [The Builder & Agent Economy](hunt-town/builder-agent-economy.md)
@@ -74,49 +63,16 @@ Mint Club serve builders. h402 serves agents.
 
 ## What runs today
 
-**h402.** The Agent Capability Market Layer, in beta. An agent mounts it once, finds a
-capability in the catalog, pins a verified provider and pays per call in Base USDC over x402.
+The factory runs a small set of active products at a time, each built on an onchain
+primitive and all sharing one economy. See the active products on
+[hunt.town](https://hunt.town/#now). Each one also has its own section in these docs.
 
-<figure><img src=".gitbook/assets/products/h402-home.jpg" alt="The h402 home page"><figcaption><p>h402.hunt.town</p></figcaption></figure>
+## Archived products
 
-{% content-ref url="h402/overview.md" %}
-[h402: Overview](h402/overview.md)
-{% endcontent-ref %}
-
-**lpTOKEN.fun.** One market, two ways to take part: the token and its fee-earning
-liquidity. A Uniswap v4 liquidity position is wrapped in an ERC-20, so the LP side can be
-held, moved and redeemed like any token. It runs on Robinhood Chain, Base, Arc and Ethereum.
-
-<figure><img src=".gitbook/assets/products/lptoken-swap.jpg" alt="How a swap feeds the pool and its lpTOKEN"><figcaption><p>lptoken.fun</p></figcaption></figure>
-
-{% content-ref url="lptoken/overview.md" %}
-[lpTOKEN.fun: Overview](lptoken/overview.md)
-{% endcontent-ref %}
-
-**Co-op.** A HUNT-backed launchpad and DEX at coop.hunt.town. Builders launch project tokens
-on bonding curves with HUNT as the reserve, and anyone can buy or sell them against HUNT from
-the moment they launch.
-
-<figure><img src=".gitbook/assets/coop/coop-launch.jpg" alt="The Co-op launch form" width="320"><figcaption><p>Launching a project on coop.hunt.town</p></figcaption></figure>
-
-{% content-ref url="co-op/overview.md" %}
-[Co-op: Overview](co-op/overview.md)
-{% endcontent-ref %}
-
-**Mint Club.** The no-code bonding-curve protocol for tokens and NFTs. A creator picks a
-reserve token and a curve and deploys, and the asset can be minted and burned against its
-reserve from the start. Co-op tokens are issued on it.
-
-<figure><img src=".gitbook/assets/products/mintclub-home.jpg" alt="The Mint Club home page"><figcaption><p>mint.club</p></figcaption></figure>
-
-{% content-ref url="mint-club/overview.md" %}
-[Mint Club: Overview](mint-club/overview.md)
-{% endcontent-ref %}
-
-## What came before
-
-25 previous projects since 2018. Each entry records the bet or the collab, what worked, what
-broke, and what it seeded.
+**We archive fast.** When a product does not work out, or leaves our main focus and runs in
+maintenance mode, we archive it quickly and put the team's time and resources into new
+products. Every archived product keeps a record of the bet, what worked, what broke and what
+it seeded. See them all in the [Archives on hunt.town](https://hunt.town/build-log).
 
 <figure><img src=".gitbook/assets/site/site-buildlog.jpg" alt="The Archives on hunt.town"><figcaption><p>The Archives on hunt.town</p></figcaption></figure>
 
@@ -128,7 +84,7 @@ broke, and what it seeded.
 
 **The token under the economy.** HUNT was issued once, 500,000,000 in total. No address can
 mint more, and past burns removed about 60% of it. It backs the Factory NFT and is the
-reserve behind Co-op project tokens and other HUNT-backed tokens on Mint Club.
+reserve behind HUNT-backed tokens.
 
 <figure><img src=".gitbook/assets/site/site-factory-hunt.jpg" alt="HUNT on hunt.town"><figcaption><p>HUNT on hunt.town</p></figcaption></figure>
 
@@ -136,9 +92,9 @@ reserve behind Co-op project tokens and other HUNT-backed tokens on Mint Club.
 [HUNT (ERC20)](hunt/hunt-erc20.md)
 {% endcontent-ref %}
 
-**Supply.** Burned, locked and circulating HUNT, counted per chain from onchain reads.
-
-<figure><img src=".gitbook/assets/site/site-factory-supply.jpg" alt="The HUNT supply panel on hunt.town"><figcaption><p>The supply panel, with figures at capture time</p></figcaption></figure>
+**Supply.** Live burned, locked and circulating figures are on
+[hunt.town](https://hunt.town/factory#supply). How they are counted is in Supply &
+Distribution.
 
 {% content-ref url="hunt/supply.md" %}
 [Supply & Distribution](hunt/supply.md)

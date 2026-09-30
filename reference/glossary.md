@@ -2,7 +2,7 @@
 
 **Agent**: autonomous software that performs economic actions onchain (calling services,
 paying for capabilities) without a human in the loop. The "Agent" half of the Builder & Agent
-Economy, and the primary user of [h402](../h402/overview.md).
+Economy.
 
 **Bonding curve**: a contract that sets an asset's price as a deterministic function of its
 supply, backed by a reserve. Minting raises price and adds reserve; burning lowers price and

@@ -49,6 +49,9 @@ At any time the factory runs a small set of **active products** and keeps a much
 record of **previous products** in the [Archives](../track-record/build-log.md). The
 retired products are the track record that earned the factory its current thesis.
 
+We archive fast. A product that does not work out, or that leaves the main focus and runs in
+maintenance mode, is archived quickly so the team's resources go to new products.
+
 <figure><img src="../.gitbook/assets/site/site-buildlog.jpg" alt="The Archives on hunt.town"><figcaption><p>The Archives on hunt.town</p></figcaption></figure>
 
 ## Builders and holders
