@@ -85,6 +85,8 @@ See [Mint Club → Security & Audits](../mint-club/security-audits.md) for conte
   [etherscan.io](https://etherscan.io/address/0x4556e496270636868A83d616A10DAa663C57352e)
 - **Building migrator (Ethereum):**
   [etherscan.io](https://etherscan.io/address/0x9f9867A86e614f6CCD3fdc38Fb42B30894a63696)
+- **Mini Building collector (Base):**
+  [basescan.org](https://basescan.org/address/0xdB6F6849CEaD3D505bA525B1419B41Cbd27faFe7)
 - **Legacy: Main Building NFT (Ethereum):**
   [etherscan.io](https://etherscan.io/address/0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96)
 - **Legacy: Mini Building NFT (Base):**

@@ -16,7 +16,8 @@ links in [Links & Resources](links.md) before transacting.
 | --- | --- | --- |
 | Factory NFT (ERC-1155, token id `0`, holds the vault's HUNT) | Ethereum | `0x961eA6C51c185958b1A11ad8335046988D1B5734` |
 | Factory zap router (mints with ETH, USDC, USDT or DAI through Uniswap v4) | Ethereum | `0x4556e496270636868A83d616A10DAa663C57352e` |
-| Building migrator (turns Main Buildings into Factory NFTs) | Ethereum | `0x9f9867A86e614f6CCD3fdc38Fb42B30894a63696` |
+| Building migrator (mints Factory NFTs for migrated Buildings) | Ethereum | `0x9f9867A86e614f6CCD3fdc38Fb42B30894a63696` |
+| Mini Building collector (takes Mini Buildings and their top-up for migration) | Base | `0xdB6F6849CEaD3D505bA525B1419B41Cbd27faFe7` |
 
 ## Mint Club V2
 

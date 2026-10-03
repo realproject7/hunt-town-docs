@@ -3,18 +3,25 @@
 Building NFTs are Hunt Town's legacy NFTs. Holders can turn them into Factory NFTs. Each
 Building counts at a fixed HUNT value, and you add HUNT to reach whole Factory NFTs.
 
-Main Buildings migrate on Ethereum. Mini Building migration from Base has not opened yet.
+Main Buildings migrate on Ethereum. Mini Buildings migrate from Base.
 
 <figure><img src="../.gitbook/assets/site/site-migrate-hero.jpg" alt="The migration portal on hunt.town"><figcaption><p>The migration portal</p></figcaption></figure>
 
 ## The rules
 
-- **One way.** Migrated Buildings do not come back.
+- **One way.** Migrated Buildings do not come back. Factory NFTs can be burned for 95% of
+  their NAV.
 - **One chain at a time.** Main Buildings migrate on Ethereum in one transaction. Mini
   Buildings and their top-up are sent on Base.
 - **Whole NFTs only.** There are no partial Factory NFTs and no refunds.
 - **Factory NFTs arrive on Ethereum,** whichever chain you migrate from. From Base, the team
-  confirms the deposit and then mints them to the same wallet on Ethereum.
+  confirms the deposit and then mints them to the same wallet address on Ethereum. You pay gas
+  on Base only.
+- **Same address on Ethereum.** Before a Base deposit, confirm that you control the same
+  address on Ethereum. This matters most for smart contract wallets, whose address can differ
+  between chains.
+- **Base deposits can be found again.** If you lose track of one, the migration page finds it
+  from its Base transaction hash.
 
 | | Main Building | Mini Building |
 | --- | --- | --- |
@@ -40,12 +47,18 @@ normally hold that HUNT back.
 The Buildings' HUNT value is divided by the current NAV per NFT and rounded up to whole
 Factory NFTs. The holder adds the difference in HUNT (the top-up), which is never refunded.
 
+You review a quote before you send anything.
+
+- **Main Buildings** use the NAV when the transaction runs, within the HUNT limit you set.
+- **Mini Buildings** are quoted when you deposit. The confirmed deposit fixes the number of
+  Factory NFTs and the top-up, even if NAV moves before delivery.
+
 At a NAV of 1,000 HUNT per NFT, one Main Building or ten Mini Buildings make one Factory NFT
 with no top-up. At 1,200 HUNT, ten Main Buildings plus 800 HUNT make nine Factory NFTs.
 
 Migrate at [hunt.town/migrate](https://hunt.town/migrate).
 
-<figure><img src="../.gitbook/assets/site/site-migrate-gates.jpg" alt="The Ethereum and Base gates"><figcaption><p>One gate per chain. The Base gate has not opened yet.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/site/site-migrate-gates.jpg" alt="The Ethereum and Base gates"><figcaption><p>One gate per chain</p></figcaption></figure>
 
 ## Where the HUNT comes from
 
