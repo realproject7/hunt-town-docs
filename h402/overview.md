@@ -1,0 +1,62 @@
+# h402: Overview
+
+**h402 is the Agent Capability Market Layer: the x402 capability store for agents.**
+Mount it once, and an agent can discover, inspect, and pay for a whole market of
+capabilities: web research, onchain data, AI generation, maps, finance, security checks and
+more, without setting up each API separately.
+
+It is Hunt Town's product for the "Agent" half of the
+[Builder & Agent Economy](../hunt-town/builder-agent-economy.md).
+
+<figure><img src="../.gitbook/assets/products/h402-home.jpg" alt="The h402 home page"><figcaption><p>The h402 home page</p></figcaption></figure>
+
+## The problem
+
+An agent that needs ten different services today needs ten integrations: ten sets of API
+keys, ten billing relationships, ten response shapes, ten SDKs. Every new capability is a
+new procurement problem, and none of it is something an agent can do on its own at machine
+speed.
+
+h402 collapses that into **one integration and one payment rail**.
+
+## Three ideas
+
+- **Mount once.** The agent reads one skill file, which teaches it to search the catalog,
+  pick a provider and pay. From then on it reaches the whole catalog, and adding a
+  capability later means nothing new to install.
+- **Verified providers, explicit choice.** Every listed provider has been paid-tested with
+  its real response stored as a sample. The caller compares samples and per-call prices and
+  **pins** the provider it wants. See [Providers & Verification](providers.md).
+- **Pay per call.** Paid capabilities settle in **Base USDC** over **x402**, signed locally
+  by the caller's wallet. No per-provider API keys, no subscriptions, no custody. See
+  [How Paying Works](how-paying-works.md).
+
+## The vocabulary
+
+h402 is **task-first**: an agent looks for the outcome it wants, not the vendor who
+provides it.
+
+| Term | What it is |
+| --- | --- |
+| **Capability** | One task, named `category/action`, e.g. `web/search`. It describes the outcome, not the vendor. |
+| **Provider** | One concrete implementation of a capability, with its own input schema, price, upstream service, and a stored real-response sample. A capability can have many providers. |
+| **Call** | One request against **one pinned provider** of a capability. Every executable call names its provider explicitly. |
+| **Catalog** | The curated index of capabilities and their providers, browsable by humans and queryable by agents. h402 lists only providers it has verified and does not crawl the web for endpoints. |
+
+<figure><img src="../.gitbook/assets/products/h402-catalog.jpg" alt="The h402 capability catalog"><figcaption><p>The capability catalog</p></figcaption></figure>
+
+Capabilities are grouped into categories such as `ai`, `web` and `crypto`. The live list is
+in the [catalog](https://h402.hunt.town/catalog).
+
+## Two sides of the market
+
+- **For agents and apps:** mount the skill, search the catalog, call what you need, pay per
+  call. Callers use the open-source `@h402/cli`, or embed the payment flow in their own app
+  with `@h402/core`.
+- **For API builders:** list a capability and reach agent demand without building billing.
+  See [For Builders](for-builders.md).
+
+## Status
+
+h402 is **live in beta** at [h402.hunt.town](https://h402.hunt.town), so details can change.
+Developer docs: [h402.hunt.town/docs](https://h402.hunt.town/docs).

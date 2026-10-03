@@ -1,0 +1,86 @@
+# Contracts & Addresses
+
+Canonical contract addresses for the Hunt Town economy. Always verify against the official
+links in [Links & Resources](links.md) before transacting.
+
+## HUNT (ERC-20)
+
+| Network | Address |
+| --- | --- |
+| Ethereum | `0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5` |
+| Base (bridged) | `0x37f0c2915CeCC7e977183B8543Fc0864d03E064C` |
+
+## Factory NFT
+
+| Contract | Network | Address |
+| --- | --- | --- |
+| Factory NFT (ERC-1155, token id `0`, holds the vault's HUNT) | Ethereum | `0x961eA6C51c185958b1A11ad8335046988D1B5734` |
+| Factory zap router (mints with ETH, USDC, USDT or DAI through Uniswap v4) | Ethereum | `0x4556e496270636868A83d616A10DAa663C57352e` |
+| Building migrator (mints Factory NFTs for migrated Buildings) | Ethereum | `0x9f9867A86e614f6CCD3fdc38Fb42B30894a63696` |
+| Mini Building collector (takes Mini Buildings and their top-up for migration) | Base | `0xdB6F6849CEaD3D505bA525B1419B41Cbd27faFe7` |
+
+## Mint Club V2
+
+| Contract | Network | Address |
+| --- | --- | --- |
+| Mint Club V2 Bond (holds every Base HUNT reserve) | Base | `0xc5a076cad94176c2996B32d8466Be1cE757FAa27` |
+| MT (Mint Token, ERC-20) | Base | `0xFf45161474C39cB00699070Dd49582e417b57a7E` |
+
+## Neverlose.money
+
+| Contract | Network | Address |
+| --- | --- | --- |
+| Neverlose.money vault (its HUNT counts as locked) | Ethereum | `0x7edBE5aF30Ba6Ba2DE9EdDc72C2f585D1B0D5775` |
+
+## Co-op
+
+Co-op tokens are created through the Mint Club V2 Bond above, which holds their HUNT
+reserves. The Co-op app adds two contracts on Base:
+
+| Contract | Network | Address |
+| --- | --- | --- |
+| Swap and buy (pays for a buy in ETH or USDC through Uniswap v4) | Base | `0xcB835BF2eE7D63A3e55c580A962920fc1524B447` |
+| Project updates | Base | `0xdD066121E4488edB73c4Ff7f461592c084e4303A` |
+
+## Payments (h402)
+
+| Asset | Network | Address |
+| --- | --- | --- |
+| USDC (settlement) | Base | `0x833589fcd6edb6e08f4c7c32d4f71b54bda02913` |
+
+## lpTOKEN.fun
+
+Deployed on **Robinhood Chain** (chain id `4663`), **Base** (`8453`), **Arc** (`5042`), and
+**Ethereum** (`1`).
+
+| Contract | Robinhood Chain | Base |
+| --- | --- | --- |
+| LpTokenFactory | `0xDd9b4a30FFf71A391A39FbaCed43e3DAa84dbC84` | `0x3384eD0d272dE35bF6DC516E1eA7d188CEb51793` |
+| LpTokenVault (implementation) | `0xBaf91d6c83fe4B325ddD818aDaa9A39D490E6C6d` | `0x78aae2fD8f8b09994d0e936Ce4478a7EB8FE92D9` |
+| TokenLaunchpad | `0xC3612550Fd0f3095B6636110e5b06dD4eb05e000` | `0xED14eE7501fB212f876714a68308564cD6772000` |
+| LaunchLiquidityVault | `0x7FcA8E7a8376B38f3eb23F21e8C7b7c6E5f3f077` | `0x39f3C534E6962Fd5fb0DD3653B6c16400c49C498` |
+| LpTokenZapRouter | `0x19e1AbAcB318C25D9888bBAa62cBaa69dA2F66c7` | `0xc4C8071D651F093C4A5c2C06e7BFfc163A057DdA` |
+| LpTokenLens | `0x8bA19810F56E455276a0Db1eaace071D75B08Fd2` | `0x6DC57E44B995c56F91a6AD5f221F372C1c2FFBF5` |
+
+| Contract | Arc | Ethereum |
+| --- | --- | --- |
+| LpTokenFactory | `0x37F540de37afE8bDf6C722d87CB019F30e5E406a` | `0x37F540de37afE8bDf6C722d87CB019F30e5E406a` |
+| LpTokenVault (implementation) | `0x2c692DB9203EF651745AF2c07ebd587222D55a06` | `0x2c692DB9203EF651745AF2c07ebd587222D55a06` |
+| TokenLaunchpad | `0xa790B0e77FD23504342404fc8DD0c5AE4DE4e000` | `0xC011111853f63e9A3c5b112CEF26Ff78351c2000` |
+| LaunchLiquidityVault | `0x124ed8F31A4052cA910E98e5eC9bb182C88AB365` | `0xCC61892B6F3eD6F2Bf258b53DD41683E0c2998Ab` |
+| LpTokenZapRouter | `0x905F3AE86108c6A3b1a345dACEaef6c4749Ec66a` | `0x905F3AE86108c6A3b1a345dACEaef6c4749Ec66a` |
+| LpTokenLens | `0x5dfA75b0185efBaEF286E80B847ce84ff8a62C2d` | `0x5dfA75b0185efBaEF286E80B847ce84ff8a62C2d` |
+
+Each market's vault address is shown in the app. Live table:
+[lptoken.fun/contracts](https://lptoken.fun/contracts).
+
+## Legacy: Building NFTs
+
+Building NFTs are legacy assets. Holders can migrate them into Factory NFTs. See
+[Migrating Buildings](../factory-nft/migrating-buildings.md).
+
+| Contract | Network | Standard | Address |
+| --- | --- | --- | --- |
+| Main Building NFT | Ethereum | ERC-721 | `0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96` |
+| Mini Building NFT | Base | ERC-1155 (id `0`) | `0x475f8E3eE5457f7B4AAca7E989D35418657AdF2a` |
+| Town Hall (holds the HUNT behind Main Buildings) | Ethereum | Not a token | `0xb09A1410cF4C49F92482F5cd2CbF19b638907193` |

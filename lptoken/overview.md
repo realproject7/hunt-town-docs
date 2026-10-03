@@ -1,0 +1,43 @@
+# lpTOKEN.fun: Overview
+
+**One market. Two ways to take part: the token and its liquidity.**
+
+The token has an LP. Now the LP has a token. On lpTOKEN.fun you can trade the coin, or hold
+its fee-earning liquidity as a transferable token of its own. lpTOKEN.fun won **Best Uniswap
+Stack Contribution** at **ETHOnline 2026**.
+
+## The idea
+
+In a normal AMM market there are two very different positions, and only one of them is easy
+to hold. You can buy the token: simple, liquid, one balance in your wallet. Or you can
+provide liquidity, which earns swap fees but means managing an NFT position, a price
+range, and a rebalancing problem.
+
+lpTOKEN.fun makes the second position as easy to hold as the first. A **Uniswap v4
+liquidity position is wrapped in an ERC-20**, so the LP side of a market becomes a token you
+can mint, hold, transfer, and redeem like any other.
+
+<figure><img src="../.gitbook/assets/products/lptoken-swap.jpg" alt="How a swap feeds the pool and its lpTOKEN"><figcaption><p>How a swap feeds the pool and its lpTOKEN</p></figcaption></figure>
+
+## What that gives you
+
+- **Two exposures to one market.** The token tracks price. The **lpTOKEN** share tracks the
+  liquidity: it holds both sides of the pair and accrues swap fees.
+- **Fees stay in the vault.** Swap fees earned by the position are not skimmed. They remain
+  in the vault and back every share.
+- **A market from day one.** Builders can launch a token and its LP together, with the
+  initial liquidity permanently locked, instead of bootstrapping a pool afterwards.
+
+## Two ways a market gets here
+
+| Path | What it is |
+| --- | --- |
+| **Dual launch** | Launch a new token and its LP vault together on the platform. Initial shares are permanently burned, and a one-sided launch position creates a floor that grows with volume. See [Dual Launch](dual-launch.md). |
+| **Curated LP vault** | Open a vault on an existing Uniswap v4 pool, so liquidity added through it is held as an lpTOKEN. No launch position, no floor: pure mint / redeem / compound. |
+
+## Where it runs
+
+lpTOKEN.fun is **live** at [lptoken.fun](https://lptoken.fun) on **Robinhood Chain**, **Base**, **Arc**, and **Ethereum**. New
+tokens launch against each chain's native currency: ETH on Robinhood Chain, Base, and
+Ethereum, and USDC on Arc. Contract addresses are listed in
+[Contracts & Addresses](../reference/contracts.md).

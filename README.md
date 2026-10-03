@@ -1,64 +1,101 @@
+---
+description: An Onchain Product Factory, building since 2018.
+---
+
 # Introduction
 
-<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
+**Hunt Town is an Onchain Product Factory.** We have built onchain products since 2018, and
+each one hands what it learned to the next. Product revenue backs one asset, the Factory NFT,
+counted in HUNT.
 
-## What is [Hunt Town](https://hunt.town/)?
+<figure><img src=".gitbook/assets/site/site-home-hero.jpg" alt="The hunt.town home page"><figcaption><p>hunt.town</p></figcaption></figure>
 
-Hunt Town is the first onchain cooperative (Co-op) model for Web3 builders and backers. It’s a shared economy where builders launch tokens and backers mint them daily, creating a sustainable onchain ecosystem that grows together. Every project in the Co-op is backed by HUNT, the reserve token that connects all tokens and NFTs within the Hunt Town economy.
+## How Hunt Town works
 
-## The Co-op Model
+**Build, ship, seed.** Every product follows the same arc. We build it on an onchain
+primitive, ship it and run it, and when it retires, its mechanics and community seed the
+next one. The products share one economy.
 
-<figure><img src=".gitbook/assets/hunt-co-op-model.png" alt=""><figcaption></figcaption></figure>
-
-Unlike traditional launchpads or isolated projects, Hunt Town connects all participants through a common reserve asset. As builders launch new tokens, a portion of HUNT becomes locked in bonding curve pools, while backers continuously mint and support projects with their daily Backing Points (BP). This structure naturally expands the Co-op’s Total Value Locked (TVL) and strengthens HUNT’s scarcity over time.
-
-#### Builders and Backers
-
-{% hint style="info" %}
-<mark style="background-color:orange;">**Builders**</mark>: Launch project tokens backed by HUNT and raise liquidity through the Co-op economy.
-{% endhint %}
-
-{% hint style="info" %}
-<mark style="background-color:green;">**Backers**</mark>: Support these projects by minting tokens daily with their BP or donating HUNT directly.\
-The relationship is mutually beneficial — builders gain early traction, and backers earn rewards, royalties, and recognition for their support.
-{% endhint %}
-
-{% content-ref url="how/builders-and-backers.md" %}
-[builders-and-backers.md](how/builders-and-backers.md)
+{% content-ref url="hunt-town/factory-model.md" %}
+[The Factory Model](hunt-town/factory-model.md)
 {% endcontent-ref %}
 
-#### Project Tokens on Hunt Town
+**The engine: the Factory NFT.** Product revenue buys HUNT and adds it to the Factory NFT
+contract, which raises the NAV of every Factory NFT at once. The Factory NFT is an ERC-1155
+token on Ethereum, backed by the HUNT its own contract holds. The contract cannot be
+upgraded, and the owner cannot withdraw that HUNT.
 
-Every project launched in Hunt Town issues its token as a HUNT-backed child token using bonding curve mechanics. When these project tokens grow in market activity, more HUNT becomes locked inside their bonding curve pools. This means that even though each builder runs a completely independent project, all of them share upside value across the Co-op. The success of one project strengthens the foundation of HUNT — and by extension, every other token and NFT built within the Hunt Town economy.
+<figure><img src=".gitbook/assets/site/site-factory-hero.jpg" alt="The Factory NFT page on hunt.town"><figcaption><p>The Factory NFT on hunt.town</p></figcaption></figure>
 
-{% content-ref url="how/launch-a-project-token.md" %}
-[launch-a-project-token.md](how/launch-a-project-token.md)
+{% content-ref url="factory-nft/overview.md" %}
+[Factory NFT: Overview](factory-nft/overview.md)
 {% endcontent-ref %}
 
-#### Building NFTs
+**Mint and burn.** Mint at the current NAV per NFT, which started at 1,000 HUNT. Pay in
+HUNT, or in ETH, USDC, USDT or DAI swapped to HUNT in the same transaction. Burn any time for
+95% of the NAV in HUNT. The other 5% stays in the vault for the holders who remain.
 
-Backers in Hunt Town mint Building NFTs to increase their Backing Power, which determines how much support they can give to builders daily. Each Building NFT is backed by HUNT through its own bonding curve pool, locking more HUNT as demand for Buildings grows. Backers receive Daily BP (Backing Points) based on the number of Mini Buildings they hold, allowing them to mint their favorite project tokens each day. This creates a dynamic cycle — the more Buildings minted, the higher the Co-op’s locked value and the stronger the collective economy becomes.
+<figure><img src=".gitbook/assets/site/site-mint-modal.jpg" alt="The mint panel on hunt.town" width="420"><figcaption><p>Minting on hunt.town</p></figcaption></figure>
 
-{% content-ref url="token/building-nfts.md" %}
-[building-nfts.md](token/building-nfts.md)
+{% content-ref url="factory-nft/mint-and-burn.md" %}
+[Mint & Burn](factory-nft/mint-and-burn.md)
 {% endcontent-ref %}
 
-#### The Role of HUNT
+**The vault.** Marketplace royalties add HUNT too. There is nothing to claim, no schedule
+and no set amount, and no return is promised. The NAV is counted in HUNT, so its dollar value
+follows the HUNT price.
 
-HUNT powers the Co-op economy as its reserve and deflationary asset. There is no inflation or minting — every project launch and NFT mint locks more HUNT into bonding curve pools, reducing circulating supply and amplifying long-term value for participants.
+<figure><img src=".gitbook/assets/site/site-factory-vault.jpg" alt="How HUNT reaches the vault"><figcaption><p>How HUNT reaches the vault. The numbers are an example, not a forecast.</p></figcaption></figure>
 
-{% content-ref url="token/hunt.md" %}
-[hunt.md](token/hunt.md)
+{% content-ref url="factory-nft/nav-vault.md" %}
+[The NAV Vault](factory-nft/nav-vault.md)
 {% endcontent-ref %}
 
-{% content-ref url="how/hunt-as-the-reserve-token.md" %}
-[hunt-as-the-reserve-token.md](how/hunt-as-the-reserve-token.md)
+## Who we build for
+
+The onchain Builder & Agent Economy: people who launch, trade and build onchain, and a
+growing number of software agents that pay for the services they use. Each product we run
+serves builders, agents, or both.
+
+{% content-ref url="hunt-town/builder-agent-economy.md" %}
+[The Builder & Agent Economy](hunt-town/builder-agent-economy.md)
 {% endcontent-ref %}
 
-## Why the Co-op Matters
+## What runs today
 
-Most Web3 projects start alone, struggling to build liquidity, attract users, or sustain activity. Hunt Town redefines that by linking every project within a shared economy — where success in one project contributes to the strength of all. Builders, backers, and the entire ecosystem grow together, creating a more resilient and connected onchain network.
+The factory runs a small set of active products at a time, each built on an onchain
+primitive and all sharing one economy. See the active products on
+[hunt.town](https://hunt.town/#now). Each one also has its own section in these docs.
 
-{% content-ref url="token/hunt-backed-project-tokens.md" %}
-[hunt-backed-project-tokens.md](token/hunt-backed-project-tokens.md)
+## Archived products
+
+**We archive fast.** When a product does not work out, or leaves our main focus and runs in
+maintenance mode, we archive it quickly and put the team's time and resources into new
+products. Every archived product keeps a record of the bet, what worked, what broke and what
+it seeded. See them all in the [Archives on hunt.town](https://hunt.town/build-log).
+
+<figure><img src=".gitbook/assets/site/site-buildlog.jpg" alt="The Archives on hunt.town"><figcaption><p>The Archives on hunt.town</p></figcaption></figure>
+
+{% content-ref url="track-record/build-log.md" %}
+[Archives](track-record/build-log.md)
+{% endcontent-ref %}
+
+## HUNT
+
+**The token under the economy.** HUNT was issued once, 500,000,000 in total. No address can
+mint more, and past burns removed about 60% of it. It backs the Factory NFT and is the
+reserve behind HUNT-backed tokens.
+
+<figure><img src=".gitbook/assets/site/site-factory-hunt.jpg" alt="HUNT on hunt.town"><figcaption><p>HUNT on hunt.town</p></figcaption></figure>
+
+{% content-ref url="hunt/hunt-erc20.md" %}
+[HUNT (ERC20)](hunt/hunt-erc20.md)
+{% endcontent-ref %}
+
+**Supply.** Live burned, locked and circulating figures are on
+[hunt.town](https://hunt.town/factory#supply). How they are counted is in Supply &
+Distribution.
+
+{% content-ref url="hunt/supply.md" %}
+[Supply & Distribution](hunt/supply.md)
 {% endcontent-ref %}
