@@ -1,6 +1,6 @@
 # Terms
 
-_Last Updated: September 30, 2026_
+_Last Updated: October 6, 2026_
 
 These Terms constitute an agreement between you (“you,” “user”) and Hunt Town, operated by BourbonShake Inc. (“Core Team,” “we,” “us,” or “our”), governing your access to and use of the Hunt Town website, documentation, and decentralized applications that provide access to onchain services on Ethereum, the Base Network, and other supported chains (collectively, the “Site”).
 
