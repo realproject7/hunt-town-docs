@@ -55,7 +55,7 @@ HUNT back ÷ HUNT locked = 0.95 × NAV per NFT at burn ÷ NAV per NFT at mint
 
 - Burn at the NAV you minted at, and you get back 95% of the HUNT you locked.
 - You get back more HUNT than you locked only after the NAV per NFT has risen more than
-  5.26% since your mint.
+  about 5.26% since your mint.
 
 Everything here is counted in HUNT, whose price can fall. No deposit is scheduled, so the NAV
 per NFT may not rise at all. No return is promised. See [Terms](../terms.md).

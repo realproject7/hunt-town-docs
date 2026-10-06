@@ -1,6 +1,7 @@
 # Buyback & Burn
 
-HUNT's buyback-and-burn ran from 2020 to 2022 and has ended.
+The quarterly buyback-and-burn program ran from 2020 to 2022 and has ended. Some HUNT is
+still burned in other ways, such as the HUNT burned for each Co-op project update.
 
 ## The historical record
 
@@ -49,7 +50,7 @@ Totals are rounded to the nearest whole HUNT.
 The 88 HUNT reconciliation has no transaction of its own. It is the residual in the team's
 HUNT supply workbook that closes the historical entries to the canonical supply.
 
-## Burns have ended
+## The buyback-and-burn program has ended
 
 Product revenue now buys HUNT for the [Factory NFT](../factory-nft/overview.md) instead of
 burning it. That HUNT goes into the

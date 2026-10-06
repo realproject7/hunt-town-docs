@@ -12,20 +12,23 @@ never leaves their machine.
    the payee, and a short validity window.
 3. **Sign.** The caller signs **an EIP-3009 authorization** over **Base USDC** for exactly
    the quoted amount. No funds move yet and no key is shared.
-4. **Settle.** The caller retries with the signature attached. The authorization settles
-   into h402's treasury through the Coinbase CDP facilitator, the provider call executes,
-   and the result returns.
+4. **Settle.** The caller retries with the signature attached. h402 verifies the signature,
+   then calls the provider and pays it. Only after the provider returns a successful response
+   does the authorization settle into h402's treasury through the Coinbase CDP facilitator,
+   and the result returns. If the provider call fails, the authorization is never settled
+   and the caller is not charged.
 
 ## Where the money goes
 
 Two hops, deliberately separated:
 
-- The **caller's** payment settles into h402's treasury.
-- h402 then pays the **upstream provider** from its own operating wallet: over x402 in Base
-  USDC where the provider supports it, otherwise in the way that provider accepts.
+- h402 pays the **upstream provider** from its own operating wallet when it makes the call:
+  over x402 in Base USDC, or over Tempo MPP, depending on what the provider accepts.
+- The **caller's** payment settles into h402's treasury afterwards, and only if the provider
+  returned a successful response.
 
-The caller therefore signs one authorization, in one asset, on one chain, regardless of how
-the provider behind the capability prefers to be paid.
+The caller therefore signs one authorization, in Base USDC, regardless of how the provider
+behind the capability is paid.
 
 ## Pricing and fees
 
@@ -39,10 +42,12 @@ Every payment is a one-shot, exact charge.
 ## Credits
 
 Callers can hold **bonus credits**, issued today as onboarding grants, which are drawn down
-before any USDC is charged.
+before any USDC is charged. Credits used on a failed call are returned.
 
 ## Properties that matter for agents
 
+- **No charge for a failed call.** If the provider call fails, the caller's authorization is
+  not settled, and any credits used are returned.
 - **Bounded authorizations.** Each signature covers a single quoted amount and expires
   quickly, so a stale one cannot be replayed for more than it authorized.
 - **No ambiguous charges.** A request whose payment state is unclear is not forwarded;

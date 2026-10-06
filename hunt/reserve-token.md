@@ -19,8 +19,9 @@ existence is by locking existing HUNT. So:
 
 - More project tokens bought → more HUNT locked in reserves.
 - More Factory NFTs minted → more HUNT held by the Factory NFT contract.
-- More activity across the ecosystem → **less circulating HUNT**, concentrated backing
-  behind everything that has been issued.
+- More net inflow into reserves and the Factory NFT vault → **less circulating HUNT**,
+  concentrated backing behind everything that has been issued. Sells and burns release HUNT
+  back out, so activity alone does not lower circulation.
 
 ## Why it matters
 

@@ -50,8 +50,8 @@ A daily spin-to-earn Farcaster mini-app. Hold $MT, spin daily, win $MT-backed to
 - **The bet:** A low-friction daily raffle as a new-user acquisition funnel for Mint Club:
   players had to trade their won / airdropped tokens on Mint Club, pulling Base + Farcaster
   users into the ecosystem ("the more $MT you hold, the higher your win range").
-- **What worked:** By day 68 (~2 months): 176,772 spins = 176,772 onchain Base transactions,
-  $18,222 of $MT paid out to spinners (~$0.1031/spin), and 79 $MT child tokens created
+- **What worked:** By day 68 (about 2 months): 176,772 spins = 176,772 onchain Base transactions,
+  $18,222 of $MT paid out to spinners (about $0.1031 per spin), and 79 $MT child tokens created
   organically. Most importantly it pushed the Mint Club app to #1 overall on Farcaster and the
   Base app, sustained for a long stretch (the user-acquisition goal, achieved).
 - **What broke:** Built as an acquisition engine for Mint Club rather than an end in itself.

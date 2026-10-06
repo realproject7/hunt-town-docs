@@ -5,8 +5,9 @@ paying for capabilities) without a human in the loop. The "Agent" half of the Bu
 Economy.
 
 **Bonding curve**: a contract that sets an asset's price as a deterministic function of its
-supply, backed by a reserve. Minting raises price and adds reserve; burning lowers price and
-returns reserve. The core primitive of [Mint Club](../mint-club/bonding-curves.md).
+supply, backed by a reserve. Minting adds reserve and moves the price up the curve; burning
+returns reserve and moves it down. On a flat curve, or within one step of a stepped curve,
+the price can stay the same. The core primitive of [Mint Club](../mint-club/bonding-curves.md).
 
 **Builder**: a creator who launches tokens and projects on Hunt Town's primitives. The
 "Builder" half of the Builder & Agent Economy.
