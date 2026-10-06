@@ -33,11 +33,14 @@ Because a full-range LP position holds both sides of the pair, its value moves r
 the **square root** of the price ratio rather than linearly:
 
 ```
-lpTOKEN value  ≈  √(P_t / P_0)      (idealized, fees excluded)
+V_t / V_0  ≈  √(P_t / P_0)      (idealized, fees excluded)
 ```
 
-so an lpTOKEN share has roughly **half the price sensitivity** of holding the token
-outright, plus the swap fees the position earns.
+Here P is the token's price in the pair's other asset, such as ETH or USDC, and V is the
+value of an lpTOKEN share measured in that same asset. Measured that way, an lpTOKEN share
+has roughly **half the price sensitivity** of holding the token outright, plus the swap fees
+the position earns. In a pair against ETH, the dollar value also moves with ETH, so this
+does not mean half the volatility in dollars.
 
 > An idealized approximation, not a promised volatility cap or return. Real outcomes depend
 > on fees earned, impermanent loss, and how much of the pool's liquidity the vault

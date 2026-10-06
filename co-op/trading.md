@@ -5,10 +5,10 @@ Every trade moves HUNT into or out of the token's reserve.
 
 ## Buying and selling
 
-- **Buying** mints new tokens at the current curve price. The HUNT for the tokens goes into
-  that token's reserve, and the price moves up the curve.
-- **Selling** burns tokens back to the curve. HUNT comes out of the reserve at the current
-  price, and the price moves down.
+- **Buying** mints new tokens along the curve. The HUNT for the tokens goes into that
+  token's reserve, and the price moves up the curve.
+- **Selling** burns tokens back to the curve. HUNT comes out of the reserve along the curve
+  across the amount sold, less any burn royalty, and the price moves down.
 - **Paying with ETH or USDC.** A buyer on the Co-op can also pay in ETH or USDC. It is swapped
   to HUNT through Uniswap v4 first, so every buy still reaches the reserve as HUNT.
 - **Where trades happen.** Buying and selling both happen on the Co-op. Because every Co-op

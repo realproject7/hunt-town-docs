@@ -11,8 +11,8 @@ Trading an asset means **minting** (buying) or **burning** (selling) against its
 is no order book and no counterparty: every trade is with the curve itself.
 
 - Every asset is backed by a **reserve** of a chosen reserve token, held in the curve.
-- **Minting (buying)** deposits reserve and issues new supply at the current curve price.
-- **Burning (selling)** removes supply and returns reserve at the current curve price.
+- **Minting (buying)** deposits reserve and issues new supply along the curve.
+- **Burning (selling)** removes supply and returns reserve along the curve.
 - Price is **deterministic**: it depends only on where you are on the curve, so there is
   always a quotable mint/burn price and instant liquidity.
 
@@ -46,7 +46,8 @@ build products on it, as several in the [Archives](../track-record/build-log.md)
 ## Reserve backing and refunds
 
 Because the reserve is held in the curve, the model is **reserve-backed and refundable**: a
-holder can always burn back to the curve and reclaim reserve at the current price.
+holder can always burn back to the curve and reclaim reserve. Redemption follows the curve
+across the amount burned, less any burn royalty.
 
 In the Hunt Town economy, the reserve token is frequently **HUNT**, which is how Co-op
 project tokens (and the legacy Mini Buildings) are [HUNT-backed](../hunt/reserve-token.md).

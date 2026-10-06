@@ -6,8 +6,8 @@ product.
 ## Liquidity-provision risks
 
 - **Impermanent loss.** When the price moves, the position ends up with more of the weaker
-  asset, so it can be worth less than simply holding either one. Fees offset this but do
-  not remove it.
+  asset, so it can be worth less than holding the same starting amounts of both assets
+  outside the pool. Fees offset this but do not remove it.
 - **Loss-versus-rebalancing (LVR).** Arbitrageurs, not the pool, capture the value of price
   moves between trades. This is a structural cost of passive liquidity provision.
 - **LP competition and dilution.** Other liquidity providers, including concentrated and
@@ -19,8 +19,9 @@ product.
 
 ## Protocol risks
 
-- **Vaults are not upgradeable.** This removes admin risk, but **a bug cannot be fixed in
-  place**: a flawed vault would have to be abandoned rather than repaired.
+- **Vaults are not upgradeable.** This removes the risk of an administrator upgrading the
+  vault, but **a bug cannot be fixed in place**: a flawed vault would have to be abandoned
+  rather than repaired.
 - **Smart-contract risk generally.** The contracts are onchain, permissionless, and final.
   Careful design reduces this risk; it does not remove it.
 - **Position range limits.** A vault's price range is fixed at bootstrap. It spans every
