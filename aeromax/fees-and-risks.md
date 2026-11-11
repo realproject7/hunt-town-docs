@@ -37,5 +37,5 @@ The New range card states the fee before you deposit ("Entry fee included").
   an oracle. Unknown prices show a dash.
 - **Public data can lag.** The chart and positions read public Base endpoints, which can
   throttle or fall behind. The app shows when a refresh fails.
-- **Beta software.** Aeromax.fun is in beta, and its contracts have not had an independent
-  security audit.
+- **No independent audit.** Aeromax.fun's contracts have not had an independent security
+  audit.

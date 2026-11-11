@@ -36,7 +36,7 @@ shown before you deposit, and the AERO you earn appears where the price is.
 
 ## Where it runs
 
-Aeromax.fun is in **beta** at [aeromax.fun](https://aeromax.fun), on **Base**, for
+Aeromax.fun is **live** at [aeromax.fun](https://aeromax.fun), on **Base**, for
 Aerodrome's concentrated-liquidity pools. It needs no account: connect a Base wallet, or open
 Practice mode from **How it works** or **My page**.
 
