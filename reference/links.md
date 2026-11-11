@@ -13,6 +13,7 @@
 
 ## Products
 
+- **Aeromax.fun** *(beta)*: [aeromax.fun](https://aeromax.fun)
 - **h402** *(beta)*: [h402.hunt.town](https://h402.hunt.town) ·
   [catalog](https://h402.hunt.town/catalog) ·
   [docs](https://h402.hunt.town/docs).

@@ -1,5 +1,12 @@
 # Glossary
 
+**AERO**: Aerodrome's token. Aerodrome's gauges pay it to staked liquidity, and it is the
+reward on [Aeromax.fun](../aeromax/overview.md).
+
+**Aeromax.fun**: Hunt Town's concentrated-liquidity terminal for Aerodrome on Base. You
+drag a price range on a live chart and stake it for AERO. See
+[Aeromax.fun](../aeromax/overview.md).
+
 **Agent**: autonomous software that performs economic actions onchain (calling services,
 paying for capabilities) without a human in the loop. The "Agent" half of the Builder & Agent
 Economy.
@@ -24,11 +31,17 @@ reserve. Co-op project tokens and MT (Mint Token) are HUNT-backed child tokens.
 **Co-op**: Hunt Town's HUNT-backed launchpad and DEX, where builders launch tokens with HUNT
 as their reserve and anyone can trade them against HUNT. Lives at coop.hunt.town.
 
+**Concentrated liquidity**: liquidity placed within a chosen price range. It earns only
+while the price is inside that range. See [Ranges & AERO Rewards](../aeromax/ranges-and-rewards.md).
+
 **EIP-3009**: the standard for signed token-transfer authorizations. h402 uses it so a caller
 signs a stablecoin payment locally.
 
 **Factory NFT**: Hunt Town's HUNT-backed NFT on Ethereum (ERC-1155, token id `0`). It mints
 at NAV and burns for 95% of NAV in HUNT. See [Factory NFT](../factory-nft/overview.md).
+
+**Gauge**: Aerodrome's staking contract for a pool. Liquidity staked in it earns AERO
+emissions instead of swap fees.
 
 **h402**: Hunt Town's Agent Capability Market Layer: the x402 capability store where agents
 discover, compare, and pay per call for capabilities. See [h402](../h402/overview.md).

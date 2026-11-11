@@ -22,6 +22,12 @@
 * [HUNT as the Reserve Token](hunt/reserve-token.md)
 * [Base HUNT (Bridged)](hunt/base-hunt.md)
 
+## Aeromax.fun <a href="#aeromax" id="aeromax"></a>
+
+* [Overview](aeromax/overview.md)
+* [Ranges & AERO Rewards](aeromax/ranges-and-rewards.md)
+* [Fees & Risks](aeromax/fees-and-risks.md)
+
 ## h402
 
 * [Overview](h402/overview.md)
