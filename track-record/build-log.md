@@ -21,7 +21,7 @@ with the bet, what worked, what broke and what it seeded.
 | 018 | [MCTraveller](https://hunt.town/build-log/mctraveller) (partner) | 2024 | Sunset | A bonding-curve NFT used as a raffle ticket |
 | 017 | [Farcards](https://hunt.town/build-log/farcards) (partner) | 2024 | Live | Mint Club curves for social collectibles on Farcaster |
 | 016 | [Memberify](https://hunt.town/build-log/memberify) (partner) | 2024 | Sunset | Personal membership tokens built by a partner on Mint Club |
-| 015 | [Town Poker](https://hunt.town/build-log/town-poker) | 2023 | Sunset | Nothing carried forward. It was a single community event |
+| 015 | [Town Poker](https://hunt.town/build-log/town-poker) | 2023 | Sunset | Nothing carried forward. It never launched officially and ran as one community event |
 | 014 | [Chatcasso](https://hunt.town/build-log/chatcasso) | 2022 | Sunset | The habit of building on a new capability while it is new |
 | 013 | [Dixel Club V2](https://hunt.town/build-log/dixel) | 2022 | Live | Fully onchain NFTs with a refundable reserve, feeding Mint Club's NFT tools |
 | 012 | [Dixel Club V1](https://hunt.town/build-log/dixel-club-v1) | 2022 | Sunset → Dixel Club V2 | The demand that became Dixel Club V2 |
