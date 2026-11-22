@@ -5,33 +5,24 @@ Every trade moves HUNT into or out of the token's reserve.
 
 ## Buying and selling
 
-- **Buying** mints new tokens along the curve. The HUNT for the tokens goes into that
-  token's reserve, and the price moves up the curve.
-- **Selling** burns tokens back to the curve. HUNT comes out of the reserve along the curve
-  across the amount sold, less any burn royalty, and the price moves down.
-- **Paying with ETH or USDC.** A buyer on the Co-op can also pay in ETH or USDC. It is swapped
-  to HUNT through Uniswap v4 first, so every buy still reaches the reserve as HUNT.
-- **Where trades happen.** Buying and selling both happen on the Co-op. Because every Co-op
-  token is a Mint Club token, it can also be traded on [mint.club](https://mint.club), against
-  the same curve.
+- **Buying** mints new tokens along the curve. The HUNT goes into that token's reserve, and
+  the price moves up the curve. A buyer can also pay with another token; it is swapped to HUNT
+  first, so every buy reaches the reserve as HUNT.
+- **Selling** burns tokens back to the curve. HUNT comes out of the reserve, less any burn
+  royalty, and the price moves down.
+- **Where trades happen.** On the Co-op, and on [mint.club](https://mint.club) against the
+  same curve, because every Co-op token is a Mint Club token.
 
-## Royalties on each side
+## Royalties
 
 The mint royalty is paid on top of the reserve deposit. The burn royalty comes out of what a
-seller receives. Both are paid in HUNT and split 80/20 between the creator and the protocol.
-Each project page shows its rates.
+seller receives. Both are paid in HUNT and shared between the creator and the Mint Club
+protocol. Each project page shows its rates.
 
 ## Many reserves, one asset
 
-Each token keeps its own reserve, held for it by the Mint Club V2 contract on Base, and each
-reserve backs only its own token. What the projects share is the asset: every reserve is
-HUNT. Each buy on any project locks more of the same asset, and HUNT held in these reserves
-counts as locked in [Supply & Distribution](../hunt/supply.md). It returns to circulation
-when holders sell.
-
-## Prices in HUNT and in dollars
-
-A token's curve price is set in HUNT. Its dollar price follows the HUNT price, so it moves
-when HUNT moves, even without trades in the token itself.
+Each token keeps its own reserve, held by the Mint Club V2 contract on Base, and each reserve
+backs only its own token. HUNT held in these reserves counts as locked in
+[Supply & Distribution](../hunt/supply.md). It returns to circulation when holders sell.
 
 <figure><img src="../.gitbook/assets/coop/coop-project.jpg" alt="Co-op project info and stats"><figcaption><p>Project stats show the price in dollars and in HUNT, and the HUNT locked in the reserve. Example project, figures at capture time.</p></figcaption></figure>

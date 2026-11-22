@@ -7,11 +7,10 @@ opens with liquidity already in place and its LP side already tokenized.
 
 ## What happens at launch
 
-1. A fixed-supply token is deployed: **1,000,000,000** tokens, minted once, with no mint,
-   burn, or pause function anywhere afterwards. The creator can edit presentation metadata
-   (image, website and social handles) and nothing else.
-2. The pool is initialized: **native currency against the new token** (ETH, or USDC on
-   Arc), at a **1%** LP fee.
+1. A fixed-supply token is deployed, minted once, with no mint, burn, or pause function
+   afterwards. The creator can edit presentation metadata (image, website and social
+   handles) and nothing else.
+2. The pool is initialized: the chain's main currency against the new token.
 3. Part of the supply opens a **permanent one-sided launch position**.
 4. The **LP vault** is bootstrapped over the same pool, making the LP side an lpTOKEN from
    the first block.
@@ -39,26 +38,11 @@ into it stays in the position as bids, down to the launch price.
 
 ## The floor that grows with volume
 
-Because the launch position permanently earns fees, and a share of those fees is routed
-into vault NAV, the floor **compounds with cumulative trading volume** rather than being fixed
-at the size of the initial deposit. The launch's initial vault shares are burned, so the part
-of NAV they hold can never be redeemed.
-
-Roughly, per the product's own methodology:
-
-- about **0.20%** of buy volume accrues to vault NAV in the counter currency, and
-- about **0.60%** of sell volume accrues in the target token.
-
-Compounding pairs that into bid depth that can never be withdrawn. Whatever cannot be paired
-stays idle in the vault, and only the part held by the burned shares is permanent.
+Because the launch position earns fees, and a share of those fees goes into vault NAV, the
+floor **grows with trading volume** rather than staying at the size of the first deposit.
+The launch's initial vault shares are burned, so the part of NAV they hold can never be
+redeemed. The current rates are in the
+[methodology](https://lptoken.fun/methodology).
 
 > **This is depth, not a price guarantee.** It does not promise any price, return, or floor
 > level. See [Risks](risks.md).
-
-## Curated vaults are different
-
-A **curated LP vault** opens on a pool that already exists. It has no launchpad hook, no
-one-sided launch position, no launch-fee split, and therefore **no permanent floor**. It is
-purely mint, redeem, and compound on that pool.
-
-The team curates which existing pools get a vault.

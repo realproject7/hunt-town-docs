@@ -10,10 +10,6 @@ against a **bonding-curve reserve**. When someone buys one of these tokens, HUNT
 **into** that token's reserve and stays **locked** there while those tokens are held. When
 they sell, HUNT flows back out.
 
-The [Factory NFT](../factory-nft/overview.md) holds HUNT too, on Ethereum. That HUNT is held
-by the Factory NFT contract rather than a curve reserve: Factory NFTs mint at NAV and burn
-for 95% of NAV, with no curve.
-
 Because HUNT has **no inflationary emission**, the only way new HUNT-backed assets come into
 existence is by locking existing HUNT. So:
 

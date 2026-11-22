@@ -18,17 +18,18 @@ Any HUNT added to the Factory NFT contract outside a mint raises the NAV per NFT
 holder at the same moment. There is nothing to claim and no holding period. An NFT minted
 today carries the same share as one minted at launch.
 
-HUNT comes in from product revenue, marketplace royalties, the burn fee and other income:
-
 - **Product revenue.** It is used to buy HUNT, and that HUNT is deposited into the vault.
-- **Royalties from NFT marketplace sales (3%).** The contract sets a 3% royalty (ERC-2981),
-  paid to a royalty operator by the marketplaces that honor it. The operator buys HUNT with
-  it and deposits that HUNT into the vault.
+- **Marketplace royalties (3%).** The contract sets a 3% royalty (ERC-2981), paid to a
+  royalty operator by the marketplaces that honor it. The operator buys HUNT with it and
+  deposits that HUNT into the vault.
+- **Donations.** Anyone can donate HUNT to the vault from the Donate tab on hunt.town, with
+  an optional public message. A donation mints no NFT and cannot be withdrawn. Donations are
+  listed at [hunt.town/donors](https://hunt.town/donors).
 - **The burn fee (5%).** When an NFT is burned, 5% of its NAV stays in the vault.
 
-There is no deposit schedule, and the amounts are not fixed. No inflow is promised. The NAV
-is counted in HUNT, so its dollar value moves with the HUNT price, in either direction. See
-[Terms](../terms.md).
+There is no deposit schedule, and the amounts are not fixed. No inflow and no return are
+promised. The NAV is counted in HUNT, so its dollar value moves with the HUNT price, in
+either direction. See [Terms](../terms.md).
 
 <figure><img src="../.gitbook/assets/site/site-factory-vault.jpg" alt="How HUNT reaches the vault"><figcaption><p>How HUNT reaches the vault, on hunt.town/factory. The numbers are an example, not a forecast.</p></figcaption></figure>
 
@@ -52,6 +53,6 @@ is counted in HUNT, so its dollar value moves with the HUNT price, in either dir
 
 ## Live numbers
 
-The live NAV per NFT, supply, vault HUNT and daily NAV history are shown at
+The live NAV per NFT, supply, vault HUNT and NAV history are shown at
 [hunt.town/factory](https://hunt.town/factory#vault). The vault's HUNT also counts as locked in
 [Supply & Distribution](../hunt/supply.md).

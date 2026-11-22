@@ -14,7 +14,7 @@ Economy.
 **Bonding curve**: a contract that sets an asset's price as a deterministic function of its
 supply, backed by a reserve. Minting adds reserve and moves the price up the curve; burning
 returns reserve and moves it down. On a flat curve, or within one step of a stepped curve,
-the price can stay the same. The core primitive of [Mint Club](../mint-club/bonding-curves.md).
+the price can stay the same. The core primitive of [Mint Club](../mint-club/overview.md).
 
 **Builder**: a creator who launches tokens and projects on Hunt Town's primitives. The
 "Builder" half of the Builder & Agent Economy.
@@ -34,6 +34,10 @@ as their reserve and anyone can trade them against HUNT. Lives at coop.hunt.town
 **Concentrated liquidity**: liquidity placed within a chosen price range. It earns only
 while the price is inside that range. See [Ranges & AERO Rewards](../aeromax/ranges-and-rewards.md).
 
+**Donation**: HUNT that anyone sends to the Factory NFT vault from hunt.town, with an
+optional public message. It raises the NAV per NFT, mints no NFT and cannot be withdrawn.
+Donations are listed at [hunt.town/donors](https://hunt.town/donors).
+
 **EIP-3009**: the standard for signed token-transfer authorizations. h402 uses it so a caller
 signs a stablecoin payment locally.
 
@@ -52,9 +56,8 @@ Co-op project tokens and other HUNT-backed tokens. Non-inflationary: no address 
 **lpTOKEN**: an ERC-20 share of a Uniswap v4 liquidity position held by an lpTOKEN.fun
 vault; a pro-rata claim on that position, its accrued fees, and the vault's idle balances.
 
-**Marketplace royalty**: the 3% royalty (ERC-2981) set on Factory NFT sales. Marketplaces
-that honor it pay it to a royalty operator, which buys HUNT with it and deposits that HUNT
-into the vault.
+**Marketplace royalty**: the 3% royalty (ERC-2981) set on Factory NFT sales. Royalties from
+marketplaces that honor it buy HUNT for the vault.
 
 **Mint / Burn**: buying (mint) and selling (burn) an asset against its bonding curve. Factory
 NFTs work differently: they mint at NAV and burn for 95% of NAV, with no curve.

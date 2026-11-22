@@ -3,14 +3,13 @@
 Building NFTs are Hunt Town's legacy NFTs. Holders can turn them into Factory NFTs. Each
 Building counts at a fixed HUNT value, and you add HUNT to reach whole Factory NFTs.
 
-Main Buildings migrate on Ethereum. Mini Buildings migrate from Base.
+**Migration support ends on November 30, 2026.**
 
 <figure><img src="../.gitbook/assets/site/site-migrate-hero.jpg" alt="The migration portal on hunt.town"><figcaption><p>The migration portal</p></figcaption></figure>
 
 ## The rules
 
-- **One way.** Migrated Buildings do not come back. Factory NFTs can be burned for 95% of
-  their NAV.
+- **One way.** Migrated Buildings do not come back.
 - **One chain at a time.** Main Buildings migrate on Ethereum in one transaction. Mini
   Buildings and their top-up are sent on Base.
 - **Whole NFTs only.** There are no partial Factory NFTs and no refunds.
@@ -20,8 +19,6 @@ Main Buildings migrate on Ethereum. Mini Buildings migrate from Base.
 - **Same address on Ethereum.** Before a Base deposit, confirm that you control the same
   address on Ethereum. This matters most for smart contract wallets, whose address can differ
   between chains.
-- **Base deposits can be found again.** If you lose track of one, the migration page finds it
-  from its Base transaction hash.
 
 | | Main Building | Mini Building |
 | --- | --- | --- |
@@ -31,14 +28,12 @@ Main Buildings migrate on Ethereum. Mini Buildings migrate from Base.
 
 ## Counted in full
 
-The migration takes each Building at the HUNT it was minted with and waives what would
-normally hold that HUNT back.
+Through November 30, 2026, each Building counts at the full HUNT it was minted with:
 
 - **Locked Main Buildings count.** Main Buildings still locked in the Town Hall are accepted
-  at the full 1,000 HUNT. You do not wait for the unlock date.
-- **No 5% off Mini Buildings.** Each Mini Building counts as the full 100 HUNT it was minted
-  with. The 5% burn royalty that applies when a Mini Building is burned on Mint Club is not
-  taken off.
+  at the full 1,000 HUNT, without waiting for the unlock date.
+- **No 5% off Mini Buildings.** The 5% burn fee that applies when a Mini Building is burned
+  on Mint Club is waived.
 
 <figure><img src="../.gitbook/assets/site/site-migrate-waivers.jpg" alt="Every Building counts in full"><figcaption><p>Every Building counts in full</p></figcaption></figure>
 
@@ -46,15 +41,14 @@ normally hold that HUNT back.
 
 The Buildings' HUNT value is divided by the current NAV per NFT and rounded up to whole
 Factory NFTs. The holder adds the difference in HUNT (the top-up), which is never refunded.
-
 You review a quote before you send anything.
 
 - **Main Buildings** use the NAV when the transaction runs, within the HUNT limit you set.
 - **Mini Buildings** are quoted when you deposit. The confirmed deposit fixes the number of
-  Factory NFTs and the top-up, even if NAV moves before delivery.
+  Factory NFTs and the top-up, even if the NAV moves before delivery.
 
 At a NAV of 1,000 HUNT per NFT, one Main Building or ten Mini Buildings make one Factory NFT
-with no top-up. At 1,200 HUNT, ten Main Buildings plus 800 HUNT make nine Factory NFTs.
+with no top-up.
 
 Migrate at [hunt.town/migrate](https://hunt.town/migrate).
 
@@ -63,20 +57,16 @@ Migrate at [hunt.town/migrate](https://hunt.town/migrate).
 ## Where the HUNT comes from
 
 Migration does not burn Buildings or take out the HUNT behind them. The team funds the
-migration contract with HUNT, and the new Factory NFTs are minted from that HUNT at the full
-current NAV, like any other mint. The migrated Buildings and the top-up go to a team wallet,
-and the HUNT behind those Buildings stays where it is until the team redeems it.
+migration with HUNT, and the new Factory NFTs are minted from that HUNT at the full current
+NAV, like any other mint.
 
 ## Legacy Buildings
 
-Before the Factory NFT, Hunt Town's NFTs were Buildings. Each one was minted with HUNT, and
-that HUNT stayed behind it.
-
 - A **Main Building** (Ethereum, ERC-721) was minted with 1,000 HUNT through the Town Hall
-  contract. The Town Hall holds that HUNT and records when each Building unlocks. Once a
-  Building has unlocked, burning it releases the HUNT.
-- A **Mini Building** (Base, ERC-1155) was minted with 100 HUNT through the Mint Club V2
-  Bond on Base, which holds that HUNT in its reserve.
+  contract, which holds that HUNT until the Building unlocks and is burned.
+- A **Mini Building** (Base, ERC-1155) was minted with 100 HUNT on Mint Club, whose reserve
+  holds that HUNT.
 
 Addresses are in [Contracts & Addresses](../reference/contracts.md), and the audit of the
-Town Hall and Building contracts is in [Links & Resources](../reference/links.md).
+Town Hall and Building contracts is in
+[Links & Resources](../reference/links.md#security-and-audits).

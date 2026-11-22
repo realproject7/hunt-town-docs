@@ -5,7 +5,6 @@
 ## Hunt Town
 
 * [The Factory Model](hunt-town/factory-model.md)
-* [The Builder & Agent Economy](hunt-town/builder-agent-economy.md)
 
 ## Factory NFT
 
@@ -53,10 +52,6 @@
 ## Mint Club
 
 * [Overview](mint-club/overview.md)
-* [MT (Mint Token)](mint-club/mint-token.md)
-* [Bonding Curves](mint-club/bonding-curves.md)
-* [Economics](mint-club/economics.md)
-* [Security & Audits](mint-club/security-audits.md)
 
 ## Track Record
 

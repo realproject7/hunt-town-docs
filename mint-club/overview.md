@@ -1,49 +1,44 @@
 # Mint Club: Overview
 
-**Mint Club is a no-code bonding-curve protocol** for creating and trading tokens and NFTs.
-Anyone can deploy a token (ERC-20) or an NFT collection (ERC-1155) on a customizable bonding
-curve, with no smart-contract code and no seeded liquidity pool, and the asset is instantly
-mintable and burnable against its reserve.
+**Mint Club is a no-code bonding-curve protocol** for tokens (ERC-20) and NFTs (ERC-1155).
+Anyone can launch an asset on a bonding curve with no code and no liquidity pool, and it can
+be bought and sold against its reserve from the start.
 
-For Hunt Town, Mint Club is both an **active product** and the **protocol primitive** that
-much of the ecosystem is built on. Co-op project tokens and legacy Mini Buildings are issued
-on its curves, and so were the tokens of many products in the
-[Archives](../track-record/build-log.md): Dixel Club, 1s.market, Memberify, Farcards, MCDegen,
-Hamcaster, PumpSea, Hyped.club and MintDrop.
+For Hunt Town, Mint Club is both an **active product** and the **protocol** much of the
+ecosystem runs on. Co-op project tokens and legacy Mini Buildings are issued on it, and so
+were many products in the [Archives](../track-record/build-log.md).
 
 <figure><img src="../.gitbook/assets/products/mintclub-home.jpg" alt="The Mint Club home page"><figcaption><p>The Mint Club home page</p></figcaption></figure>
 
-## What you can do
+## How a bonding curve works
 
-- **Create** an ERC-20 token or ERC-1155 NFT on a bonding curve, choosing the curve shape
-  and the reserve token that backs it.
-- **Mint and burn** against the curve: buying mints new supply and pushes price up along the
-  curve; selling burns supply and returns reserve.
+- **The curve is the market.** Price is a function of supply. Buying mints new supply and
+  moves the price up the curve. Selling burns supply and moves it down.
+- **Every asset has its own reserve.** Buying deposits the reserve token and selling returns
+  it, so a holder can always sell back to the curve. Mint Club V2 holds every reserve.
+- **Creators choose the shape and the reserve.** Curves can be linear, exponential,
+  logarithmic, flat and more. HUNT-backed assets use HUNT as the reserve. See
+  [HUNT as the Reserve Token](../hunt/reserve-token.md).
 
-See [Bonding Curves](bonding-curves.md).
+<figure><img src="../.gitbook/assets/products/mintclub-create.jpg" alt="Creating a child token on Mint Club"><figcaption><p>Creating a child token on Mint Club</p></figcaption></figure>
 
-## Creator tools
+## Fees
 
-No-code tools for running an asset after launch:
+Creators can set a royalty on buying and selling, paid in the reserve token, and the protocol
+keeps a share of it. Launching an asset costs a small creation fee plus gas. Current rates are
+in the [Mint Club docs](https://docs.mint.club).
 
-- **Airdrops** of tokens or NFTs to a list of recipients.
-- **Lock-ups** that hold supply for a set period, for vesting or team allocations.
-- **Bulk sends** of a token to many wallets in one transaction.
-- **Staking pools** that a creator funds with reward tokens.
-- **Free minting** by the creator under set conditions, for distribution, seeding or rewards.
-- **Ownership transfer** to another address, such as a multisig or a DAO.
-- **Royalty claims** for the royalties the creator earns on trading. See
-  [Economics](economics.md).
-- **Logo and website** for how the asset is shown.
+## MT (Mint Token)
 
-Everything the no-code interface does is also available from code through the Mint Club V2
+MT is Mint Club's platform token, a HUNT-backed token on Base. It replaced the older MINT
+token on June 5, 2025. Platform fees are used to buy back and burn MT. Its address is in
+[Contracts & Addresses](../reference/contracts.md#mint-club-v2).
+
+## Security
+
+Mint Club V2 was audited by CertiK in January 2024 and reviewed in a community audit in
+December 2023. Reports are in
+[Links & Resources](../reference/links.md#security-and-audits).
+
+Use it at [mint.club](https://mint.club). Product docs: [docs.mint.club](https://docs.mint.club).
 SDK: [sdk.mint.club](https://sdk.mint.club).
-
-## How it relates to HUNT
-
-Mint Club supports many reserve tokens, but it is tightly woven into the Hunt Town economy:
-**HUNT-backed** tokens use HUNT as their reserve (the basis of the
-[Co-op](../co-op/overview.md)), and Mint Club's own platform token, **MT (Mint Token)**, is itself
-a HUNT-backed child token. See [MT (Mint Token)](mint-token.md).
-
-> Use it at [mint.club](https://mint.club). Full product docs: [docs.mint.club](https://docs.mint.club).
