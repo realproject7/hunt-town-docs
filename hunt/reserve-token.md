@@ -25,7 +25,3 @@ Most onchain projects launch a fresh token and compete with every other token fo
 attention and liquidity. The reserve model does the opposite: it **links** projects. Each
 builder runs an independent project with its own reserve, but every reserve holds the same
 asset. When one project grows, it locks more of the HUNT that backs all of them.
-
-This is the core of Hunt Town's thesis: a shared economy where **the success of one
-project contributes to the strength of all of them**, rather than fragmenting a community
-across disconnected tokens.

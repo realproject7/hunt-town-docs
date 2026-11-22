@@ -11,7 +11,7 @@ relationship for every caller.
 - **Per-call payment.** You are paid for each call. No per-customer billing, no API keys to
   issue, no invoicing.
 - **Reach.** Once listed, your capability can be found by every agent that has mounted h402,
-  by the task it performs rather than by your brand.
+  by the task it performs.
 - **No caller-side work.** h402 handles the payment challenge, the caller's signature and
   settlement. Callers pay h402 in Base USDC, and h402 pays you per call.
 
