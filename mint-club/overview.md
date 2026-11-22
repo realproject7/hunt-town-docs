@@ -20,8 +20,6 @@ were many products in the [Archives](../track-record/build-log.md).
   logarithmic, flat and more. HUNT-backed assets use HUNT as the reserve. See
   [HUNT as the Reserve Token](../hunt/reserve-token.md).
 
-<figure><img src="../.gitbook/assets/products/mintclub-create.jpg" alt="Creating a child token on Mint Club"><figcaption><p>Creating a child token on Mint Club</p></figcaption></figure>
-
 ## Fees
 
 Creators can set a royalty on buying and selling, paid in the reserve token, and the protocol
