@@ -39,7 +39,7 @@ into it stays in the position as bids, down to the launch price.
 ## The floor that grows with volume
 
 Because the launch position earns fees, and a share of those fees goes into vault NAV, the
-floor **grows with trading volume** rather than staying at the size of the first deposit.
+floor **grows with trading volume**.
 The launch's initial vault shares are burned, so the part of NAV they hold can never be
 redeemed. The current rates are in the
 [methodology](https://lptoken.fun/methodology).

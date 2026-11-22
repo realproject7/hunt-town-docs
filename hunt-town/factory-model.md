@@ -27,8 +27,7 @@ the team's time goes to new products.
 We build for the onchain **Builder & Agent Economy**.
 
 - **Builders** launch tokens and projects, and most start alone. Our projects share one
-  reserve asset, HUNT, so they are linked instead of competing for it. See
-  [HUNT as the Reserve Token](../hunt/reserve-token.md).
+  reserve asset, HUNT. See [HUNT as the Reserve Token](../hunt/reserve-token.md).
 - **Agents** are software that does economic work, such as calling APIs or buying data.
   They need to pay per use without a person or an account behind every vendor. See
   [h402](../h402/overview.md).

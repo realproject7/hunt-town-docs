@@ -44,7 +44,7 @@ liquidity. Compounding does that, and it is:
 
 ## What nobody can do
 
-The vaults are deliberately rigid:
+The vaults cannot be changed:
 
 - **Not upgradeable.** There is no proxy and no patch path.
 - **No pause, no admin withdrawal.** No privileged role can move, freeze, or seize vault
