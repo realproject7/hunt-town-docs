@@ -13,17 +13,12 @@ and other HUNT-backed tokens on Mint Club.
 
 <figure><img src="../.gitbook/assets/site/site-factory-hunt.jpg" alt="HUNT on hunt.town"><figcaption><p>HUNT on hunt.town/factory</p></figcaption></figure>
 
-## The core asset: the Factory NFT
+## What HUNT backs
 
-Every Factory NFT holds an equal share of the HUNT in the Factory NFT contract on Ethereum.
-Product revenue and marketplace royalties add HUNT to it, with no fixed schedule or
-amount. See [The NAV Vault](../factory-nft/nav-vault.md).
-
-## The reserve for HUNT-backed tokens
-
-In the [Co-op](../co-op/overview.md), HUNT **backs project tokens** in bonding-curve
-reserves, and other HUNT-backed tokens on Mint Club work the same way. Buying one locks HUNT
-in its reserve. See [HUNT as the Reserve Token](reserve-token.md).
+- **The Factory NFT.** Every Factory NFT holds an equal share of the HUNT in the Factory NFT
+  contract on Ethereum. See [The NAV Vault](../factory-nft/nav-vault.md).
+- **HUNT-backed tokens.** Co-op project tokens and other HUNT-backed tokens on Mint Club keep
+  their reserve in HUNT. See [HUNT as the Reserve Token](reserve-token.md).
 
 ## Supply
 

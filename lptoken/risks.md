@@ -6,16 +6,10 @@ product.
 ## Liquidity-provision risks
 
 - **Impermanent loss.** When the price moves, the position ends up with more of the weaker
-  asset, so it can be worth less than holding the same starting amounts of both assets
-  outside the pool. Fees offset this but do not remove it.
-- **Loss-versus-rebalancing (LVR).** Arbitrageurs, not the pool, capture the value of price
-  moves between trades. This is a structural cost of passive liquidity provision.
-- **LP competition and dilution.** Other liquidity providers, including concentrated and
-  just-in-time liquidity, can take fee share away from the vault's position.
-- **Routing away.** Trades can be routed to other venues or pools entirely, in which case
-  the vault earns no fees from them.
-- **Uniswap's protocol fee.** Uniswap governance, not lpTOKEN.fun, controls a protocol fee that
-  Uniswap can deduct before LP fees. It would reduce the swap fees the vault position earns.
+  asset, so it can be worth less than holding both assets outside the pool. Fees offset this
+  but do not remove it.
+- **Fee income is not guaranteed.** Arbitrage, other liquidity providers, other venues and
+  Uniswap's own protocol fee can all reduce what the vault position earns.
 
 ## Protocol risks
 

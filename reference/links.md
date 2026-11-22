@@ -5,6 +5,8 @@
 - **Website:** [hunt.town](https://hunt.town)
 - **Docs (this whitepaper):** [docs.hunt.town](https://docs.hunt.town)
 - **Factory NFT:** [hunt.town/factory](https://hunt.town/factory) ·
+  your holdings: [hunt.town/my-factories](https://hunt.town/my-factories) ·
+  donors: [hunt.town/donors](https://hunt.town/donors) ·
   migrate Buildings: [hunt.town/migrate](https://hunt.town/migrate) ·
   [OpenSea](https://opensea.io/item/ethereum/0x961eA6C51c185958b1A11ad8335046988D1B5734/0)
 - **GitHub:** [github.com/Steemhunt/hunt-town](https://github.com/Steemhunt/hunt-town)
@@ -54,7 +56,7 @@
 Live HUNT price, supply and markets: [hunt.town/factory#hunt](https://hunt.town/factory#hunt). The burn record:
 [Buyback & Burn](../hunt/buyback-and-burn.md#the-historical-record).
 
-## Security & Audits
+## Security & Audits <a href="#security-and-audits" id="security-and-audits"></a>
 
 **Hunt Town legacy contracts (Town Hall & Building contracts)**
 
@@ -71,26 +73,3 @@ Live HUNT price, supply and markets: [hunt.town/factory#hunt](https://hunt.town/
 - Community contract audit, completed December 26, 2023:
   [docs.mint.club/audit/com_audit](https://docs.mint.club/audit/com_audit) ·
   [Steemhunt/mint.club-v2-contract #72](https://github.com/Steemhunt/mint.club-v2-contract/issues/72)
-
-See [Mint Club → Security & Audits](../mint-club/security-audits.md) for context.
-
-## Explorers
-
-- **HUNT (Ethereum):**
-  [etherscan.io](https://etherscan.io/token/0x9AAb071B4129B083B01cB5A0Cb513Ce7ecA26fa5)
-- **HUNT (Base):**
-  [basescan.org](https://basescan.org/token/0x37f0c2915CeCC7e977183B8543Fc0864d03E064C)
-- **Factory NFT (Ethereum):**
-  [etherscan.io](https://etherscan.io/token/0x961eA6C51c185958b1A11ad8335046988D1B5734)
-- **Factory zap router (Ethereum):**
-  [etherscan.io](https://etherscan.io/address/0x4556e496270636868A83d616A10DAa663C57352e)
-- **Building migrator (Ethereum):**
-  [etherscan.io](https://etherscan.io/address/0x9f9867A86e614f6CCD3fdc38Fb42B30894a63696)
-- **Mini Building collector (Base):**
-  [basescan.org](https://basescan.org/address/0xdB6F6849CEaD3D505bA525B1419B41Cbd27faFe7)
-- **Legacy: Main Building NFT (Ethereum):**
-  [etherscan.io](https://etherscan.io/address/0x0c9Bb1ffF512a5B4F01aCA6ad964Ec6D7fC60c96)
-- **Legacy: Mini Building NFT (Base):**
-  [basescan.org](https://basescan.org/token/0x475f8E3eE5457f7B4AAca7E989D35418657AdF2a)
-- **Legacy Buildings:** [Main Building collection](https://opensea.io/collection/hunt-town) ·
-  [Mini Building on Mint Club](https://mint.club/nft/base/MINIBD)

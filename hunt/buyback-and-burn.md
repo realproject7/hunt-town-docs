@@ -47,9 +47,6 @@ Totals are rounded to the nearest whole HUNT.
 | 2020-05-27 | Historical supply reconciliation | 88 | Not recorded | None |
 | | **Total** | **301,087,312** | | |
 
-The 88 HUNT reconciliation has no transaction of its own. It is the residual in the team's
-HUNT supply workbook that closes the historical entries to the canonical supply.
-
 ## The buyback-and-burn program has ended
 
 Product revenue now buys HUNT for the [Factory NFT](../factory-nft/overview.md) instead of
@@ -59,6 +56,3 @@ Factory NFT contract, where it raises the NAV per NFT for every holder. See
 
 Unlike burned HUNT, HUNT in the Factory NFT still exists: it backs the NFTs and counts as
 locked in [Supply & Distribution](supply.md).
-
-There is no schedule for these purchases and no fixed amount. Nothing here is a commitment
-to buy, a yield, or a return. See [Terms](../terms.md).

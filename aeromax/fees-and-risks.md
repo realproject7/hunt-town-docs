@@ -2,14 +2,11 @@
 
 ## Fees
 
-| Fee | Amount |
-| --- | --- |
-| **Aeromax.fun fee** | 0.015% of the principal that enters or leaves through Aeromax.fun |
-| **Performance fee** | None. AERO rewards and LP fees are not charged |
-| **Swaps** | When a deposit or exit swaps tokens, the pool's swap fee and price impact apply. The app shows the price impact and uses 0.50% slippage |
-| **Gas** | Paid in ETH on Base, separately |
-
-The New range card states the fee before you deposit ("Entry fee included").
+- **A small fee on principal.** Aeromax.fun charges a small fee on the principal that enters
+  or leaves through it. The New range card shows it before you deposit.
+- **No performance fee.** AERO rewards and LP fees are not charged.
+- **Swaps and gas.** When a deposit or exit swaps tokens, the pool's swap fee and price
+  impact apply. Gas is paid in ETH on Base.
 
 ## Custody
 
